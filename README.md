@@ -13,6 +13,7 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](string-array/valid-parentheses/README.md)|Easy|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](string-array/rotate-array/README.md)|Medium|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](string-array/isomorphic-strings/README.md)|Easy|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](string-array/kth-largest-element-in-an-array/README.md)|Medium|
@@ -32,6 +33,7 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Java](tree/invert-binary-tree/README.md)|Medium|
+|111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](tree/minimum-depth-of-binary-tree/README.md)|Easy|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Java](tree/flatten-binary-tree-to-linked-list/README.md)|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](tree/invert-binary-tree/README.md)|Easy|
 
