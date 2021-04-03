@@ -4,7 +4,7 @@
 
 List
 
-```jsx
+```java
 /**
  * Question   : 114. Flatten Binary Tree to Linked List
  * Complexity : Time: O(n) ; Space: O(n)

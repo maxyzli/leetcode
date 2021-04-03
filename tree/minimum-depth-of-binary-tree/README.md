@@ -29,7 +29,7 @@ class Solution {
 
 BFS
 
-```jsx
+```java
 class Solution {
     public int minDepth(TreeNode root) {
         if (root == null) {

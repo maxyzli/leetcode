@@ -4,8 +4,7 @@
 
 Sentinel node
 
-```jsx
-
+```java
 /**
  * Question   : 143. Reorder List
  * Complexity : Time: O(n) ; Space: O(n)

@@ -4,7 +4,7 @@
 
 Iteration (Simpler)
 
-```jsx
+```java
 /**
  * Question   : 2. Add Two Numbers
  * Complexity : Time: O(n) ; Space: O(n)
