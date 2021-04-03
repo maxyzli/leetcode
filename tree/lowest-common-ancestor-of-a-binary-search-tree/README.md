@@ -2,6 +2,39 @@
 
 ## Solution 1
 
+Native Solution O(n)
+
+```java
+/**
+ * Question   : 235. Lowest Common Ancestor of a Binary Search Tree
+ * Topics     : Tree
+ * Complexity : Time: O(n) ; Space: O(log(n))
+ */
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null) {
+            return null;
+        }
+        if (root == p || root == q) {
+            return root;
+        }
+
+        TreeNode left = lowestCommonAncestor(root.left, p, q);
+        TreeNode right = lowestCommonAncestor(root.right, p, q);
+
+        if (left != null && right != null) {
+            return root;
+        } else if (left != null) {
+            return left;
+        } else {
+            return right;
+        }
+    }
+}
+```
+
+## Solution 2
+
 Stack
 
 ```java
@@ -47,39 +80,6 @@ class Solution {
             findNode(root.left, target, s);
         } else {
             findNode(root.right, target, s);
-        }
-    }
-}
-```
-
-## Solution 2
-
-Bottom-Up Recursion
-
-```java
-/**
- * Question   : 235. Lowest Common Ancestor of a Binary Search Tree
- * Topics     : Tree
- * Complexity : Time: O(log(n)) ; Space: O(log(n))
- */
-class Solution {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null) {
-            return null;
-        }
-        if (root == p || root == q) {
-            return root;
-        }
-
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
-
-        if (left != null && right != null) {
-            return root;
-        } else if (left != null) {
-            return left;
-        } else {
-            return right;
         }
     }
 }

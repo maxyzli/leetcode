@@ -39,6 +39,7 @@ LeetCode Solution in Java
 |173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Java](tree/binary-search-tree-iterator/README.md)|Medium|
 |199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Java](tree/binary-tree-right-side-view/README.md)|Medium|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](tree/lowest-common-ancestor-of-a-binary-search-tree/README.md)|Easy|
+|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Java](tree/lowest-common-ancestor-of-a-binary-tree/README.md)|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Java](tree/invert-binary-tree/README.md)|Easy|
 
 ## Dynamic Programming
