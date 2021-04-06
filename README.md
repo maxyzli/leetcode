@@ -10,19 +10,28 @@ LeetCode Solution in Java
 - [Tree](#tree)
 - [Backtracking](#backtracking)
 - [Dynamic Programming](#dynamic-programming)
+- [Math](#math)
 
 ## String/Array
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](string-array/two-sum/README.md)|Easy|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](string-array/valid-parentheses/README.md)|Easy|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](string-array/remove-duplicates-from-sorted-array/README.md)|Easy|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Java](string-array/longest-valid-parentheses/README.md)|Hard|
+|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](string-array/length-of-last-word/README.md)|Easy|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](string-array/valid-palindrome/README.md)|Easy|
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](string-array/find-peak-element/README.md)|Medium|
+|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](string-array/two-sum-ii-input-array-is-sorted/README.md)|Easy|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](string-array/rotate-array/README.md)|Medium|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](string-array/isomorphic-strings/README.md)|Easy|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](string-array/kth-largest-element-in-an-array/README.md)|Medium|
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](string-array/summary-ranges/README.md)|Easy|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](string-array/valid-anagram/README.md)|Easy|
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](string-array/reverse-string/README.md)|Easy|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](string-array/reverse-vowels-of-a-string/README.md)|Easy|
+|1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Java](string-array/defanging-an-ip-address/README.md)|Easy|
 
 ## Matrix
 
@@ -75,3 +84,10 @@ LeetCode Solution in Java
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](dynamic-programming/longest-palindromic-substring/README.md)|Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](dynamic-programming/minimum-path-sum/README.md)|Medium|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)|[Java](dynamic-programming/edit-distance/README.md)|Hard|
+|115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](string-array/distinct-subsequences/README.md)|Hard|
+
+# Math
+
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](math/palindrome-number/README.md)|Easy|
