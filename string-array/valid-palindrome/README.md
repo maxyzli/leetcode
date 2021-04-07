@@ -7,7 +7,7 @@ Two Pointers
 ```java
 /**
  * Question   : 125. Valid Palindrome
- * Complexity : Time: O(n) ; Space: O(n)
+ * Complexity : Time: O(n) ; Space: O(1)
  * Topics     : String
  */
 class Solution {

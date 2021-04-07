@@ -7,7 +7,7 @@ Brute Force
 ```java
 /**
  * Question   : 1. 2Sum
- * Complexity : Time: O(nlog(n)) ; Space: O(n)
+ * Complexity : Time: O(n^2) ; Space: O(1)
  * Topics     : array
  */
 class Solution {
@@ -42,9 +42,8 @@ class Solution {
             int want = target - arr[i];
             if (map.containsKey(want)) {
                 return new int[]{map.get(want), i};
-            } else {
-                map.put(arr[i], i);
             }
+            map.put(arr[i], i);
         }
 
         return new int[]{};
