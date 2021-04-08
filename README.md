@@ -7,6 +7,7 @@ LeetCode Solution in Java
 - [String/Array](#stringarray)
 - [Matrix](#matrix)
 - [Linked List](#linked-list)
+- [Stack](#stackqueue)
 - [Tree](#tree)
 - [Backtracking](#backtracking)
 - [Dynamic Programming](#dynamic-programming)
@@ -17,7 +18,6 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](string-array/two-sum/README.md)|Easy|
-|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](string-array/valid-parentheses/README.md)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](string-array/remove-duplicates-from-sorted-array/README.md)|Easy|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Java](string-array/longest-valid-parentheses/README.md)|Hard|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](string-array/jump-game-ii/README.md)|Medium|
@@ -55,6 +55,13 @@ LeetCode Solution in Java
 |138|[Copy List with Random Pointer (Classic)](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Java](linked-list/copy-list-with-random-pointer/README.md)|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](linked-list/linked-list-cycle/README.md)|Easy|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Java](linked-list/reorder-list/README.md)|Medium|
+|707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Java](linked-list/design-linked-list/README.md)|Medium|
+
+## Stack/Queue
+
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](string-array/valid-parentheses/README.md)|Easy|
+|155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](stack-queue/min-stack/README.md)|Easy|
+|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](stack-queue/min-stack/implement-queue-using-stacks/README.md)|Easy|
 
 ## Tree
 
@@ -92,6 +99,8 @@ LeetCode Solution in Java
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](dynamic-programming/minimum-path-sum/README.md)|Medium|
 |72|[Edit Distance (Classic)](https://leetcode.com/problems/edit-distance/)|[Java](dynamic-programming/edit-distance/README.md)|Hard|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](string-array/distinct-subsequences/README.md)|Hard|
+|313|[Super Ugly Number (Classic)](https://leetcode.com/problems/super-ugly-number/)|[Java](dynamic-programming/super-ugly-number/README.md)|Medium|
+|1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Java](dynamic-programming/number-of-dice-rolls-with-target-sum/README.md)|Medium|
 
 # Math
 

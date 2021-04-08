@@ -8,7 +8,6 @@ Stack
 /**
  * Question   : Valid Parentheses
  * Complexity : Time: O(n) ; Space: O(n)
- * Time       : 2020/11/11
  * Topic      : Stack
  */
 public class Solution {
