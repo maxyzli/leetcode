@@ -19,6 +19,7 @@ LeetCode Solution in Java
 |:-:|-|-|-|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](string-array/two-sum/README.md)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](string-array/remove-duplicates-from-sorted-array/README.md)|Easy|
+|27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](string-array/remove-element/README.md)|Easy|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Java](string-array/longest-valid-parentheses/README.md)|Hard|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](string-array/jump-game-ii/README.md)|Medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](string-array/jump-game/README.md)|Medium|
