@@ -23,10 +23,14 @@ LeetCode Solution in Java
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Java](string-array/longest-valid-parentheses/README.md)|Hard|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](string-array/jump-game-ii/README.md)|Medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](string-array/jump-game/README.md)|Medium|
+|56|[Merge Intervals (Classic)](https://leetcode.com/problems/merge-intervals/)|[Java](string-array/merge-intervals/README.md)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](string-array/length-of-last-word/README.md)|Easy|
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](string-array/sort-colors/README.md)|Medium|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](string-array/valid-palindrome/README.md)|Easy|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](string-array/find-peak-element/README.md)|Medium|
+|164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Java](string-array/maximum-gap/README.md)|Hard|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](string-array/two-sum-ii-input-array-is-sorted/README.md)|Easy|
+|179|[Largest Number (Classic)](https://leetcode.com/problems/largest-number/)|[Java](string-array/largest-number/README.md)|Medium|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](string-array/rotate-array/README.md)|Medium|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](string-array/isomorphic-strings/README.md)|Easy|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](string-array/kth-largest-element-in-an-array/README.md)|Medium|
@@ -35,6 +39,7 @@ LeetCode Solution in Java
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](string-array/move-zeroes/README.md)|Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](string-array/reverse-string/README.md)|Easy|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](string-array/reverse-vowels-of-a-string/README.md)|Easy|
+|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Java](string-array/fibonacci-number/README.md)|Easy|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Java](string-array/defanging-an-ip-address/README.md)|Easy|
 
 ## Matrix
@@ -60,6 +65,8 @@ LeetCode Solution in Java
 
 ## Stack/Queue
 
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](string-array/valid-parentheses/README.md)|Easy|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](stack-queue/min-stack/README.md)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](stack-queue/min-stack/implement-queue-using-stacks/README.md)|Easy|
@@ -96,14 +103,14 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
-|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](dynamic-programming/longest-palindromic-substring/README.md)|Medium|
+|5|[Longest Palindromic Substring (Classic)](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](dynamic-programming/longest-palindromic-substring/README.md)|Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](dynamic-programming/minimum-path-sum/README.md)|Medium|
 |72|[Edit Distance (Classic)](https://leetcode.com/problems/edit-distance/)|[Java](dynamic-programming/edit-distance/README.md)|Hard|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](string-array/distinct-subsequences/README.md)|Hard|
 |313|[Super Ugly Number (Classic)](https://leetcode.com/problems/super-ugly-number/)|[Java](dynamic-programming/super-ugly-number/README.md)|Medium|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Java](dynamic-programming/number-of-dice-rolls-with-target-sum/README.md)|Medium|
 
-# Math
+## Math
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
