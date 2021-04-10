@@ -21,12 +21,16 @@ LeetCode Solution in Java
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](string-array/remove-duplicates-from-sorted-array/README.md)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](string-array/remove-element/README.md)|Easy|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Java](string-array/longest-valid-parentheses/README.md)|Hard|
+|33|[Search in Rotated Sorted Array (Classic)](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](string-array/search-in-rotated-sorted-array/README.md)|Medium|
+|34|[Find First and Last Position of Element in Sorted Array (Classic)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](string-array/find-first-and-last-position-of-element-in-sorted-array/README.md)|Medium|
+|35|[Search Insert Position (Classic)](https://leetcode.com/problems/search-insert-position/)|[Java](string-array/search-insert-position/README.md)|Easy|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](string-array/jump-game-ii/README.md)|Medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](string-array/jump-game/README.md)|Medium|
 |56|[Merge Intervals (Classic)](https://leetcode.com/problems/merge-intervals/)|[Java](string-array/merge-intervals/README.md)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](string-array/length-of-last-word/README.md)|Easy|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](string-array/sort-colors/README.md)|Medium|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](string-array/valid-palindrome/README.md)|Easy|
+|153|[Find Minimum in Rotated Sorted Array (Classic)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](string-array/find-minimum-in-rotated-sorted-array/README.md)|Medium|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](string-array/find-peak-element/README.md)|Medium|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Java](string-array/maximum-gap/README.md)|Hard|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](string-array/two-sum-ii-input-array-is-sorted/README.md)|Easy|
@@ -40,6 +44,7 @@ LeetCode Solution in Java
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](string-array/reverse-string/README.md)|Easy|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](string-array/reverse-vowels-of-a-string/README.md)|Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Java](string-array/fibonacci-number/README.md)|Easy|
+|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](string-array/peak-index-in-a-mountain-array/README.md)|Easy|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Java](string-array/defanging-an-ip-address/README.md)|Easy|
 
 ## Matrix
