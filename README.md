@@ -62,17 +62,24 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](linked-list/add-two-numbers/README.md)|Medium|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](string-array/remove-nth-node-from-end-of-list/README.md)|Medium|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](linked-list/merge-two-sorted-lists/README.md)|Easy|
+|23|[Merge k Sorted Lists (Classic)](https://leetcode.com/problems/merge-k-sorted-lists/)|[Java](linked-list/merge-k-sorted-lists/README.md)|Hard|
 |138|[Copy List with Random Pointer (Classic)](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Java](linked-list/copy-list-with-random-pointer/README.md)|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](linked-list/linked-list-cycle/README.md)|Easy|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Java](linked-list/reorder-list/README.md)|Medium|
+|147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Java](linked-list/insertion-sort-list/README.md)|Medium|
+|148|[Sort List](https://leetcode.com/problems/sort-list/)|[Java](linked-list/sort-list/README.md)|Medium|
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Java](linked-list/remove-linked-list-elements/README.md)|Easy|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](linked-list/reverse-linked-list/README.md)|Easy|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Java](linked-list/design-linked-list/README.md)|Medium|
+|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](linked-list/middle-of-the-linked-list/README.md)|Easy|
 
 ## Stack/Queue
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
-|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](string-array/valid-parentheses/README.md)|Easy|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](stack-queue/valid-parentheses/README.md)|Easy|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](stack-queue/min-stack/README.md)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](stack-queue/min-stack/implement-queue-using-stacks/README.md)|Easy|
 
@@ -86,6 +93,7 @@ LeetCode Solution in Java
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Java](tree/symmetric-tree/README.md)|Easy|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Java](tree/maximum-depth-of-binary-tree/README.md)|Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](tree/minimum-depth-of-binary-tree/README.md)|Easy|
+|112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](tree/path-sum/README.md)|Easy|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Java](tree/flatten-binary-tree-to-linked-list/README.md)|Medium|
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Java](tree/populating-next-right-pointers-in-each-node/README.md)|Medium|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java](tree/sum-root-to-leaf-numbers/README.md)|Medium|

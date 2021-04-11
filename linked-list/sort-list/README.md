@@ -1,46 +1,35 @@
-# Merge Two Sorted Lists
+# Sort List
 
 ## Solution 1
 
-Recursion
-
 ```java
 /**
- * Question   : Merge Two Sorted Lists
- * Complexity : Time: O(n) ; Space: O(1)
+ * Question   : 147. Insertion Sort List
+ * Complexity : Time: O(nlog(n)) ; Space: O(1)
  * Topics     : Linked List
  */
-public class Solution {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        if (l1 == null) {
-            return l2;
-        }
-        if (l2 == null) {
-            return l1;
+class Solution {
+    public ListNode sortList(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
         }
 
-        if (l1.val <= l2.val) {
-            l1.next = mergeTwoLists(l1.next, l2);
-            return l1;
-        } else {
-            l2.next = mergeTwoLists(l1, l2.next);
-            return l2;
+        ListNode slow = head;
+        // Key difference.
+        ListNode fast = head.next;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
+        ListNode rightHead = slow.next;
+        slow.next = null;
+
+        ListNode left = sortList(head);
+        ListNode right = sortList(rightHead);
+
+        return mergeTwoLists(left, right);
     }
-}
-```
 
-## Solution 2
-
-Iteration
-
-```java
-/**
- * Question   : 21. Merge Two Sorted Lists
- * Complexity : Time: O(n) ; Space: O(1)
- * Topics     : Linked List
- */
-public class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(-1);
         ListNode prev = dummy;
