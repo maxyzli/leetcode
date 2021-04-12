@@ -9,6 +9,7 @@ LeetCode Solution in Java
 - [Linked List](#linked-list)
 - [Stack](#stackqueue)
 - [Tree](#tree)
+- [Heap](#heap)
 - [Backtracking](#backtracking)
 - [Dynamic Programming](#dynamic-programming)
 - [Math](#math)
@@ -18,6 +19,8 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](string-array/two-sum/README.md)|Easy|
+|15|[3Sum](https://leetcode.com/problems/3sum/)|[Java](string-array/3sum/README.md)|Medium|
+|18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](string-array/4sum/README.md)|Medium|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](string-array/remove-duplicates-from-sorted-array/README.md)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](string-array/remove-element/README.md)|Easy|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Java](string-array/longest-valid-parentheses/README.md)|Hard|
@@ -37,12 +40,13 @@ LeetCode Solution in Java
 |179|[Largest Number (Classic)](https://leetcode.com/problems/largest-number/)|[Java](string-array/largest-number/README.md)|Medium|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](string-array/rotate-array/README.md)|Medium|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](string-array/isomorphic-strings/README.md)|Easy|
-|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](string-array/kth-largest-element-in-an-array/README.md)|Medium|
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](string-array/summary-ranges/README.md)|Easy|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](string-array/valid-anagram/README.md)|Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](string-array/move-zeroes/README.md)|Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](string-array/reverse-string/README.md)|Easy|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](string-array/reverse-vowels-of-a-string/README.md)|Easy|
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Java](string-array/intersection-of-two-arrays/README.md)|Easy|
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Java](string-array/intersection-of-two-arrays-ii/README.md)|Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Java](string-array/fibonacci-number/README.md)|Easy|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](string-array/peak-index-in-a-mountain-array/README.md)|Easy|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Java](string-array/defanging-an-ip-address/README.md)|Easy|
@@ -64,7 +68,6 @@ LeetCode Solution in Java
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](linked-list/add-two-numbers/README.md)|Medium|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](string-array/remove-nth-node-from-end-of-list/README.md)|Medium|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](linked-list/merge-two-sorted-lists/README.md)|Easy|
-|23|[Merge k Sorted Lists (Classic)](https://leetcode.com/problems/merge-k-sorted-lists/)|[Java](linked-list/merge-k-sorted-lists/README.md)|Hard|
 |138|[Copy List with Random Pointer (Classic)](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Java](linked-list/copy-list-with-random-pointer/README.md)|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](linked-list/linked-list-cycle/README.md)|Easy|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Java](linked-list/reorder-list/README.md)|Medium|
@@ -105,6 +108,16 @@ LeetCode Solution in Java
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Java](tree/lowest-common-ancestor-of-a-binary-tree/README.md)|Medium|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Java](tree/binary-tree-paths/README.md)|Easy|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Java](tree/serialize-and-deserialize-binary-tree/README.md)|Hard|
+|653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](tree/two-sum-iv-input-is-a-bst/README.md)|Easy|
+
+## Heap
+
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
+|23|[Merge k Sorted Lists (Classic)](https://leetcode.com/problems/merge-k-sorted-lists/)|[Java](heap/merge-k-sorted-lists/README.md)|Hard|
+|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Java](heap/kth-largest-element-in-an-array/README.md)|Medium|
+|295|[Find Median from Data Stream (Classic)](https://leetcode.com/problems/find-median-from-data-stream/)|[Java](heap/find-median-from-data-stream/README.md)|Hard|
+|703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](heap/kth-largest-element-in-a-stream/README.md)|Easy|
 
 ## Backtracking
 

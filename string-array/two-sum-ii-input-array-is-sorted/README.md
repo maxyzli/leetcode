@@ -9,7 +9,6 @@ Two Pointer
  * Question   : 167. Two Sum II - Input array is sorted
  * Complexity : Time: O(n) ; Space: O(1)
  * Topics     : Array
- * Date       : 2021/02/08
  */
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
@@ -42,8 +41,7 @@ Binary Search
 /**
  * Question   : 167. Two Sum II - Input array is sorted
  * Complexity : Time: O(log(n)) ; Space: O(1)
- * Topics     : Two Sum
- * Date       : 2021/03/11
+ * Topics     : Array
  */
 public class Solution {
     public int[] twoSum(int[] arr, int target) {
