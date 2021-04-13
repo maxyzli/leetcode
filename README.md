@@ -68,13 +68,21 @@ LeetCode Solution in Java
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](linked-list/add-two-numbers/README.md)|Medium|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](string-array/remove-nth-node-from-end-of-list/README.md)|Medium|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](linked-list/merge-two-sorted-lists/README.md)|Easy|
+|25|[Reverse Nodes in k-Group (Classic)](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Java](linked-list/reverse-nodes-in-k-group/README.md)|Hard|
+|82|[Remove Duplicates from Sorted List II (Classic)](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](linked-list/remove-duplicates-from-sorted-list-ii/README.md)|Medium|
+|83|[Remove Duplicates from Sorted List (Classic)](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Java](linked-list/remove-duplicates-from-sorted-list/README.md)|Easy|
 |138|[Copy List with Random Pointer (Classic)](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Java](linked-list/copy-list-with-random-pointer/README.md)|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](linked-list/linked-list-cycle/README.md)|Easy|
+|142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Java](linked-list/linked-list-cycle-ii/README.md)|Medium|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Java](linked-list/reorder-list/README.md)|Medium|
 |147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)|[Java](linked-list/insertion-sort-list/README.md)|Medium|
 |148|[Sort List](https://leetcode.com/problems/sort-list/)|[Java](linked-list/sort-list/README.md)|Medium|
+|160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Java](linked-list/intersection-of-two-linked-lists/README.md)|Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Java](linked-list/remove-linked-list-elements/README.md)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](linked-list/reverse-linked-list/README.md)|Easy|
+|234|[Palindrome Linked List (Classic)](https://leetcode.com/problems/palindrome-linked-list/)|[Java](linked-list/palindrome-linked-list/README.md)|Easy|
+|328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Java](linked-list/odd-even-linked-list/README.md)|Medium|
+|445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[Java](linked-list/add-two-numbers-ii/README.md)|Medium|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Java](linked-list/design-linked-list/README.md)|Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](linked-list/middle-of-the-linked-list/README.md)|Easy|
 
@@ -84,7 +92,10 @@ LeetCode Solution in Java
 |:-:|-|-|-|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](stack-queue/valid-parentheses/README.md)|Easy|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](stack-queue/min-stack/README.md)|Easy|
-|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](stack-queue/min-stack/implement-queue-using-stacks/README.md)|Easy|
+|225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](stack-queue/implement-stack-using-queues/README.md)|Easy|
+|232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](stack-queue/implement-queue-using-stacks/README.md)|Easy|
+|946|[Validate Stack Sequences (Classic)](https://leetcode.com/problems/validate-stack-sequences/)|[Java](stack-queue/validate-stack-sequences/README.md)|Medium|
+|1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Java](stack-queue/remove-all-adjacent-duplicates-in-string/README.md)|Easy|
 
 ## Tree
 
