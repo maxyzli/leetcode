@@ -27,6 +27,7 @@ LeetCode Solution in Java
 |33|[Search in Rotated Sorted Array (Classic)](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](string-array/search-in-rotated-sorted-array/README.md)|Medium|
 |34|[Find First and Last Position of Element in Sorted Array (Classic)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](string-array/find-first-and-last-position-of-element-in-sorted-array/README.md)|Medium|
 |35|[Search Insert Position (Classic)](https://leetcode.com/problems/search-insert-position/)|[Java](string-array/search-insert-position/README.md)|Easy|
+|42|[Trapping Rain Water (Classic)](https://leetcode.com/problems/trapping-rain-water/)|[Java](string-array/trapping-rain-water/README.md)|Hard|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](string-array/jump-game-ii/README.md)|Medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](string-array/jump-game/README.md)|Medium|
 |56|[Merge Intervals (Classic)](https://leetcode.com/problems/merge-intervals/)|[Java](string-array/merge-intervals/README.md)|Medium|
@@ -94,6 +95,7 @@ LeetCode Solution in Java
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](stack-queue/min-stack/README.md)|Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](stack-queue/implement-stack-using-queues/README.md)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](stack-queue/implement-queue-using-stacks/README.md)|Easy|
+|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Java](stack-queue/daily-temperatures/README.md)|Medium|
 |946|[Validate Stack Sequences (Classic)](https://leetcode.com/problems/validate-stack-sequences/)|[Java](stack-queue/validate-stack-sequences/README.md)|Medium|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Java](stack-queue/remove-all-adjacent-duplicates-in-string/README.md)|Easy|
 
