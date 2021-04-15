@@ -12,6 +12,7 @@ LeetCode Solution in Java
 - [Heap](#heap)
 - [Backtracking](#backtracking)
 - [Dynamic Programming](#dynamic-programming)
+- [Greedy](#greedy)
 - [Math](#math)
 
 ## String/Array
@@ -28,8 +29,6 @@ LeetCode Solution in Java
 |34|[Find First and Last Position of Element in Sorted Array (Classic)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](string-array/find-first-and-last-position-of-element-in-sorted-array/README.md)|Medium|
 |35|[Search Insert Position (Classic)](https://leetcode.com/problems/search-insert-position/)|[Java](string-array/search-insert-position/README.md)|Easy|
 |42|[Trapping Rain Water (Classic)](https://leetcode.com/problems/trapping-rain-water/)|[Java](string-array/trapping-rain-water/README.md)|Hard|
-|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](string-array/jump-game-ii/README.md)|Medium|
-|55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](string-array/jump-game/README.md)|Medium|
 |56|[Merge Intervals (Classic)](https://leetcode.com/problems/merge-intervals/)|[Java](string-array/merge-intervals/README.md)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](string-array/length-of-last-word/README.md)|Easy|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](string-array/sort-colors/README.md)|Medium|
@@ -136,7 +135,13 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](backtracking/combination-sum/README.md)|Medium|
+|40|[Combination Sum II (Classic)](https://leetcode.com/problems/combination-sum-ii/)|[Java](backtracking/combination-sum-ii/README.md)|Medium|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](backtracking/permutations/README.md)|Medium|
+|47|[Permutations II (Classic)](https://leetcode.com/problems/permutations-ii/)|[Java](backtracking/permutations-ii/README.md)|Medium|
+|77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](backtracking/combinations/README.md)|Medium|
+|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](backtracking/path-sum-ii/README.md)|Medium|
+|437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](backtracking/path-sum-iii/README.md)|Medium|
 
 ## Dynamic Programming
 
@@ -146,8 +151,17 @@ LeetCode Solution in Java
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](dynamic-programming/minimum-path-sum/README.md)|Medium|
 |72|[Edit Distance (Classic)](https://leetcode.com/problems/edit-distance/)|[Java](dynamic-programming/edit-distance/README.md)|Hard|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](string-array/distinct-subsequences/README.md)|Hard|
+|300|[Longest Increasing Subsequence (Classic)](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](dynamic-programming/longest-increasing-subsequence/README.md)|Medium|
 |313|[Super Ugly Number (Classic)](https://leetcode.com/problems/super-ugly-number/)|[Java](dynamic-programming/super-ugly-number/README.md)|Medium|
+|368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[Java](dynamic-programming/largest-divisible-subset/README.md)|Medium|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Java](dynamic-programming/number-of-dice-rolls-with-target-sum/README.md)|Medium|
+
+## Greedy
+
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](greedy/jump-game-ii/README.md)|Medium|
+|55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](greedy/jump-game/README.md)|Medium|
 
 ## Math
 

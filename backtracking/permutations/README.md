@@ -3,8 +3,6 @@
 ## Solution 1
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 46. Permutations
  * Complexity : Time: O(n!) ; Space: O(n)
@@ -17,26 +15,26 @@ class Solution {
             return new LinkedList<>();
         }
 
-        List<Integer> curr = new ArrayList<>();
+        List<Integer> path = new ArrayList<>();
         List<List<Integer>> list = new ArrayList<>();
 
-        permute(array, curr, list);
+        permute(array, path, list);
 
         return list;
     }
 
-    private void permute(int[] array, List<Integer> curr, List<List<Integer>> list) {
-        if (curr.size() == array.length) {
-            list.add(new LinkedList<>(curr));
+    private void permute(int[] array, List<Integer> path, List<List<Integer>> list) {
+        if (path.size() == array.length) {
+            list.add(new LinkedList<>(path));
             return;
         }
 
         for (int i = 0; i < array.length; i++) {
-            if (!curr.contains(array[i])) {
-                curr.add(array[i]);
-                permute(array, curr, list);
+            if (!path.contains(array[i])) {
+                path.add(array[i]);
+                permute(array, path, list);
                 // Backtracking
-                curr.remove(curr.size() - 1);
+                path.remove(path.size() - 1);
             }
         }
     }

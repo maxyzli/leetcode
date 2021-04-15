@@ -8,7 +8,7 @@ Greedy
 /**
  * Question   : 55. Jump Game
  * Complexity : Time: O(n) ; Space: O(1)
- * Topics     : array
+ * Topics     : Greedy, DP
  */
 class Solution {
     public boolean canJump(int[] nums) {
@@ -34,7 +34,7 @@ DP
 /**
  * Question   : 55. Jump Game
  * Complexity : Time: O(n^2) ; Space: O(n)
- * Topics     : array
+ * Topics     : Greedy, DP
  */
 class Solution {
     public boolean canJump(int[] nums) {

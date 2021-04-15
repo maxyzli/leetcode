@@ -2,13 +2,42 @@
 
 ## Solution 1
 
+Greedy
+
+```java
+/**
+ * Question   : 55. Jump Game
+ * Complexity : Time: O(n) ; Space: O(1)
+ * Topics     : Greedy, DP
+ */
+class Solution {
+    public int jump(int[] nums) {
+        int farthestNextJump = 0;
+        int farthestCurrJump = 0;
+        int step = 0;
+
+        for (int i = 0; i < nums.length - 1; i++) {
+            farthestNextJump = Math.max(farthestNextJump, i + nums[i]);
+            if (i == farthestCurrJump) {
+                step++;
+                farthestCurrJump = farthestNextJump;
+            }
+        }
+
+        return step;
+    }
+}
+```
+
+## Solution 2
+
 DP
 
 ```java
 /**
  * Question   : 45. Jump Game II
  * Complexity : Time: O(n^2) ; Space: O(n)
- * Topics     : DP
+ * Topics     : Greedy, DP
  */
 class Solution {
     public int jump(int[] nums) {
@@ -30,35 +59,6 @@ class Solution {
         }
 
         return memo[nums.length - 1];
-    }
-}
-```
-
-## Solution 2
-
-Greedy
-
-```java
-/**
- * Question   : 55. Jump Game
- * Complexity : Time: O(n) ; Space: O(1)
- * Topics     : array
- */
-class Solution {
-    public int jump(int[] nums) {
-        int farthestNextJump = 0;
-        int farthestCurrJump = 0;
-        int step = 0;
-
-        for (int i = 0; i < nums.length - 1; i++) {
-            farthestNextJump = Math.max(farthestNextJump, i + nums[i]);
-            if (i == farthestCurrJump) {
-                step++;
-                farthestCurrJump = farthestNextJump;
-            }
-        }
-
-        return step;
     }
 }
 ```
