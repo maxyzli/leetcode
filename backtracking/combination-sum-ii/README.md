@@ -8,7 +8,7 @@ With `used[]` array
 /**
  * Question   : 40. Combination Sum II
  * Complexity : Time: O(n!) ; Space: O(n)
- * Topics     : BT
+ * Topics     : Backtracking
  */
 class Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
@@ -61,7 +61,7 @@ import java.util.*;
 /**
  * Question   : 39. Combination Sum
  * Complexity : Time: O(n!) ; Space: O(n)
- * Topics     : BT
+ * Topics     : Backtracking
  */
 class Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {

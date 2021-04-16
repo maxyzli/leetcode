@@ -6,7 +6,7 @@
 /**
  * Question   : 77. Combinations
  * Complexity : Time: O(n!) ; Space: O(n)
- * Topics     : BT
+ * Topics     : Backtracking
  */
 class Solution {
     public List<List<Integer>> combine(int n, int k) {

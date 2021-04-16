@@ -6,7 +6,7 @@
 /**
  * Question   : 113. Path Sum II
  * Complexity : Time: O(n) ; Space: O(n)
- * Topics     : BT
+ * Topics     : Backtracking
  */
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int targetSum) {

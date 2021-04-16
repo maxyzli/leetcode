@@ -6,7 +6,7 @@
 /**
  * Question   : 39. Combination Sum
  * Complexity : Time: O(n!) ; Space: O(n)
- * Topics     : BT
+ * Topics     : Backtracking
  */
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {

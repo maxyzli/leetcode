@@ -6,7 +6,7 @@
 /**
  * Question   : 113. Path Sum II
  * Complexity : Time: O(n^2) ; Space: O(log(n))
- * Topics     : BT
+ * Topics     : Backtracking
  */
 class Solution {
     int count;

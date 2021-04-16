@@ -6,7 +6,7 @@
 /**
  * Question   : 47. Permutations II
  * Complexity : Time: O(n!) ; Space: O(n)
- * Topics     : BT
+ * Topics     : Backtracking
  */
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {

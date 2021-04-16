@@ -135,12 +135,17 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Java](backtracking/letter-combinations-of-a-phone-number/README.md)|Medium|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](backtracking/combination-sum/README.md)|Medium|
 |40|[Combination Sum II (Classic)](https://leetcode.com/problems/combination-sum-ii/)|[Java](backtracking/combination-sum-ii/README.md)|Medium|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](backtracking/permutations/README.md)|Medium|
 |47|[Permutations II (Classic)](https://leetcode.com/problems/permutations-ii/)|[Java](backtracking/permutations-ii/README.md)|Medium|
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](backtracking/combinations/README.md)|Medium|
+|78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](backtracking/subsets/README.md)|Medium|
+|90|[Subsets II (Classic)](https://leetcode.com/problems/subsets-ii/)|[Java](backtracking/subsets-ii/README.md)|Medium|
+|93|[Restore IP Addresses (Classic)](https://leetcode.com/problems/restore-ip-addresses/)|[Java](backtracking/restore-ip-addresses/README.md)|Medium|
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](backtracking/path-sum-ii/README.md)|Medium|
+|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](backtracking/combination-sum-iii/README.md)|Medium|
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](backtracking/path-sum-iii/README.md)|Medium|
 
 ## Dynamic Programming
@@ -154,6 +159,7 @@ LeetCode Solution in Java
 |300|[Longest Increasing Subsequence (Classic)](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](dynamic-programming/longest-increasing-subsequence/README.md)|Medium|
 |313|[Super Ugly Number (Classic)](https://leetcode.com/problems/super-ugly-number/)|[Java](dynamic-programming/super-ugly-number/README.md)|Medium|
 |368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[Java](dynamic-programming/largest-divisible-subset/README.md)|Medium|
+|516|[Longest Palindromic Subsequence (Classic)](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Java](dynamic-programming/longest-palindromic-subsequence/README.md)|Medium|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Java](dynamic-programming/number-of-dice-rolls-with-target-sum/README.md)|Medium|
 
 ## Greedy
