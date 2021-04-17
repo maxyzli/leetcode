@@ -7,7 +7,7 @@ LeetCode Solution in Java
 - [String/Array](#stringarray)
 - [Matrix](#matrix)
 - [Linked List](#linked-list)
-- [Stack](#stackqueue)
+- [Stack/Queue](#stackqueue)
 - [Tree](#tree)
 - [Heap](#heap)
 - [Backtracking](#backtracking)
@@ -136,10 +136,13 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Java](backtracking/letter-combinations-of-a-phone-number/README.md)|Medium|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](backtracking/generate-parentheses/README.md)|Medium|
+|39|[Sudoku Solver (Classic)](https://leetcode.com/problems/sudoku-solver/)|[Java](backtracking/sudoku-solver/README.md)|Hard|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](backtracking/combination-sum/README.md)|Medium|
 |40|[Combination Sum II (Classic)](https://leetcode.com/problems/combination-sum-ii/)|[Java](backtracking/combination-sum-ii/README.md)|Medium|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](backtracking/permutations/README.md)|Medium|
 |47|[Permutations II (Classic)](https://leetcode.com/problems/permutations-ii/)|[Java](backtracking/permutations-ii/README.md)|Medium|
+|51|[N-Queens (Classic)](https://leetcode.com/problems/n-queens/)|[Java](backtracking/n-queens/README.md)|Hard|
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](backtracking/combinations/README.md)|Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](backtracking/subsets/README.md)|Medium|
 |90|[Subsets II (Classic)](https://leetcode.com/problems/subsets-ii/)|[Java](backtracking/subsets-ii/README.md)|Medium|
