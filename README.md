@@ -30,6 +30,7 @@ LeetCode Solution in Java
 |35|[Search Insert Position (Classic)](https://leetcode.com/problems/search-insert-position/)|[Java](string-array/search-insert-position/README.md)|Easy|
 |42|[Trapping Rain Water (Classic)](https://leetcode.com/problems/trapping-rain-water/)|[Java](string-array/trapping-rain-water/README.md)|Hard|
 |56|[Merge Intervals (Classic)](https://leetcode.com/problems/merge-intervals/)|[Java](string-array/merge-intervals/README.md)|Medium|
+|57|[Insert Interval (Classic)](https://leetcode.com/problems/insert-interval/)|[Java](string-array/insert-interval/README.md)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](string-array/length-of-last-word/README.md)|Easy|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](string-array/sort-colors/README.md)|Medium|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](string-array/valid-palindrome/README.md)|Easy|
@@ -156,13 +157,15 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |5|[Longest Palindromic Substring (Classic)](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](dynamic-programming/longest-palindromic-substring/README.md)|Medium|
-|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/)|[Java](dynamic-programming/minimum-path-sum/README.md)|Medium|
+|64|[Minimum Path Sum (Classic)](https://leetcode.com/problems/minimum-path-sum/)|[Java](dynamic-programming/minimum-path-sum/README.md)|Medium|
 |72|[Edit Distance (Classic)](https://leetcode.com/problems/edit-distance/)|[Java](dynamic-programming/edit-distance/README.md)|Hard|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](string-array/distinct-subsequences/README.md)|Hard|
 |300|[Longest Increasing Subsequence (Classic)](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](dynamic-programming/longest-increasing-subsequence/README.md)|Medium|
 |313|[Super Ugly Number (Classic)](https://leetcode.com/problems/super-ugly-number/)|[Java](dynamic-programming/super-ugly-number/README.md)|Medium|
+|322|[Coin Change (Classic)](https://leetcode.com/problems/coin-change/)|[Java](dynamic-programming/coin-change/README.md)|Medium|
 |368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[Java](dynamic-programming/largest-divisible-subset/README.md)|Medium|
 |516|[Longest Palindromic Subsequence (Classic)](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Java](dynamic-programming/longest-palindromic-subsequence/README.md)|Medium|
+|518|[Coin Change 2 (Classic)](https://leetcode.com/problems/coin-change-2/)|[Java](dynamic-programming/coin-change-2/README.md)|Medium|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Java](dynamic-programming/number-of-dice-rolls-with-target-sum/README.md)|Medium|
 
 ## Greedy

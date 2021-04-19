@@ -3,11 +3,9 @@
 ## Solution 1
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 56. Merge Intervals
- * Topics     : array
+ * Topics     : Array
  * Complexity : Time: O(nlogn) ; Space: O(n)
  */
 class Solution {
@@ -29,15 +27,13 @@ class Solution {
         int[] temp = intervals[0];
 
         for (int i = 1; i < intervals.length; i++) {
-            int[] newInterval = intervals[i];
+            int[] incomingInterval = intervals[i];
 
-            // No overlap.
-            if (newInterval[0] > temp[1]) {
+            if (temp[1] < incomingInterval[0]) { // temp in the front.
                 list.add(temp);
-                temp = newInterval;
-            } else {
-                // Overlapping
-                temp[1] = Math.max(temp[1], newInterval[1]);
+                temp = incomingInterval;
+            } else { // Overlapping
+                temp[1] = Math.max(temp[1], incomingInterval[1]);
             }
         }
         list.add(temp);
