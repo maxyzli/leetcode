@@ -2,94 +2,137 @@
 
 ## Solution 1
 
-DP use length forward.
+Brute Force (Time Limit Exceeded)
 
-```jsx
+```java
 /**
- * Question   : 516. Longest Palindromic Subsequence
+ * Question   : 5. Longest Palindromic Substring
+ * Complexity : Time: O(n^3) ; Space: O(1)
  * Topics     : DP
- * Complexity : Time: O(n^2) ; Space: O(n^2)
  */
-public class Solution {
-    public int longestPalindromeSubseq(String s) {
+class Solution {
+    public String longestPalindrome(String s) {
         if (s == null || s.length() == 0) {
-            return 0;
+            return "";
         }
 
         int n = s.length();
+        int maxLength = 0;
+        int beginIndex = 0;
 
-        int[][] memo = new int[n][n];
-
-        // Initialization.
         for (int i = 0; i < n; i++) {
-            memo[i][i] = 1;
-        }
-        // Check length >= 2.
-        for (int i = 0; i < n - 1; i++) {
-            if (s.charAt(i) == s.charAt(i + 1)) {
-                memo[i][i + 1] = 2;
-            } else {
-                memo[i][i + 1] = 1;
-            }
-        }
-
-        // Check length >= 3.
-        for (int len = 2; len <= n; len++) {
-            for (int i = 0; i < n - len + 1; i++) {
-                // since i < n - len + 1;
-                // j = i + len - 1 => j < (n - len + 1) + len - 1 => j < n;
-                int j = i + len - 1;
-                if (s.charAt(i) == s.charAt(j)) {
-                    memo[i][j] = 2 + memo[i + 1][j - 1];
-                } else {
-                    memo[i][j] = Math.max(memo[i + 1][j], memo[i][j - 1]);
+            for (int j = i; j < n; j++) {
+                if (isPalindrome(s, i, j)) {
+                    if (j - i + 1 > maxLength) {
+                        maxLength = j - i + 1;
+                        beginIndex = i;
+                    }
                 }
             }
         }
 
-        return memo[0][n - 1];
+        return s.substring(beginIndex, beginIndex + maxLength);
+    }
+
+    private boolean isPalindrome(String s, int i, int j) {
+        while (i < j) {
+            if (s.charAt(i) != s.charAt(j)) {
+                return false;
+            }
+            i++;
+            j--;
+        }
+        return true;
     }
 }
 ```
 
 ## Solution 2
 
-DP From backward.
+DP
 
 ```java
 /**
- * Question   : 516. Longest Palindromic Subsequence
- * Topics     : DP
+ * Question   : 5. Longest Palindromic Substring
  * Complexity : Time: O(n^2) ; Space: O(n^2)
+ * Topics     : DP
  */
-public class Solution {
-    public int longestPalindromeSubseq(String s) {
+class Solution {
+    public String longestPalindrome(String s) {
         if (s == null || s.length() == 0) {
-            return 0;
+            return "";
         }
 
         int n = s.length();
 
-        int[][] memo = new int[n][n];
+        boolean[][] memo = new boolean[n][n];
+        int maxLength = 1;
+        int beginIndex = 0;
 
-        // Initialization.
-        for (int i = 0; i < n; i++) {
-            memo[i][i] = 1;
-        }
+        for (int len = 1; len <= n; len++) {
+            for (int i = 0; i < n - len + 1; i++) {
+                int j = i + len - 1;
 
-        // Check length >= 2.
-        // From backward.
-        for (int i = s.length() - 1; i >= 0; i--) {
-            for (int j = i + 1; j < s.length(); j++) {
-                if (s.charAt(i) == s.charAt(j)) {
-                    memo[i][j] = 2 + memo[i + 1][j - 1];
+                if (len == 1) {
+                    memo[i][j] = true;
+                } else if (len == 2) {
+                    if (s.charAt(i) == s.charAt(j)) {
+                        maxLength = 2;
+                        beginIndex = i;
+                        memo[i][j] = true;
+                    }
                 } else {
-                    memo[i][j] = Math.max(memo[i + 1][j], memo[i][j - 1]);
+                    if (s.charAt(i) == s.charAt(j) && memo[i + 1][j - 1]) {
+                        maxLength = len;
+                        beginIndex = i;
+                        memo[i][j] = true;
+                    }
                 }
             }
         }
 
-        return memo[0][n - 1];
+        return s.substring(beginIndex, beginIndex + maxLength);
+    }
+}
+```
+
+## Solution 3
+
+Expand From the Center
+
+```java
+public class Solution {
+    public int findLongest(String str) {
+        if (str == null || str == "") {
+            return 0;
+        }
+        if (str.length() == 1) {
+            return 1;
+        }
+
+        int maxLength = 1;
+
+        for (int i = 0; i < str.length(); i++) {
+            Math.max(
+                    maxLength,
+                    Math.max(checkPalindrome(str, i, i), checkPalindrome(str, i, i + 1))
+            );
+        }
+
+        return maxLength;
+    }
+
+    private int checkPalindrome(String str, int left, int right) {
+        int length = 0;
+        while (left >= 0 && right < str.length()) {
+            if (str.charAt(left) != str.charAt(right)) {
+                break;
+            }
+            length = right - left + 1;
+            left--;
+            right++;
+        }
+        return length;
     }
 }
 ```

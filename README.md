@@ -157,6 +157,7 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |5|[Longest Palindromic Substring (Classic)](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](dynamic-programming/longest-palindromic-substring/README.md)|Medium|
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](dynamic-programming/maximum-subarray/README.md)|Easy|
 |64|[Minimum Path Sum (Classic)](https://leetcode.com/problems/minimum-path-sum/)|[Java](dynamic-programming/minimum-path-sum/README.md)|Medium|
 |72|[Edit Distance (Classic)](https://leetcode.com/problems/edit-distance/)|[Java](dynamic-programming/edit-distance/README.md)|Hard|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](string-array/distinct-subsequences/README.md)|Hard|
@@ -166,6 +167,7 @@ LeetCode Solution in Java
 |368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[Java](dynamic-programming/largest-divisible-subset/README.md)|Medium|
 |516|[Longest Palindromic Subsequence (Classic)](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Java](dynamic-programming/longest-palindromic-subsequence/README.md)|Medium|
 |518|[Coin Change 2 (Classic)](https://leetcode.com/problems/coin-change-2/)|[Java](dynamic-programming/coin-change-2/README.md)|Medium|
+|647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Java](dynamic-programming/palindromic-substrings/README.md)|Medium|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Java](dynamic-programming/number-of-dice-rolls-with-target-sum/README.md)|Medium|
 
 ## Greedy

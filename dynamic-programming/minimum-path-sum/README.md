@@ -4,46 +4,7 @@
 
 DFS (Time Limit Exceeded)
 
-Not recommended. Not thinking of a tree structure.
-
-```java
-/**
- * Question   : 64. Minimum Path Sum
- * Topics     : DP
- * Complexity : Time: O(exp) ; Space: O(m+n)
- */
-class Solution {
-    int min = Integer.MAX_VALUE;
-
-    public int minPathSum(int[][] grid) {
-        min = Integer.MAX_VALUE;
-        dfs(grid, 0, 0, 0);
-        return min;
-    }
-
-    private void dfs(int[][] grid, int row, int col, int sum) {
-        if (row >= grid.length || col >= grid[0].length) {
-            return;
-        }
-
-        sum += grid[row][col];
-
-        if (row == grid.length - 1 && col == grid[0].length - 1) {
-            min = Math.min(min, sum);
-            return;
-        }
-
-        dfs(grid, row + 1, col, sum);
-        dfs(grid, row, col + 1, sum);
-    }
-}
-```
-
-## Solution 2
-
-DFS 2 (Time Limit Exceeded)
-
-Get the result from the leaf.
+Calculate the result at calling phase.
 
 ```java
 /**
@@ -81,11 +42,11 @@ class Solution {
 }
 ```
 
-## Solution 3
+## Solution 2
 
-DFS 2 (Time Limit Exceeded)
+DFS (Time Limit Exceeded)
 
-Get the result from the top.
+Calculate the result at returning phase.
 
 ```java
 /**
@@ -123,7 +84,7 @@ class Solution {
 }
 ```
 
-## Solution 4
+## Solution 3
 
 Top-Down DP
 
@@ -172,9 +133,50 @@ class Solution {
 }
 ```
 
+## Solution 4
+
+Bottom-Up DP
+
+`memo[i][j]`: represent the minimum path sum to destination.
+
+```java
+/**
+ * Question   : 64. Minimum Path Sum
+ * Topics     : DP
+ * Complexity : Time: O(m+n) ; Space: O(m+n)
+ */
+class Solution {
+    public int minPathSum(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+
+        int[][] memo = new int[m][n];
+        memo[m - 1][n - 1] = grid[m - 1][n - 1];
+
+        // Initialization.
+        for (int j = n - 2; j >= 0; j--) {
+            memo[m - 1][j] += grid[m - 1][j] + memo[m - 1][j + 1];
+        }
+        for (int i = m - 2; i >= 0; i--) {
+            memo[i][n - 1] += grid[i][n - 1] + memo[i + 1][n - 1];
+        }
+
+        for (int i = m - 2; i >= 0; i--) {
+            for (int j = n - 2; j >= 0; j--) {
+                memo[i][j] = grid[i][j] + Math.min(memo[i + 1][j], memo[i][j + 1]);
+            }
+        }
+
+        return memo[0][0];
+    }
+}
+```
+
 ## Solution 5
 
 Bottom-Up DP
+
+`memo[i][j]`: represent the minimum path sum to grid (i, j).
 
 ```java
 /**
@@ -206,6 +208,43 @@ class Solution {
         }
 
         return memo[m - 1][n - 1];
+    }
+}
+```
+
+## Solution 6
+
+Bottom-Up DP (State Compression)
+
+`memo[i][j]`: represent the minimum path sum to grid (i, j).
+
+```java
+/**
+ * Question   : 64. Minimum Path Sum
+ * Topics     : DP
+ * Complexity : Time: O(m+n) ; Space: O(n)
+ */
+class Solution {
+    public int minPathSum(int[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+
+        int[] memo = new int[n];
+        memo[0] = grid[0][0];
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i == 0 && j != 0) {
+                    memo[j] = grid[i][j] + memo[j - 1];
+                } else if (i != 0 && j == 0) {
+                    memo[j] = grid[i][j] + memo[j];
+                } else if (i != 0 && j != 0) {
+                    memo[j] = grid[i][j] + Math.min(memo[j], memo[j - 1]);
+                }
+            }
+        }
+
+        return memo[n - 1];
     }
 }
 ```
