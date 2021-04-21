@@ -2,46 +2,61 @@
 
 ## Solution 1
 
-Brute Force (Time Limit Exceeded)
+DFS
 
 ```java
+import java.util.*;
+
 /**
- * Question   : 5. Longest Palindromic Substring
- * Complexity : Time: O(n^3) ; Space: O(1)
+ * Question   : 516. Longest Palindromic Subsequence
+ * Complexity : Time: O(2^n) ; Space: O(n)
  * Topics     : DP
  */
 class Solution {
-    public String longestPalindrome(String s) {
+    int longest;
+
+    public int longestPalindromeSubseq(String s) {
         if (s == null || s.length() == 0) {
-            return "";
+            return 0;
         }
 
-        int n = s.length();
-        int maxLength = 0;
+        longest = 0;
+
+        StringBuilder sb = new StringBuilder();
         int beginIndex = 0;
+        longestPalindromeSubseq(s, beginIndex, sb);
 
-        for (int i = 0; i < n; i++) {
-            for (int j = i; j < n; j++) {
-                if (isPalindrome(s, i, j)) {
-                    if (j - i + 1 > maxLength) {
-                        maxLength = j - i + 1;
-                        beginIndex = i;
-                    }
-                }
-            }
-        }
-
-        return s.substring(beginIndex, beginIndex + maxLength);
+        return longest;
     }
 
-    private boolean isPalindrome(String s, int i, int j) {
-        while (i < j) {
-            if (s.charAt(i) != s.charAt(j)) {
+    private void longestPalindromeSubseq(String s, int beginIndex, StringBuilder sb) {
+        if (isPalindrome(sb.toString())) {
+            longest = Math.max(longest, sb.toString().length());
+        }
+
+        for (int i = beginIndex; i < s.length(); i++) {
+            sb.append(s.charAt(i));
+            longestPalindromeSubseq(s, i + 1, sb);
+            sb.deleteCharAt(sb.length() - 1);
+        }
+    }
+
+    private boolean isPalindrome(String s) {
+        if (s == "") {
+            return true;
+        }
+
+        int left = 0;
+        int right = s.length() - 1;
+
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
                 return false;
             }
-            i++;
-            j--;
+            left++;
+            right--;
         }
+
         return true;
     }
 }
@@ -49,90 +64,89 @@ class Solution {
 
 ## Solution 2
 
-DP
+DP use length forward.
 
-```java
+```jsx
 /**
- * Question   : 5. Longest Palindromic Substring
+ * Question   : 516. Longest Palindromic Subsequence
  * Complexity : Time: O(n^2) ; Space: O(n^2)
  * Topics     : DP
  */
 class Solution {
-    public String longestPalindrome(String s) {
+    public int longestPalindromeSubseq(String s) {
         if (s == null || s.length() == 0) {
-            return "";
+            return 0;
         }
 
         int n = s.length();
 
-        boolean[][] memo = new boolean[n][n];
-        int maxLength = 1;
-        int beginIndex = 0;
+        int[][] memo = new int[n][n];
 
         for (int len = 1; len <= n; len++) {
             for (int i = 0; i < n - len + 1; i++) {
                 int j = i + len - 1;
 
                 if (len == 1) {
-                    memo[i][j] = true;
+                    memo[i][j] = 1;
                 } else if (len == 2) {
                     if (s.charAt(i) == s.charAt(j)) {
-                        maxLength = 2;
-                        beginIndex = i;
-                        memo[i][j] = true;
+                        memo[i][j] = 2;
+                    } else {
+                        memo[i][j] = 1;
                     }
                 } else {
-                    if (s.charAt(i) == s.charAt(j) && memo[i + 1][j - 1]) {
-                        maxLength = len;
-                        beginIndex = i;
-                        memo[i][j] = true;
+                    if (s.charAt(i) == s.charAt(j)) {
+                       memo[i][j] = 2 + memo[i + 1][j - 1];
+                    } else {
+                        memo[i][j] = Math.max(memo[i + 1][j], memo[i][j - 1]);
                     }
                 }
             }
         }
 
-        return s.substring(beginIndex, beginIndex + maxLength);
+        return memo[0][n - 1];
     }
 }
 ```
 
 ## Solution 3
 
-Expand From the Center
+DP From backward.
 
 ```java
+/**
+ * Question   : 516. Longest Palindromic Subsequence
+ * Topics     : DP
+ * Complexity : Time: O(n^2) ; Space: O(n^2)
+ */
 public class Solution {
-    public int findLongest(String str) {
-        if (str == null || str == "") {
+    public int longestPalindromeSubseq(String s) {
+        if (s == null || s.length() == 0) {
             return 0;
         }
-        if (str.length() == 1) {
-            return 1;
+
+        int n = s.length();
+
+        int[][] memo = new int[n][n];
+
+        // Initialization.
+        for (int i = 0; i < n; i++) {
+            memo[i][i] = 1;
         }
 
-        int maxLength = 1;
-
-        for (int i = 0; i < str.length(); i++) {
-            Math.max(
-                    maxLength,
-                    Math.max(checkPalindrome(str, i, i), checkPalindrome(str, i, i + 1))
-            );
-        }
-
-        return maxLength;
-    }
-
-    private int checkPalindrome(String str, int left, int right) {
-        int length = 0;
-        while (left >= 0 && right < str.length()) {
-            if (str.charAt(left) != str.charAt(right)) {
-                break;
+        // Check length >= 2.
+        // From backward.
+        for (int i = s.length() - 1; i >= 0; i--) {
+            for (int j = i + 1; j < s.length(); j++) {
+                if (s.charAt(i) == s.charAt(j)) {
+                    memo[i][j] = 2 + memo[i + 1][j - 1];
+                } else {
+                    memo[i][j] = Math.max(memo[i + 1][j], memo[i][j - 1]);
+                }
             }
-            length = right - left + 1;
-            left--;
-            right++;
         }
-        return length;
+
+        return memo[0][n - 1];
     }
 }
 ```

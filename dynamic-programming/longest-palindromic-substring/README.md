@@ -2,9 +2,110 @@
 
 ## Solution 1
 
+Brute Force (Time Limit Exceeded)
+
+```java
+/**
+ * Question   : 5. Longest Palindromic Substring
+ * Complexity : Time: O(n^3) ; Space: O(1)
+ * Topics     : DP
+ */
+class Solution {
+    public String longestPalindrome(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+
+        int n = s.length();
+        int maxLength = 0;
+        int beginIndex = 0;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                if (isPalindrome(s, i, j)) {
+                    if (j - i + 1 > maxLength) {
+                        maxLength = j - i + 1;
+                        beginIndex = i;
+                    }
+                }
+            }
+        }
+
+        return s.substring(beginIndex, beginIndex + maxLength);
+    }
+
+    private boolean isPalindrome(String s, int i, int j) {
+        while (i < j) {
+            if (s.charAt(i) != s.charAt(j)) {
+                return false;
+            }
+            i++;
+            j--;
+        }
+        return true;
+    }
+}
+```
+
+## Solution 2
+
+DP
+
+```java
+/**
+ * Question   : 5. Longest Palindromic Substring
+ * Complexity : Time: O(n^2) ; Space: O(n^2)
+ * Topics     : DP
+ */
+class Solution {
+    public String longestPalindrome(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
+        }
+
+        int n = s.length();
+
+        boolean[][] memo = new boolean[n][n];
+        int maxLength = 1;
+        int beginIndex = 0;
+
+        for (int len = 1; len <= n; len++) {
+            for (int i = 0; i < n - len + 1; i++) {
+                int j = i + len - 1;
+
+                if (len == 1) {
+                    memo[i][j] = true;
+                } else if (len == 2) {
+                    if (s.charAt(i) == s.charAt(j)) {
+                        maxLength = 2;
+                        beginIndex = i;
+                        memo[i][j] = true;
+                    }
+                } else {
+                    if (s.charAt(i) == s.charAt(j) && memo[i + 1][j - 1]) {
+                        maxLength = len;
+                        beginIndex = i;
+                        memo[i][j] = true;
+                    }
+                }
+            }
+        }
+
+        return s.substring(beginIndex, beginIndex + maxLength);
+    }
+}
+```
+
+## Solution 3
+
 Expand From the Center
 
 ```java
+/**
+ * Question   : 5. Longest Palindromic Substring
+ * Complexity : Time: O(n^2) ; Space: O(1)
+ * Topics     : DP
+ */
 public class Solution {
     public int findLongest(String str) {
         if (str == null || str == "") {
@@ -37,60 +138,6 @@ public class Solution {
             right++;
         }
         return length;
-    }
-}
-```
-
-## Solution 2
-
-DP
-
-```java
-/**
- * Question   : Longest Palindromic Substring
- * Complexity : Time: O(n^2) ; Space: O(n^2)
- * Topics     : DP
- * Date       : 2021/01/05
- */
-public class Solution {
-    public String longestPalindrome(String s) {
-        if (s.length() <= 1) {
-            return s;
-        }
-
-        // [start] - [end]
-        int len = s.length();
-        boolean[][] m = new boolean[len][len];
-
-        int subStringStart = 0, maxLength = 1;
-
-        // Initialization.
-        for (int i = 0; i < len; i++) {
-            m[i][i] = true;
-            if (i + 1 < len && s.charAt(i) == s.charAt(i + 1)) {
-                m[i][i + 1] = true;
-                subStringStart = i;
-                maxLength = 2;
-            }
-        }
-
-        for (int length = 3; length <= len; length++) {
-            for (int start = 0; start < len; start++) {
-                int end = start + length - 1;
-                if (end >= len) {
-                    break;
-                }
-                if (s.charAt(start) == s.charAt(end) && m[start + 1][end - 1] == true) {
-                    m[start][end] = true;
-                    if (length > maxLength) {
-                        subStringStart = start;
-                        maxLength = length;
-                    }
-                }
-            }
-        }
-
-        return s.substring(subStringStart, subStringStart + maxLength);
     }
 }
 ```

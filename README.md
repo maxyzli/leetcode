@@ -33,6 +33,7 @@ LeetCode Solution in Java
 |57|[Insert Interval (Classic)](https://leetcode.com/problems/insert-interval/)|[Java](string-array/insert-interval/README.md)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](string-array/length-of-last-word/README.md)|Easy|
 |75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](string-array/sort-colors/README.md)|Medium|
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](dynamic-programming/merge-sorted-array/README.md)|Medium|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](string-array/valid-palindrome/README.md)|Easy|
 |153|[Find Minimum in Rotated Sorted Array (Classic)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](string-array/find-minimum-in-rotated-sorted-array/README.md)|Medium|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](string-array/find-peak-element/README.md)|Medium|
@@ -50,7 +51,9 @@ LeetCode Solution in Java
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Java](string-array/intersection-of-two-arrays-ii/README.md)|Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Java](string-array/fibonacci-number/README.md)|Easy|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](string-array/peak-index-in-a-mountain-array/README.md)|Easy|
+|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](string-array/sort-array-by-parity/README.md)|Easy|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Java](string-array/defanging-an-ip-address/README.md)|Easy|
+|1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Java](string-array/can-make-arithmetic-progression-from-sequence/README.md)|Easy|
 
 ## Matrix
 
@@ -86,6 +89,7 @@ LeetCode Solution in Java
 |445|[Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/)|[Java](linked-list/add-two-numbers-ii/README.md)|Medium|
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Java](linked-list/design-linked-list/README.md)|Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](linked-list/middle-of-the-linked-list/README.md)|Easy|
+|1265|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|[Java](linked-list/print-immutable-linked-list-in-reverse/README.md)|Easy|
 
 ## Stack/Queue
 
@@ -159,8 +163,10 @@ LeetCode Solution in Java
 |5|[Longest Palindromic Substring (Classic)](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](dynamic-programming/longest-palindromic-substring/README.md)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](dynamic-programming/maximum-subarray/README.md)|Easy|
 |64|[Minimum Path Sum (Classic)](https://leetcode.com/problems/minimum-path-sum/)|[Java](dynamic-programming/minimum-path-sum/README.md)|Medium|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Java](dynamic-programming/climbing-stairs/README.md)|Easy|
 |72|[Edit Distance (Classic)](https://leetcode.com/problems/edit-distance/)|[Java](dynamic-programming/edit-distance/README.md)|Hard|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](string-array/distinct-subsequences/README.md)|Hard|
+|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Java](dynamic-programming/palindrome-partitioning/README.md)|Medium|
 |300|[Longest Increasing Subsequence (Classic)](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](dynamic-programming/longest-increasing-subsequence/README.md)|Medium|
 |313|[Super Ugly Number (Classic)](https://leetcode.com/problems/super-ugly-number/)|[Java](dynamic-programming/super-ugly-number/README.md)|Medium|
 |322|[Coin Change (Classic)](https://leetcode.com/problems/coin-change/)|[Java](dynamic-programming/coin-change/README.md)|Medium|
@@ -168,6 +174,7 @@ LeetCode Solution in Java
 |516|[Longest Palindromic Subsequence (Classic)](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Java](dynamic-programming/longest-palindromic-subsequence/README.md)|Medium|
 |518|[Coin Change 2 (Classic)](https://leetcode.com/problems/coin-change-2/)|[Java](dynamic-programming/coin-change-2/README.md)|Medium|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Java](dynamic-programming/palindromic-substrings/README.md)|Medium|
+|1143|[Longest Common Subsequence (Classic)](https://leetcode.com/problems/longest-common-subsequence/)|[Java](dynamic-programming/longest-common-subsequence/README.md)|Medium|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Java](dynamic-programming/number-of-dice-rolls-with-target-sum/README.md)|Medium|
 
 ## Greedy
@@ -182,3 +189,4 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](math/palindrome-number/README.md)|Easy|
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](math/powx-n/README.md)|Medium|
