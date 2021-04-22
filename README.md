@@ -161,16 +161,19 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |5|[Longest Palindromic Substring (Classic)](https://leetcode.com/problems/longest-palindromic-substring/)|[Java](dynamic-programming/longest-palindromic-substring/README.md)|Medium|
+|44|[Wildcard Matching (Classic)](https://leetcode.com/problems/wildcard-matching/)|[Java](dynamic-programming/wildcard-matching/README.md)|Hard|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Java](dynamic-programming/maximum-subarray/README.md)|Easy|
 |64|[Minimum Path Sum (Classic)](https://leetcode.com/problems/minimum-path-sum/)|[Java](dynamic-programming/minimum-path-sum/README.md)|Medium|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Java](dynamic-programming/climbing-stairs/README.md)|Easy|
 |72|[Edit Distance (Classic)](https://leetcode.com/problems/edit-distance/)|[Java](dynamic-programming/edit-distance/README.md)|Hard|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](string-array/distinct-subsequences/README.md)|Hard|
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Java](dynamic-programming/palindrome-partitioning/README.md)|Medium|
+|221|[Maximal Square (Classic)](https://leetcode.com/problems/maximal-square/submissions/)|[Java](dynamic-programming/submissions/README.md)|Medium|
 |300|[Longest Increasing Subsequence (Classic)](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](dynamic-programming/longest-increasing-subsequence/README.md)|Medium|
 |313|[Super Ugly Number (Classic)](https://leetcode.com/problems/super-ugly-number/)|[Java](dynamic-programming/super-ugly-number/README.md)|Medium|
 |322|[Coin Change (Classic)](https://leetcode.com/problems/coin-change/)|[Java](dynamic-programming/coin-change/README.md)|Medium|
 |368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[Java](dynamic-programming/largest-divisible-subset/README.md)|Medium|
+|486|[Predict the Winner (Classic)](https://leetcode.com/problems/predict-the-winner/)|[Java](dynamic-programming/predict-the-winner/README.md)|Medium|
 |516|[Longest Palindromic Subsequence (Classic)](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Java](dynamic-programming/longest-palindromic-subsequence/README.md)|Medium|
 |518|[Coin Change 2 (Classic)](https://leetcode.com/problems/coin-change-2/)|[Java](dynamic-programming/coin-change-2/README.md)|Medium|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Java](dynamic-programming/palindromic-substrings/README.md)|Medium|
