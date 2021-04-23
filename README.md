@@ -4,16 +4,26 @@ LeetCode Solution in Java
 
 ## Topics
 
+- [Math](#math)
 - [String/Array](#stringarray)
 - [Matrix](#matrix)
 - [Linked List](#linked-list)
 - [Stack/Queue](#stackqueue)
 - [Tree](#tree)
 - [Heap](#heap)
+- [Graph](#graph)
+- [Greedy](#greedy)
 - [Backtracking](#backtracking)
 - [Dynamic Programming](#dynamic-programming)
-- [Greedy](#greedy)
-- [Math](#math)
+- [Trie](#trie)
+- [Design](#design)
+
+## Math
+
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](math/palindrome-number/README.md)|Easy|
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](math/powx-n/README.md)|Medium|
 
 ## String/Array
 
@@ -105,6 +115,8 @@ LeetCode Solution in Java
 
 ## Tree
 
+*Important*
+
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Java](tree/invert-binary-tree/README.md)|Medium|
@@ -136,6 +148,18 @@ LeetCode Solution in Java
 |295|[Find Median from Data Stream (Classic)](https://leetcode.com/problems/find-median-from-data-stream/)|[Java](heap/find-median-from-data-stream/README.md)|Hard|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](heap/kth-largest-element-in-a-stream/README.md)|Easy|
 
+## Graph
+
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
+
+## Greedy
+
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](greedy/jump-game-ii/README.md)|Medium|
+|55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](greedy/jump-game/README.md)|Medium|
+
 ## Backtracking
 
 | # | Title | Solution | Difficulty |
@@ -157,6 +181,8 @@ LeetCode Solution in Java
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](backtracking/path-sum-iii/README.md)|Medium|
 
 ## Dynamic Programming
+
+*Important*
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
@@ -180,16 +206,15 @@ LeetCode Solution in Java
 |1143|[Longest Common Subsequence (Classic)](https://leetcode.com/problems/longest-common-subsequence/)|[Java](dynamic-programming/longest-common-subsequence/README.md)|Medium|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Java](dynamic-programming/number-of-dice-rolls-with-target-sum/README.md)|Medium|
 
-## Greedy
+## Trie
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
+|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Java](trie/implement-trie-prefix-tree/README.md)|Medium|
+
+## Design
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
-|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](greedy/jump-game-ii/README.md)|Medium|
-|55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](greedy/jump-game/README.md)|Medium|
-
-## Math
-
-| # | Title | Solution | Difficulty |
-|:-:|-|-|-|
-|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](math/palindrome-number/README.md)|Easy|
-|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](math/powx-n/README.md)|Medium|
+|||||
+|1244|[Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/)|[Java](design/design-a-leaderboard/README.md)|Medium|
+|1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[Java](design/design-underground-system/README.md)|Medium|
