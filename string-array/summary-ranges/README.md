@@ -5,42 +5,34 @@
 ```java
 /**
  * Question   : 228. Summary Ranges
- * Topics     : String
- * Complexity : Time: O(n) ; Space: O(n)
+ * Complexity : Time: O(n) ; Space: O(1)
+ * Topics     : Array
  */
 class Solution {
     public List<String> summaryRanges(int[] nums) {
         if (nums == null || nums.length == 0) {
-            return new LinkedList<>();
+            return new ArrayList<>();
         }
 
         int n = nums.length;
+        int i = 0;
+        List<String> list = new ArrayList<>();
 
-        int first = nums[0];
-        int len = 1;
+        while (i < n) {
+            int beginIdx = i;
+            i++;
 
-        List<String> list = new LinkedList<>();
-
-        for (int i = 1; i < n; i++) {
-            if (nums[i] == first + len) {
-                len++;
-                continue;
+            while (i < n && nums[i] - nums[i - 1] == 1) {
+               i++;
             }
 
-            if (len == 1) {
-                list.add(first + "");
+            int endIdx = i - 1;
+
+            if (beginIdx != endIdx) {
+                list.add(nums[beginIdx] + "->" + nums[endIdx]);
             } else {
-                list.add(first + "->" + nums[i - 1]);
+                list.add(nums[beginIdx] + "");
             }
-
-            first = nums[i];
-            len = 1;
-        }
-
-        if (len == 1) {
-            list.add(first + "");
-        } else {
-            list.add(first + "->" + nums[n - 1]);
         }
 
         return list;

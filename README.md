@@ -33,6 +33,7 @@ LeetCode Solution in Java
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](string-array/two-sum/README.md)|Easy|
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[Java](string-array/3sum/README.md)|Medium|
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](string-array/4sum/README.md)|Medium|
+|31|[Next Permutation (Classic)](https://leetcode.com/problems/next-permutation/)|[Java](string-array/next-permutation/README.md)|Medium|
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Java](string-array/longest-valid-parentheses/README.md)|Hard|
 |33|[Search in Rotated Sorted Array (Classic)](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](string-array/search-in-rotated-sorted-array/README.md)|Medium|
 |34|[Find First and Last Position of Element in Sorted Array (Classic)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](string-array/find-first-and-last-position-of-element-in-sorted-array/README.md)|Medium|
@@ -44,6 +45,7 @@ LeetCode Solution in Java
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](dynamic-programming/merge-sorted-array/README.md)|Medium|
 |153|[Find Minimum in Rotated Sorted Array (Classic)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](string-array/find-minimum-in-rotated-sorted-array/README.md)|Medium|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](string-array/find-peak-element/README.md)|Medium|
+|163|[Missing Ranges](https://leetcode-cn.com/problems/missing-ranges/)|[Java](string-array/missing-ranges/README.md)|Easy|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Java](string-array/maximum-gap/README.md)|Hard|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](string-array/two-sum-ii-input-array-is-sorted/README.md)|Easy|
 |179|[Largest Number (Classic)](https://leetcode.com/problems/largest-number/)|[Java](string-array/largest-number/README.md)|Medium|
@@ -58,6 +60,7 @@ LeetCode Solution in Java
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Java](string-array/find-all-duplicates-in-an-array/README.md)|Medium|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](string-array/find-all-numbers-disappeared-in-an-array/README.md)|Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Java](string-array/fibonacci-number/README.md)|Easy|
+|665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Java](string-array/non-decreasing-array/README.md)|Medium|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](string-array/peak-index-in-a-mountain-array/README.md)|Easy|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](string-array/sort-array-by-parity/README.md)|Easy|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](string-array/valid-mountain-array/README.md)|Easy|
