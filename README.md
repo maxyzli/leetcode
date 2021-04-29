@@ -43,6 +43,7 @@ LeetCode Solution in Java
 |57|[Insert Interval (Classic)](https://leetcode.com/problems/insert-interval/)|[Java](string-array/insert-interval/README.md)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](string-array/length-of-last-word/README.md)|Easy|
 |88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](dynamic-programming/merge-sorted-array/README.md)|Medium|
+|135|[Candy](https://leetcode.com/problems/candy)|[Java](string-array/candy/README.md)|Hard|
 |153|[Find Minimum in Rotated Sorted Array (Classic)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](string-array/find-minimum-in-rotated-sorted-array/README.md)|Medium|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](string-array/find-peak-element/README.md)|Medium|
 |163|[Missing Ranges](https://leetcode-cn.com/problems/missing-ranges/)|[Java](string-array/missing-ranges/README.md)|Easy|
