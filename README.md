@@ -7,7 +7,7 @@ LeetCode Solution in Java
 - [Math](#math)
 - [String/Array](#stringarray)
     - [Two Pointers](#two-pointers)
-- [Matrix](#matrix)
+    - [Matrix](#matrix)
 - [Linked List](#linked-list)
 - [Stack/Queue](#stackqueue)
 - [Tree](#tree)
@@ -42,7 +42,9 @@ LeetCode Solution in Java
 |56|[Merge Intervals (Classic)](https://leetcode.com/problems/merge-intervals/)|[Java](string-array/merge-intervals/README.md)|Medium|
 |57|[Insert Interval (Classic)](https://leetcode.com/problems/insert-interval/)|[Java](string-array/insert-interval/README.md)|Medium|
 |58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](string-array/length-of-last-word/README.md)|Easy|
-|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](dynamic-programming/merge-sorted-array/README.md)|Medium|
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](string-array/merge-sorted-array/README.md)|Medium|
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](string-array/pascals-triangle/README.md)|Easy|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](string-array/pascals-triangle-ii/README.md)|Easy|
 |135|[Candy](https://leetcode.com/problems/candy)|[Java](string-array/candy/README.md)|Hard|
 |153|[Find Minimum in Rotated Sorted Array (Classic)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](string-array/find-minimum-in-rotated-sorted-array/README.md)|Medium|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](string-array/find-peak-element/README.md)|Medium|
@@ -61,8 +63,10 @@ LeetCode Solution in Java
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Java](string-array/find-all-duplicates-in-an-array/README.md)|Medium|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](string-array/find-all-numbers-disappeared-in-an-array/README.md)|Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Java](string-array/fibonacci-number/README.md)|Easy|
+|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Java](string-array/can-place-flowers/README.md)|Easy|
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Java](string-array/non-decreasing-array/README.md)|Medium|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](string-array/peak-index-in-a-mountain-array/README.md)|Easy|
+|860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[Java](string-array/lemonade-change/README.md)|Easy|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](string-array/sort-array-by-parity/README.md)|Easy|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](string-array/valid-mountain-array/README.md)|Easy|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[Java](string-array/find-common-characters/README.md)|Easy|
@@ -75,24 +79,28 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
-|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Java](string-array/container-with-most-water/README.md)|Medium|
-|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](string-array/remove-duplicates-from-sorted-array/README.md)|Easy|
-|27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](string-array/remove-element/README.md)|Easy|
-|80|[Remove Duplicates from Sorted Array II (Classic)](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Java](string-array/remove-duplicates-from-sorted-array-ii/README.md)|Medium|
-|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](string-array/sort-colors/README.md)|Medium|
-|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](string-array/valid-palindrome/README.md)|Easy|
-|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](string-array/move-zeroes/README.md)|Easy|
-|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](string-array/reverse-string/README.md)|Easy|
+|11|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Java](two-pointers/container-with-most-water/README.md)|Medium|
+|26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Java](two-pointers/remove-duplicates-from-sorted-array/README.md)|Easy|
+|27|[Remove Element](https://leetcode.com/problems/remove-element/)|[Java](two-pointers/remove-element/README.md)|Easy|
+|80|[Remove Duplicates from Sorted Array II (Classic)](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Java](two-pointers/remove-duplicates-from-sorted-array-ii/README.md)|Medium|
+|75|[Sort Colors](https://leetcode.com/problems/sort-colors/)|[Java](two-pointers/sort-colors/README.md)|Medium|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](two-pointers/valid-palindrome/README.md)|Easy|
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](two-pointers/move-zeroes/README.md)|Easy|
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](two-pointers/reverse-string/README.md)|Easy|
 
-## Matrix
+### Matrix
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Java](matrix/valid-sudoku/README.md)|Medium|
 |48|[Rotate Image (Classic)](https://leetcode.com/problems/rotate-image/)|[Java](matrix/rotate-image/README.md)|Medium|
 |54|[Spiral Matrix (Classic)](https://leetcode.com/problems/spiral-matrix/)|[Java](matrix/spiral-matrix/README.md)|Medium|
+|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Java](matrix/spiral-matrix-ii/README.md)|Medium|
 |73|[Set Matrix Zeroes (Classic)](https://leetcode.com/problems/set-matrix-zeroes/)|[Java](matrix/set-matrix-zeroes/README.md)|Medium|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Java](matrix/search-a-2d-matrix/README.md)|Medium|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](matrix/search-a-2d-matrix-ii/README.md)|Medium|
+|498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Java](matrix/diagonal-traverse/README.md)|Medium|
+|867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Java](matrix/transpose-matrix/README.md)|Easy|
 
 ## Linked List
 
