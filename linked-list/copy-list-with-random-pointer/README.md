@@ -9,7 +9,6 @@ Brute Force
  * Question   : 138. Copy List with Random Pointer
  * Complexity : Time: O(n) ; Space: O(n)
  * Topics     : Linked List
- * Date       : 2021/03/16
  */
 class Solution {
     public Node copyRandomList(Node head) {
@@ -51,7 +50,6 @@ Optimized
  * Question   : 138. Copy List with Random Pointer
  * Complexity : Time: O(n) ; Space: O(1)
  * Topics     : Linked List
- * Date       : 2021/03/16
  */
 class Solution {
     public Node copyRandomList(Node head) {

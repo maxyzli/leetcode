@@ -9,7 +9,6 @@ Sentinel node
  * Question   : 143. Reorder List
  * Complexity : Time: O(n) ; Space: O(n)
  * Topics     : Linked List
- * Date       : 2021/03/25
  */
 class Solution {
     public void reorderList(ListNode head) {

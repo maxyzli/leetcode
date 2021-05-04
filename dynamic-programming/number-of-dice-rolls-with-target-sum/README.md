@@ -9,7 +9,6 @@ Brute Force
  * Question   : Dice Throw
  * Complexity : Time: O(exponential) ; Space: O(n)
  * Topics     : DP
- * Date       : 2021/03/30
  */
 public class Solution {
     long count = 0;
@@ -44,7 +43,6 @@ Bottom Up DP
  * Question   : Dice Throw
  * Complexity : Time: O(d*f*target) ; Space: O(d*target)
  * Topics     : DP
- * Date       : 2021/03/30
  */
 class Solution {
     public int numRollsToTarget(int d, int f, int target) {

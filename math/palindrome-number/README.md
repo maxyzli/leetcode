@@ -9,7 +9,6 @@ Conver to string
  * Question   : 9. Palindrome Number
  * Complexity : Time: O(n) ; Space: O(n)
  * Topics     : String
- * Date       : 2021/04/06
  */
 class Solution {
     public boolean isPalindrome(int x) {

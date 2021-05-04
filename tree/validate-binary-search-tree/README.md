@@ -42,7 +42,6 @@ class Solution {
  * Question   : Validate Binary Search Tree
  * Complexity : Time: O(n) ; Space: O(h)
  * Topics     : BST
- * Date       : 2020/12/25
  */
 class Solution {
     public boolean isValidBST(TreeNode root) {

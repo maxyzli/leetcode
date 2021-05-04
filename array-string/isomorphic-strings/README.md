@@ -9,7 +9,6 @@ Map + Set
  * Question   : 205. Isomorphic Strings
  * Complexity : Time: O(n) ; Space: O(n)
  * Topics     : String
- * Date       : 2021/03/19
  */
 class Solution {
     public boolean isIsomorphic(String s, String t) {

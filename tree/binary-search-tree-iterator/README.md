@@ -7,7 +7,6 @@
  Question   : 173. Binary Search Tree Iterator
  Complexity : Time: O(n) ; Space: O(n)
  Topics     : Tree
- Date       : 2021/03/14
  */
 class BSTIterator {
     TreeNode curr;

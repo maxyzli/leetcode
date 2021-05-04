@@ -9,7 +9,6 @@ Brute Force
  * Question   : 313. Super Ugly Number
  * Complexity : Time: O(mn) ; Space: O(1)
  * Topics     : Brute Force
- * Date       : 2021/03/30
  */
 public class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {
@@ -64,7 +63,6 @@ DP
  * Question   : 313. Super Ugly Number
  * Complexity : Time: O(n) ; Space: O(n)
  * Topics     : DP
- * Date       : 2021/03/30
  */
 class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {

@@ -9,7 +9,6 @@ List
  * Question   : 114. Flatten Binary Tree to Linked List
  * Complexity : Time: O(n) ; Space: O(n)
  * Topics     : Tree
- * Date       : 2021/03/26
  */
 class Solution {
     List<TreeNode> list;
@@ -52,7 +51,6 @@ Pure Recursion
  Question   : 114. Flatten Binary Tree to Linked List
  Complexity : Time: O(n) ; Space: O(n)
  Topics     : Tree
- Date       : 2021/03/14
  */
 class Solution {
     public void flatten(TreeNode root) {

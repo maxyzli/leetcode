@@ -9,7 +9,6 @@ Iteration (Simpler)
  * Question   : 2. Add Two Numbers
  * Complexity : Time: O(n) ; Space: O(n)
  * Topics     : Linked List
- * Date       : 2021/03/25
  */
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -61,7 +60,6 @@ Recursion
  * Question   : Add Two Numbers
  * Complexity : Time: O(m+n) ; Space: O(m+n)
  * Topics     : Linked List
- * Date       : 2020/12/22
  */
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

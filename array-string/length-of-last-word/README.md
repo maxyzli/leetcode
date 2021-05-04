@@ -14,20 +14,19 @@ class Solution {
             return 0;
         }
 
-        int idx = s.length() - 1;
+        int end = s.length() - 1;
 
         // Skip white spaces.
-        while (idx >= 0 && s.charAt(idx) == ' ') {
-            idx--;
+        while (end >= 0 && s.charAt(end) == ' ') {
+            end--;
         }
 
-        int count = 0;
-        while (idx >= 0 && s.charAt(idx) != ' ') {
-            count++;
-            idx--;
+        int start = end;
+        while (start >= 0 && s.charAt(start) != ' ') {
+            start--;
         }
 
-        return count;
+        return end - start;
     }
 }
 ```

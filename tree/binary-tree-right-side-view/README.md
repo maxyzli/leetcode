@@ -13,7 +13,6 @@ Queue
  * Question   : 199. Binary Tree Right Side View
  * Complexity : Time: O(n) ; Space: O(log(n))
  * Topics     : Tree
- * Date       : 2021/04/01
  */
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {

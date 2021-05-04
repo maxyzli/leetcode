@@ -5,7 +5,7 @@ LeetCode Solution in Java
 ## Topics
 
 - [Math](#math)
-- [String/Array](#stringarray)
+- [Array/String](#stringarray)
     - [Two Pointers](#two-pointers)
     - [Matrix](#matrix)
 - [Linked List](#linked-list)
@@ -26,54 +26,60 @@ LeetCode Solution in Java
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](math/palindrome-number/README.md)|Easy|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](math/powx-n/README.md)|Medium|
 
-## String/Array
+## Array/String
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](string-array/two-sum/README.md)|Easy|
-|15|[3Sum](https://leetcode.com/problems/3sum/)|[Java](string-array/3sum/README.md)|Medium|
-|18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](string-array/4sum/README.md)|Medium|
-|31|[Next Permutation (Classic)](https://leetcode.com/problems/next-permutation/)|[Java](string-array/next-permutation/README.md)|Medium|
-|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Java](string-array/longest-valid-parentheses/README.md)|Hard|
-|33|[Search in Rotated Sorted Array (Classic)](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](string-array/search-in-rotated-sorted-array/README.md)|Medium|
-|34|[Find First and Last Position of Element in Sorted Array (Classic)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](string-array/find-first-and-last-position-of-element-in-sorted-array/README.md)|Medium|
-|35|[Search Insert Position (Classic)](https://leetcode.com/problems/search-insert-position/)|[Java](string-array/search-insert-position/README.md)|Easy|
-|42|[Trapping Rain Water (Classic)](https://leetcode.com/problems/trapping-rain-water/)|[Java](string-array/trapping-rain-water/README.md)|Hard|
-|56|[Merge Intervals (Classic)](https://leetcode.com/problems/merge-intervals/)|[Java](string-array/merge-intervals/README.md)|Medium|
-|57|[Insert Interval (Classic)](https://leetcode.com/problems/insert-interval/)|[Java](string-array/insert-interval/README.md)|Medium|
-|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](string-array/length-of-last-word/README.md)|Easy|
-|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](string-array/merge-sorted-array/README.md)|Medium|
-|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](string-array/pascals-triangle/README.md)|Easy|
-|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](string-array/pascals-triangle-ii/README.md)|Easy|
-|135|[Candy](https://leetcode.com/problems/candy)|[Java](string-array/candy/README.md)|Hard|
-|153|[Find Minimum in Rotated Sorted Array (Classic)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](string-array/find-minimum-in-rotated-sorted-array/README.md)|Medium|
-|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](string-array/find-peak-element/README.md)|Medium|
-|163|[Missing Ranges](https://leetcode-cn.com/problems/missing-ranges/)|[Java](string-array/missing-ranges/README.md)|Easy|
-|164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Java](string-array/maximum-gap/README.md)|Hard|
-|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](string-array/two-sum-ii-input-array-is-sorted/README.md)|Easy|
-|179|[Largest Number (Classic)](https://leetcode.com/problems/largest-number/)|[Java](string-array/largest-number/README.md)|Medium|
-|189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](string-array/rotate-array/README.md)|Medium|
-|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](string-array/isomorphic-strings/README.md)|Easy|
-|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](string-array/summary-ranges/README.md)|Easy|
-|238|[Product of Array Except Self (Classic)](https://leetcode.com/problems/product-of-array-except-self/)|[Java](string-array/product-of-array-except-self/README.md)|Medium|
-|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](string-array/valid-anagram/README.md)|Easy|
-|345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](string-array/reverse-vowels-of-a-string/README.md)|Easy|
-|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Java](string-array/intersection-of-two-arrays/README.md)|Easy|
-|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Java](string-array/intersection-of-two-arrays-ii/README.md)|Easy|
-|442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Java](string-array/find-all-duplicates-in-an-array/README.md)|Medium|
-|448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](string-array/find-all-numbers-disappeared-in-an-array/README.md)|Easy|
-|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Java](string-array/fibonacci-number/README.md)|Easy|
-|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Java](string-array/can-place-flowers/README.md)|Easy|
-|665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Java](string-array/non-decreasing-array/README.md)|Medium|
-|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](string-array/peak-index-in-a-mountain-array/README.md)|Easy|
-|860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[Java](string-array/lemonade-change/README.md)|Easy|
-|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](string-array/sort-array-by-parity/README.md)|Easy|
-|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](string-array/valid-mountain-array/README.md)|Easy|
-|1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[Java](string-array/find-common-characters/README.md)|Easy|
-|1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Java](string-array/defanging-an-ip-address/README.md)|Easy|
-|1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[Java](string-array/increasing-decreasing-string/README.md)|Easy|
-|1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Java](string-array/running-sum-of-1d-array/READE.md)|Easy|
-|1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Java](string-array/can-make-arithmetic-progression-from-sequence/README.md)|Easy|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](array-string/two-sum/README.md)|Easy|
+|8|[String to Integer (atoi) (Classic)](https://leetcode.com/problems/string-to-integer-atoi/)|[Java](array-string/string-to-integer-atoi/README.md)|Medium|
+|15|[3Sum](https://leetcode.com/problems/3sum/)|[Java](array-string/3sum/README.md)|Medium|
+|18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](array-string/4sum/README.md)|Medium|
+|26|[strStr (Classic)](https://leetcode.com/problems/implement-strstr/)|[Java](array-string/implement-strstr/README.md)|Easy|
+|31|[Next Permutation (Classic)](https://leetcode.com/problems/next-permutation/)|[Java](array-string/next-permutation/README.md)|Medium|
+|32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Java](array-string/longest-valid-parentheses/README.md)|Hard|
+|33|[Search in Rotated Sorted Array (Classic)](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](array-string/search-in-rotated-sorted-array/README.md)|Medium|
+|34|[Find First and Last Position of Element in Sorted Array (Classic)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](array-string/find-first-and-last-position-of-element-in-sorted-array/README.md)|Medium|
+|35|[Search Insert Position (Classic)](https://leetcode.com/problems/search-insert-position/)|[Java](array-string/search-insert-position/README.md)|Easy|
+|42|[Trapping Rain Water (Classic)](https://leetcode.com/problems/trapping-rain-water/)|[Java](array-string/trapping-rain-water/README.md)|Hard|
+|56|[Merge Intervals (Classic)](https://leetcode.com/problems/merge-intervals/)|[Java](array-string/merge-intervals/README.md)|Medium|
+|57|[Insert Interval (Classic)](https://leetcode.com/problems/insert-interval/)|[Java](array-string/insert-interval/README.md)|Medium|
+|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Java](array-string/length-of-last-word/README.md)|Easy|
+|88|[Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Java](array-string/merge-sorted-array/README.md)|Medium|
+|118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Java](array-string/pascals-triangle/README.md)|Easy|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](array-string/pascals-triangle-ii/README.md)|Easy|
+|135|[Candy](https://leetcode.com/problems/candy)|[Java](array-string/candy/README.md)|Hard|
+|153|[Find Minimum in Rotated Sorted Array (Classic)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](array-string/find-minimum-in-rotated-sorted-array/README.md)|Medium|
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](array-string/find-peak-element/README.md)|Medium|
+|163|[Missing Ranges](https://leetcode-cn.com/problems/missing-ranges/)|[Java](array-string/missing-ranges/README.md)|Easy|
+|164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Java](array-string/maximum-gap/README.md)|Hard|
+|165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Java](array-string/compare-version-numbers/README.md)|Medium|
+|167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](array-string/two-sum-ii-input-array-is-sorted/README.md)|Easy|
+|179|[Largest Number (Classic)](https://leetcode.com/problems/largest-number/)|[Java](array-string/largest-number/README.md)|Medium|
+|189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](array-string/rotate-array/README.md)|Medium|
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](array-string/isomorphic-strings/README.md)|Easy|
+|228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](array-string/summary-ranges/README.md)|Easy|
+|238|[Product of Array Except Self (Classic)](https://leetcode.com/problems/product-of-array-except-self/)|[Java](array-string/product-of-array-except-self/README.md)|Medium|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](array-string/valid-anagram/README.md)|Easy|
+|345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](array-string/reverse-vowels-of-a-string/README.md)|Easy|
+|349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Java](array-string/intersection-of-two-arrays/README.md)|Easy|
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Java](array-string/intersection-of-two-arrays-ii/README.md)|Easy|
+|442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Java](array-string/find-all-duplicates-in-an-array/README.md)|Medium|
+|448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](array-string/find-all-numbers-disappeared-in-an-array/README.md)|Easy|
+|459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Java](array-string/repeated-substring-pattern/README.md)|Easy|
+|509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Java](array-string/fibonacci-number/README.md)|Easy|
+|541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](array-string/reverse-string-ii/README.md)|Easy|
+|557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](array-string/reverse-words-in-a-string-iii/README.md)|Easy|
+|605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Java](array-string/can-place-flowers/README.md)|Easy|
+|665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Java](array-string/non-decreasing-array/README.md)|Medium|
+|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](array-string/peak-index-in-a-mountain-array/README.md)|Easy|
+|860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[Java](array-string/lemonade-change/README.md)|Easy|
+|905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](array-string/sort-array-by-parity/README.md)|Easy|
+|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](array-string/valid-mountain-array/README.md)|Easy|
+|1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[Java](array-string/find-common-characters/README.md)|Easy|
+|1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Java](array-string/defanging-an-ip-address/README.md)|Easy|
+|1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[Java](array-string/increasing-decreasing-string/README.md)|Easy|
+|1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Java](array-string/running-sum-of-1d-array/READE.md)|Easy|
+|1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Java](array-string/can-make-arithmetic-progression-from-sequence/README.md)|Easy|
 
 ### Two Pointers
 
@@ -87,6 +93,7 @@ LeetCode Solution in Java
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](two-pointers/valid-palindrome/README.md)|Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](two-pointers/move-zeroes/README.md)|Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](two-pointers/reverse-string/README.md)|Easy|
+|1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Java](two-pointers/remove-vowels-from-a-string/README.md)|Easy|
 
 ### Matrix
 
@@ -107,7 +114,7 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](linked-list/add-two-numbers/README.md)|Medium|
-|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](string-array/remove-nth-node-from-end-of-list/README.md)|Medium|
+|19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](array-string/remove-nth-node-from-end-of-list/README.md)|Medium|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](linked-list/merge-two-sorted-lists/README.md)|Easy|
 |25|[Reverse Nodes in k-Group (Classic)](https://leetcode.com/problems/reverse-nodes-in-k-group/)|[Java](linked-list/reverse-nodes-in-k-group/README.md)|Hard|
 |82|[Remove Duplicates from Sorted List II (Classic)](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Java](linked-list/remove-duplicates-from-sorted-list-ii/README.md)|Medium|
@@ -219,7 +226,7 @@ LeetCode Solution in Java
 |64|[Minimum Path Sum (Classic)](https://leetcode.com/problems/minimum-path-sum/)|[Java](dynamic-programming/minimum-path-sum/README.md)|Medium|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Java](dynamic-programming/climbing-stairs/README.md)|Easy|
 |72|[Edit Distance (Classic)](https://leetcode.com/problems/edit-distance/)|[Java](dynamic-programming/edit-distance/README.md)|Hard|
-|115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](string-array/distinct-subsequences/README.md)|Hard|
+|115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](array-string/distinct-subsequences/README.md)|Hard|
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Java](dynamic-programming/palindrome-partitioning/README.md)|Medium|
 |221|[Maximal Square (Classic)](https://leetcode.com/problems/maximal-square/submissions/)|[Java](dynamic-programming/submissions/README.md)|Medium|
 |300|[Longest Increasing Subsequence (Classic)](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](dynamic-programming/longest-increasing-subsequence/README.md)|Medium|
