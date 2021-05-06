@@ -23,15 +23,22 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|8|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java](math/reverse-integer/README.md)|Easy|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](math/palindrome-number/README.md)|Easy|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](math/powx-n/README.md)|Medium|
+|66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](math/plus-one/README.md)|Easy|
+|415|[Add Strings](https://leetcode.com/problems/add-strings/)|[Java](math/add-strings/README.md)|Easy|
+|989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Java](math/add-to-array-form-of-integer/README.md)|Easy|
 
 ## Array/String
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](array-string/two-sum/README.md)|Easy|
+|6|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/)|[Java](array-string/zigzag-conversion/README.md)|Medium|
 |8|[String to Integer (atoi) (Classic)](https://leetcode.com/problems/string-to-integer-atoi/)|[Java](array-string/string-to-integer-atoi/README.md)|Medium|
+|12|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/)|[Java](array-string/integer-to-roman/README.md)|Medium|
+|13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|[Java](array-string/roman-to-integer/README.md)|Easy|
 |15|[3Sum](https://leetcode.com/problems/3sum/)|[Java](array-string/3sum/README.md)|Medium|
 |18|[4Sum](https://leetcode.com/problems/4sum/)|[Java](array-string/4sum/README.md)|Medium|
 |26|[strStr (Classic)](https://leetcode.com/problems/implement-strstr/)|[Java](array-string/implement-strstr/README.md)|Easy|
@@ -40,6 +47,7 @@ LeetCode Solution in Java
 |33|[Search in Rotated Sorted Array (Classic)](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Java](array-string/search-in-rotated-sorted-array/README.md)|Medium|
 |34|[Find First and Last Position of Element in Sorted Array (Classic)](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Java](array-string/find-first-and-last-position-of-element-in-sorted-array/README.md)|Medium|
 |35|[Search Insert Position (Classic)](https://leetcode.com/problems/search-insert-position/)|[Java](array-string/search-insert-position/README.md)|Easy|
+|38|[Count and Say](https://leetcode.com/problems/count-and-say/)|[Java](array-string/count-and-say/README.md)|Medium|
 |42|[Trapping Rain Water (Classic)](https://leetcode.com/problems/trapping-rain-water/)|[Java](array-string/trapping-rain-water/README.md)|Hard|
 |56|[Merge Intervals (Classic)](https://leetcode.com/problems/merge-intervals/)|[Java](array-string/merge-intervals/README.md)|Medium|
 |57|[Insert Interval (Classic)](https://leetcode.com/problems/insert-interval/)|[Java](array-string/insert-interval/README.md)|Medium|
