@@ -25,10 +25,14 @@ LeetCode Solution in Java
 |:-:|-|-|-|
 |8|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java](math/reverse-integer/README.md)|Easy|
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)|[Java](math/palindrome-number/README.md)|Easy|
+|43|[Multiply Strings (Classic)](https://leetcode.com/problems/multiply-strings/)|[Java](math/multiply-strings/README.md)|Medium|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Java](math/powx-n/README.md)|Medium|
 |66|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](math/plus-one/README.md)|Easy|
+|67|[Add Binary](https://leetcode.com/problems/add-binary/)|[Java](math/add-binary/README.md)|Easy|
+|204|[Count Primes](https://leetcode.com/problems/count-primes/)|[Java](math/count-primes/README.md)|Easy|
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[Java](math/add-strings/README.md)|Easy|
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Java](math/add-to-array-form-of-integer/README.md)|Easy|
+|1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Java](math/check-if-it-is-a-straight-line/README.md)|Easy|
 
 ## Array/String
 
