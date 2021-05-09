@@ -5,6 +5,7 @@ LeetCode Solution in Java
 ## Topics
 
 - [Math](#math)
+- [Bit](#math)
 - [Array/String](#stringarray)
     - [Two Pointers](#two-pointers)
     - [Matrix](#matrix)
@@ -33,6 +34,16 @@ LeetCode Solution in Java
 |415|[Add Strings](https://leetcode.com/problems/add-strings/)|[Java](math/add-strings/README.md)|Easy|
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Java](math/add-to-array-form-of-integer/README.md)|Easy|
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Java](math/check-if-it-is-a-straight-line/README.md)|Easy|
+
+## Bit
+
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](bit/number-of-1-bits/README.md)|Easy|
+|231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](bit/power-of-two/README.md)|Easy|
+|371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Java](bit/sum-of-two-integers/README.md)|Medium|
+|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Java](bit/hamming-distance/README.md)|Easy|
+|477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[Java](bit/total-hamming-distance/README.md)|Medium|
 
 ## Array/String
 
