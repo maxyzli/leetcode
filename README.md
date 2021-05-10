@@ -16,6 +16,7 @@ LeetCode Solution in Java
 - [Graph](#graph)
 - [Greedy](#greedy)
 - [Backtracking](#backtracking)
+- [Divide and Conquer](#divide-and-conquer)
 - [Dynamic Programming](#dynamic-programming)
 - [Trie](#trie)
 - [Design](#design)
@@ -39,6 +40,7 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|136|[Single Number](https://leetcode.com/problems/single-number/)|[Java](bit/single-number/README.md)|Easy|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](bit/number-of-1-bits/README.md)|Easy|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](bit/power-of-two/README.md)|Easy|
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Java](bit/sum-of-two-integers/README.md)|Medium|
@@ -86,6 +88,7 @@ LeetCode Solution in Java
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](array-string/reverse-vowels-of-a-string/README.md)|Easy|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Java](array-string/intersection-of-two-arrays/README.md)|Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Java](array-string/intersection-of-two-arrays-ii/README.md)|Easy|
+|414|[Third Maximum Number (Classic)](https://leetcode.com/problems/third-maximum-number/)|[Java](array-string/third-maximum-number/README.md)|Easy|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Java](array-string/find-all-duplicates-in-an-array/README.md)|Medium|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](array-string/find-all-numbers-disappeared-in-an-array/README.md)|Easy|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Java](array-string/repeated-substring-pattern/README.md)|Easy|
@@ -93,6 +96,7 @@ LeetCode Solution in Java
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](array-string/reverse-string-ii/README.md)|Easy|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](array-string/reverse-words-in-a-string-iii/README.md)|Easy|
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Java](array-string/can-place-flowers/README.md)|Easy|
+|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Java](array-string/maximum-product-of-three-numbers/README.md)|Easy|
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Java](array-string/non-decreasing-array/README.md)|Medium|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](array-string/peak-index-in-a-mountain-array/README.md)|Easy|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[Java](array-string/lemonade-change/README.md)|Easy|
@@ -237,6 +241,12 @@ LeetCode Solution in Java
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](backtracking/combination-sum-iii/README.md)|Medium|
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](backtracking/path-sum-iii/README.md)|Medium|
 
+## Divide and Conquer
+
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
+|493|[Reverse Pairs (Classic)](https://leetcode.com/problems/reverse-pairs/)|[Java](divide-and-conquer/reverse-pairs/README.md)|Hard|
+
 ## Dynamic Programming
 
 *Important*
@@ -264,6 +274,7 @@ LeetCode Solution in Java
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Java](dynamic-programming/number-of-dice-rolls-with-target-sum/README.md)|Medium|
 
 ## Trie
+
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Java](trie/implement-trie-prefix-tree/README.md)|Medium|
