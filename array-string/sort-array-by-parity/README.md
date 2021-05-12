@@ -14,14 +14,18 @@ class Solution {
             return A;
         }
 
-        int p1 = 0;
-        int p2 = 0;
+        int even  = 0;
+        int odd = 0;
 
-        while (p2 < A.length) {
-            if (A[p2] % 2 == 0) {
-                swap(A, p1++, p2++);
+        // [index 0, even) is even;
+        // [even, odd) is odd;
+        // [odd, index end] is undetermined.
+
+        while (odd < A.length) {
+            if (A[odd] % 2 == 0) {
+                swap(A, even++, odd++);
             } else {
-                p2++;
+                odd++;
             }
         }
 

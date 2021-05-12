@@ -101,6 +101,7 @@ LeetCode Solution in Java
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](array-string/peak-index-in-a-mountain-array/README.md)|Easy|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[Java](array-string/lemonade-change/README.md)|Easy|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](array-string/sort-array-by-parity/README.md)|Easy|
+|922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Java](array-string/sort-array-by-parity-ii/README.md)|Easy|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](array-string/valid-mountain-array/README.md)|Easy|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[Java](array-string/find-common-characters/README.md)|Easy|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Java](array-string/defanging-an-ip-address/README.md)|Easy|
