@@ -98,6 +98,7 @@ LeetCode Solution in Java
 |605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)|[Java](array-string/can-place-flowers/README.md)|Easy|
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/)|[Java](array-string/maximum-product-of-three-numbers/README.md)|Easy|
 |665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Java](array-string/non-decreasing-array/README.md)|Medium|
+|704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Java](array-string/binary-search/README.md)|Easy|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)|[Java](array-string/peak-index-in-a-mountain-array/README.md)|Easy|
 |860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[Java](array-string/lemonade-change/README.md)|Easy|
 |905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Java](array-string/sort-array-by-parity/README.md)|Easy|
