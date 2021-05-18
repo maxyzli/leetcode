@@ -251,6 +251,7 @@ LeetCode Solution in Java
 |:-:|-|-|-|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Java](divide-and-conquer/sqrtx/README.md)|Easy|
 |493|[Reverse Pairs (Classic)](https://leetcode.com/problems/reverse-pairs/)|[Java](divide-and-conquer/reverse-pairs/README.md)|Hard|
+|1539|[Kth Missing Positive Number (Classic)](https://leetcode.com/problems/kth-missing-positive-number/)|[Java](divide-and-conquer/kth-missing-positive-number/README.md)|Easy|
 
 ## Dynamic Programming
 
