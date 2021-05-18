@@ -74,6 +74,7 @@ LeetCode Solution in Java
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Java](array-string/pascals-triangle-ii/README.md)|Easy|
 |135|[Candy](https://leetcode.com/problems/candy)|[Java](array-string/candy/README.md)|Hard|
 |153|[Find Minimum in Rotated Sorted Array (Classic)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](array-string/find-minimum-in-rotated-sorted-array/README.md)|Medium|
+|154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Java](array-string/find-minimum-in-rotated-sorted-array-ii/README.md)|Hard|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](array-string/find-peak-element/README.md)|Medium|
 |163|[Missing Ranges](https://leetcode-cn.com/problems/missing-ranges/)|[Java](array-string/missing-ranges/README.md)|Easy|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Java](array-string/maximum-gap/README.md)|Hard|
