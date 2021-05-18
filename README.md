@@ -85,6 +85,7 @@ LeetCode Solution in Java
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](array-string/summary-ranges/README.md)|Easy|
 |238|[Product of Array Except Self (Classic)](https://leetcode.com/problems/product-of-array-except-self/)|[Java](array-string/product-of-array-except-self/README.md)|Medium|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](array-string/valid-anagram/README.md)|Easy|
+|278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](array-string/first-bad-version/README.md)|Easy|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](array-string/reverse-vowels-of-a-string/README.md)|Easy|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Java](array-string/intersection-of-two-arrays/README.md)|Easy|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Java](array-string/intersection-of-two-arrays-ii/README.md)|Easy|
