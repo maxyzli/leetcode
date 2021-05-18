@@ -12,16 +12,20 @@ Matrix
  */
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        int ROW_SIZE = matrix.length, COL_SIZE = matrix[0].length;
+        if (matrix == null || matrix.length == 0) {
+            return false;
+        }
 
-        int row = 0, col = COL_SIZE - 1;
+        int row = 0;
+        int col = matrix[0].length - 1;
 
-        while (row < ROW_SIZE && col >= 0) {
-            if (matrix[row][col] == target) return true;
-            if (matrix[row][col] > target) {
-                col--;
+        while (row < matrix.length && col >= 0) {
+            if (matrix[row][col] == target) {
+                return true;
             } else if (matrix[row][col] < target) {
                 row++;
+            } else {
+                col--;
             }
         }
 
