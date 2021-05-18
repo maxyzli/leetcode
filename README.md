@@ -249,6 +249,7 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Java](divide-and-conquer/sqrtx/README.md)|Easy|
 |493|[Reverse Pairs (Classic)](https://leetcode.com/problems/reverse-pairs/)|[Java](divide-and-conquer/reverse-pairs/README.md)|Hard|
 
 ## Dynamic Programming
