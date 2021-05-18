@@ -107,6 +107,7 @@ LeetCode Solution in Java
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Java](array-string/sort-array-by-parity-ii/README.md)|Easy|
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[Java](array-string/valid-mountain-array/README.md)|Easy|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters/)|[Java](array-string/find-common-characters/README.md)|Easy|
+|1095|[Find in Mountain Array](https://leetcode.com/problems/find-in-mountain-array/)|[Java](array-string/find-in-mountain-array/README.md)|Hard|
 |1108|[Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Java](array-string/defanging-an-ip-address/README.md)|Easy|
 |1370|[Increasing Decreasing String](https://leetcode.com/problems/increasing-decreasing-string/)|[Java](array-string/increasing-decreasing-string/README.md)|Easy|
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Java](array-string/running-sum-of-1d-array/READE.md)|Easy|
