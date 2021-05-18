@@ -1,6 +1,6 @@
 # Find Minimum in Rotated Sorted Array
 
-## Solution 1
+# Solution 1
 
 Brute Force
 
@@ -24,9 +24,11 @@ class Solution {
 }
 ```
 
-## Solution 2
+# Solution 2
 
 Binary Search
+
+Note: If you compare `nums[low]` with `nums[mid]` you won't able to know the smallest number is in the left or right part.
 
 ```java
 /**
