@@ -10,6 +10,7 @@ LeetCode Solution in Java
     - [Two Pointers](#two-pointers)
     - [Matrix](#matrix)
 - [Linked List](#linked-list)
+- [Hash Table](#hash-table)
 - [Stack/Queue](#stackqueue)
 - [Tree](#tree)
 - [Heap](#heap)
@@ -166,6 +167,12 @@ LeetCode Solution in Java
 |707|[Design Linked List](https://leetcode.com/problems/design-linked-list/)|[Java](linked-list/design-linked-list/README.md)|Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](linked-list/middle-of-the-linked-list/README.md)|Easy|
 |1265|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|[Java](linked-list/print-immutable-linked-list-in-reverse/README.md)|Easy|
+
+## Hash Table
+
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
+|771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](hash-table/jewels-and-stones/README.md)|Easy|
 
 ## Stack/Queue
 
