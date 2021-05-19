@@ -173,6 +173,7 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](hash-table/jewels-and-stones/README.md)|Easy|
+|888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[Java](hash-table/fair-candy-swap/README.md)|Easy|
 
 ## Stack/Queue
 
