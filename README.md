@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-198-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-199-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -174,6 +174,7 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](hash-table/group-anagrams/README.md)|Medium|
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](hash-table/longest-consecutive-sequence/README.md)|Hard|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](hash-table/isomorphic-strings/README.md)|Easy|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](hash-table/valid-anagram/README.md)|Easy|
