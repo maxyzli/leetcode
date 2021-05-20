@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-195-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-196-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -48,6 +48,7 @@ LeetCode Solution in Java
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](bit/number-of-1-bits/README.md)|Easy|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](bit/power-of-two/README.md)|Easy|
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Java](bit/sum-of-two-integers/README.md)|Medium|
+|389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Java](bit/find-the-difference/README.md)|Easy|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Java](bit/hamming-distance/README.md)|Easy|
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[Java](bit/total-hamming-distance/README.md)|Medium|
 
