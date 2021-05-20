@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-199-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-200-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -204,6 +204,7 @@ LeetCode Solution in Java
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](hash-table/valid-anagram/README.md)|Easy|
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)|[Java](hash-table/word-pattern/README.md)|Easy|
 |554|[Brick Wall](https://leetcode.com/problems/brick-wall/)|[Java](hash-table/brick-wall/README.md)|Medium|
+|560|[Subarray Sum Equals K (Classic)](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](hash-table/subarray-sum-equals-k/README.md)|Medium|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](hash-table/jewels-and-stones/README.md)|Easy|
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[Java](hash-table/fair-candy-swap/README.md)|Easy|
 
