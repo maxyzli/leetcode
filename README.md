@@ -40,6 +40,10 @@ LeetCode Solution in Java
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)|[Java](math/add-to-array-form-of-integer/README.md)|Easy|
 |1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Java](math/check-if-it-is-a-straight-line/README.md)|Easy|
 
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
+
 ## Bit
 
 | # | Title | Solution | Difficulty |
@@ -51,6 +55,10 @@ LeetCode Solution in Java
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)|[Java](bit/find-the-difference/README.md)|Easy|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Java](bit/hamming-distance/README.md)|Easy|
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/)|[Java](bit/total-hamming-distance/README.md)|Medium|
+
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
 
 ## Array/String
 
@@ -116,6 +124,10 @@ LeetCode Solution in Java
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[Java](array-string/running-sum-of-1d-array/READE.md)|Easy|
 |1502|[Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/)|[Java](array-string/can-make-arithmetic-progression-from-sequence/README.md)|Easy|
 
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
+
 ### Two Pointers
 
 | # | Title | Solution | Difficulty |
@@ -130,6 +142,10 @@ LeetCode Solution in Java
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](two-pointers/reverse-string/README.md)|Easy|
 |1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Java](two-pointers/remove-vowels-from-a-string/README.md)|Easy|
 
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
+
 ### Matrix
 
 | # | Title | Solution | Difficulty |
@@ -143,6 +159,10 @@ LeetCode Solution in Java
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](matrix/search-a-2d-matrix-ii/README.md)|Medium|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Java](matrix/diagonal-traverse/README.md)|Medium|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Java](matrix/transpose-matrix/README.md)|Easy|
+
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
 
 ## Linked List
 
@@ -170,6 +190,10 @@ LeetCode Solution in Java
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](linked-list/middle-of-the-linked-list/README.md)|Easy|
 |1265|[Print Immutable Linked List in Reverse](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/)|[Java](linked-list/print-immutable-linked-list-in-reverse/README.md)|Easy|
 
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
+
 ## Hash Table
 
 | # | Title | Solution | Difficulty |
@@ -183,6 +207,9 @@ LeetCode Solution in Java
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](hash-table/jewels-and-stones/README.md)|Easy|
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[Java](hash-table/fair-candy-swap/README.md)|Easy|
 
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
 
 ## Stack/Queue
 
@@ -195,6 +222,10 @@ LeetCode Solution in Java
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Java](stack-queue/daily-temperatures/README.md)|Medium|
 |946|[Validate Stack Sequences (Classic)](https://leetcode.com/problems/validate-stack-sequences/)|[Java](stack-queue/validate-stack-sequences/README.md)|Medium|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Java](stack-queue/remove-all-adjacent-duplicates-in-string/README.md)|Easy|
+
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
 
 ## Tree
 
@@ -221,6 +252,10 @@ LeetCode Solution in Java
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Java](tree/serialize-and-deserialize-binary-tree/README.md)|Hard|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](tree/two-sum-iv-input-is-a-bst/README.md)|Easy|
 
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
+
 ## Heap
 
 | # | Title | Solution | Difficulty |
@@ -230,10 +265,18 @@ LeetCode Solution in Java
 |295|[Find Median from Data Stream (Classic)](https://leetcode.com/problems/find-median-from-data-stream/)|[Java](heap/find-median-from-data-stream/README.md)|Hard|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](heap/kth-largest-element-in-a-stream/README.md)|Easy|
 
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
+
 ## Graph
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
 
 ## Greedy
 
@@ -241,6 +284,10 @@ LeetCode Solution in Java
 |:-:|-|-|-|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](greedy/jump-game-ii/README.md)|Medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](greedy/jump-game/README.md)|Medium|
+
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
 
 ## Backtracking
 
@@ -261,6 +308,10 @@ LeetCode Solution in Java
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](backtracking/path-sum-ii/README.md)|Medium|
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](backtracking/combination-sum-iii/README.md)|Medium|
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](backtracking/path-sum-iii/README.md)|Medium|
+
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
 
 ## Divide and Conquer
 
@@ -301,11 +352,19 @@ LeetCode Solution in Java
 |1143|[Longest Common Subsequence (Classic)](https://leetcode.com/problems/longest-common-subsequence/)|[Java](dynamic-programming/longest-common-subsequence/README.md)|Medium|
 |1155|[Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/)|[Java](dynamic-programming/number-of-dice-rolls-with-target-sum/README.md)|Medium|
 
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
+
 ## Trie
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Java](trie/implement-trie-prefix-tree/README.md)|Medium|
+
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
 
 ## Design
 
@@ -314,3 +373,7 @@ LeetCode Solution in Java
 |||||
 |1244|[Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/)|[Java](design/design-a-leaderboard/README.md)|Medium|
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[Java](design/design-underground-system/README.md)|Medium|
+
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
