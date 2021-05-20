@@ -87,7 +87,6 @@ LeetCode Solution in Java
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](array-string/two-sum-ii-input-array-is-sorted/README.md)|Easy|
 |179|[Largest Number (Classic)](https://leetcode.com/problems/largest-number/)|[Java](array-string/largest-number/README.md)|Medium|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](array-string/rotate-array/README.md)|Medium|
-|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](array-string/isomorphic-strings/README.md)|Easy|
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](array-string/summary-ranges/README.md)|Easy|
 |238|[Product of Array Except Self (Classic)](https://leetcode.com/problems/product-of-array-except-self/)|[Java](array-string/product-of-array-except-self/README.md)|Medium|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/)|[Java](array-string/valid-anagram/README.md)|Easy|
@@ -177,9 +176,11 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](hash-table/longest-consecutive-sequence/README.md)|Hard|
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](hash-table/isomorphic-strings/README.md)|Easy|
 |554|[Brick Wall](https://leetcode.com/problems/brick-wall/)|[Java](hash-table/brick-wall/README.md)|Medium|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](hash-table/jewels-and-stones/README.md)|Easy|
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[Java](hash-table/fair-candy-swap/README.md)|Easy|
+
 
 ## Stack/Queue
 
