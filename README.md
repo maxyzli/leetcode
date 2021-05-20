@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-200-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-201-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -198,6 +198,7 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|41|[First Missing Positive (Classic)](https://leetcode.com/problems/first-missing-positive/)|[Java](hash-table/first-missing-positive/README.md)|Hard|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](hash-table/group-anagrams/README.md)|Medium|
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)|[Java](hash-table/longest-consecutive-sequence/README.md)|Hard|
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Java](hash-table/isomorphic-strings/README.md)|Easy|
