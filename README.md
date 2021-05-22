@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-201-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-202-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -208,6 +208,7 @@ LeetCode Solution in Java
 |560|[Subarray Sum Equals K (Classic)](https://leetcode.com/problems/subarray-sum-equals-k/)|[Java](hash-table/subarray-sum-equals-k/README.md)|Medium|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Java](hash-table/jewels-and-stones/README.md)|Easy|
 |888|[Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/)|[Java](hash-table/fair-candy-swap/README.md)|Easy|
+|1122|[Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)|[Java](hash-table/relative-sort-array/README.md)|Easy|
 
 <div>
   <b><a href="#topics">↥ Back To Top</a></b>
