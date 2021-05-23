@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-203-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-204-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -223,6 +223,7 @@ LeetCode Solution in Java
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](stack-queue/min-stack/README.md)|Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](stack-queue/implement-stack-using-queues/README.md)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](stack-queue/implement-queue-using-stacks/README.md)|Easy|
+|394|[Decode String (Classic)](https://leetcode.com/problems/decode-string/)|[Java](stack-queue/decode-string/README.md)|Medium|
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Java](stack-queue/daily-temperatures/README.md)|Medium|
 |946|[Validate Stack Sequences (Classic)](https://leetcode.com/problems/validate-stack-sequences/)|[Java](stack-queue/validate-stack-sequences/README.md)|Medium|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/)|[Java](stack-queue/remove-all-adjacent-duplicates-in-string/README.md)|Easy|
