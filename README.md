@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-202-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-203-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -219,6 +219,7 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Java](stack-queue/valid-parentheses/README.md)|Easy|
+|71|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Java](stack-queue/simplify-path/README.md)|Medium|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Java](stack-queue/min-stack/README.md)|Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Java](stack-queue/implement-stack-using-queues/README.md)|Easy|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Java](stack-queue/implement-queue-using-stacks/README.md)|Easy|
