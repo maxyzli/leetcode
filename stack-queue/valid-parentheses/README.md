@@ -28,7 +28,7 @@ public class Solution {
             }
         }
 
-        return stack.isEmpty() ? true : false;
+        return stack.isEmpty();
     }
 
     private boolean isPair(char o, char c) {
