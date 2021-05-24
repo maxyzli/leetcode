@@ -5,8 +5,6 @@
 Temporary Array
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 42. Trapping Rain Water
  * Complexity : Time: O(n) ; Space: O(n)
