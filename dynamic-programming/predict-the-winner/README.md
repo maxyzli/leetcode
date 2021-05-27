@@ -49,33 +49,33 @@ public class Solution {
             return false;
         }
 
-        int[][] memo = new int[nums.length][nums.length];
+        int[][] dp = new int[nums.length][nums.length];
         for (int i = 0; i < nums.length; i++) {
-            Arrays.fill(memo[i], Integer.MIN_VALUE);
+            Arrays.fill(dp[i], Integer.MIN_VALUE);
         }
 
         int beginIndex = 0;
         int endIndex = nums.length - 1;
 
-        return predictTheWinner(nums, beginIndex, endIndex, memo) >= 0;
+        return predictTheWinner(nums, beginIndex, endIndex, dp) >= 0;
     }
 
-    private int predictTheWinner(int[] nums, int beginIndex, int endIndex, int[][] memo) {
+    private int predictTheWinner(int[] nums, int beginIndex, int endIndex, int[][] dp) {
         if (beginIndex == endIndex) {
             return nums[beginIndex];
         }
 
-        if (memo[beginIndex][endIndex] != Integer.MIN_VALUE) {
-            return memo[beginIndex][endIndex];
+        if (dp[beginIndex][endIndex] != Integer.MIN_VALUE) {
+            return dp[beginIndex][endIndex];
         }
 
-        int leftOpponentsScore = predictTheWinner(nums, beginIndex + 1, endIndex, memo);
-        int rightOpponentsScore = predictTheWinner(nums, beginIndex, endIndex - 1, memo);
+        int leftOpponentsScore = predictTheWinner(nums, beginIndex + 1, endIndex, dp);
+        int rightOpponentsScore = predictTheWinner(nums, beginIndex, endIndex - 1, dp);
 
         int myScore = Math.max(nums[beginIndex] - leftOpponentsScore, nums[endIndex] - rightOpponentsScore);
-        memo[beginIndex][endIndex] = myScore;
+        dp[beginIndex][endIndex] = myScore;
 
-        return memo[beginIndex][endIndex];
+        return dp[beginIndex][endIndex];
     }
 }
 ```
@@ -94,23 +94,23 @@ class Solution {
     public boolean PredictTheWinner(int[] nums) {
         int n = nums.length;
 
-        // memo[i][j] means the maximum value the player can win at i, j interval.
-        int[][] memo = new int[n][n];
+        // dp[i][j] means the maximum value the player can win at i, j interval.
+        int[][] dp = new int[n][n];
 
         // Initialization: Only one value can choose from.
         for (int i = 0; i < n; i++) {
-            memo[i][i] = nums[i];
+            dp[i][i] = nums[i];
         }
 
         for (int interval = 2; interval <= n; interval++) {
             for (int i = 0; i < n - interval + 1; i++) {
                 int j = i + interval - 1;
                 // Player can choose either index i or index j.
-                memo[i][j] = Math.max(nums[i] - memo[i + 1][j], nums[j] - memo[i][j - 1]);
+                dp[i][j] = Math.max(nums[i] - dp[i + 1][j], nums[j] - dp[i][j - 1]);
             }
         }
 
-        return memo[0][n - 1] >= 0;
+        return dp[0][n - 1] >= 0;
     }
 }
 ```

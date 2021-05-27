@@ -40,17 +40,17 @@ Top Down DP
  * Complexity : Time: O(n^2) ; Space: O(n)
  */
 class Solution {
-    int[] memo;
+    int[] dp;
 
     public int numTrees(int n) {
-        memo = new int[n + 1];
-        memo[0] = 1;
+        dp = new int[n + 1];
+        dp[0] = 1;
         return numTreesUtil(n);
     }
 
     private int numTreesUtil(int n) {
-        if (memo[n] != 0) {
-            return memo[n];
+        if (dp[n] != 0) {
+            return dp[n];
         }
 
         int count = 0;
@@ -60,9 +60,9 @@ class Solution {
             count += left * right;
         }
 
-        memo[n] = count;
+        dp[n] = count;
 
-        return memo[n];
+        return dp[n];
     }
 }
 ```
@@ -79,17 +79,17 @@ Bottom Up DP
  */
 class Solution {
     public int numTrees(int n) {
-        int[] memo = new int[n + 1];
-        memo[0] = 1;
-        memo[1] = 1;
+        int[] dp = new int[n + 1];
+        dp[0] = 1;
+        dp[1] = 1;
 
         for (int numberOfNode = 2; numberOfNode <= n; numberOfNode++) {
             for (int rootIdx = 1; rootIdx <= numberOfNode; rootIdx++) {
-                memo[numberOfNode] += memo[rootIdx - 1] * memo[numberOfNode - rootIdx];
+                dp[numberOfNode] += dp[rootIdx - 1] * dp[numberOfNode - rootIdx];
             }
         }
 
-        return memo[n];
+        return dp[n];
     }
 }
 ```

@@ -17,7 +17,7 @@ class Solution {
         int m = matrix.length;
         int n = matrix[0].length;
 
-        int[][] memo = new int[m][n];
+        int[][] dp = new int[m][n];
 
         int maxSquareLen = 0;
 
@@ -25,11 +25,11 @@ class Solution {
             for (int col = 0; col < n; col++) {
                 if (matrix[row][col] == '1') {
                     if (row == 0 || col == 0) {
-                        memo[row][col] = 1;
+                        dp[row][col] = 1;
                     } else {
-                        memo[row][col] = 1 + Math.min(Math.min(memo[row - 1][col], memo[row][col - 1]), memo[row - 1][col - 1]);
+                        dp[row][col] = 1 + Math.min(Math.min(dp[row - 1][col], dp[row][col - 1]), dp[row - 1][col - 1]);
                     }
-                    maxSquareLen = Math.max(maxSquareLen, memo[row][col]);
+                    maxSquareLen = Math.max(maxSquareLen, dp[row][col]);
                 }
             }
         }

@@ -2,7 +2,7 @@
 
 ## Solution 1
 
-Temporary Memory
+Temporary dpry
 
 ```java
 /**

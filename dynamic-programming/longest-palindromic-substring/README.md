@@ -65,7 +65,7 @@ class Solution {
 
         int n = s.length();
 
-        boolean[][] memo = new boolean[n][n];
+        boolean[][] dp = new boolean[n][n];
         int maxLength = 1;
         int beginIndex = 0;
 
@@ -74,18 +74,18 @@ class Solution {
                 int j = i + len - 1;
 
                 if (len == 1) {
-                    memo[i][j] = true;
+                    dp[i][j] = true;
                 } else if (len == 2) {
                     if (s.charAt(i) == s.charAt(j)) {
                         maxLength = 2;
                         beginIndex = i;
-                        memo[i][j] = true;
+                        dp[i][j] = true;
                     }
                 } else {
-                    if (s.charAt(i) == s.charAt(j) && memo[i + 1][j - 1]) {
+                    if (s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1]) {
                         maxLength = len;
                         beginIndex = i;
-                        memo[i][j] = true;
+                        dp[i][j] = true;
                     }
                 }
             }

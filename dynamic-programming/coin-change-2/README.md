@@ -49,19 +49,19 @@ class Solution {
             return 0;
         }
 
-        int[] memo = new int[amount + 1];
-        memo[0] = 1;
+        int[] dp = new int[amount + 1];
+        dp[0] = 1;
 
         // For each iteration, use the same coin to make up different amounts.
         for (int i = 0; i < coins.length; i++) {
             for (int currAmount = 1; currAmount <= amount; currAmount++) {
                 if (currAmount >= coins[i]) {
-                    memo[currAmount] += memo[currAmount - coins[i]];
+                    dp[currAmount] += dp[currAmount - coins[i]];
                 }
             }
         }
 
-        return memo[amount];
+        return dp[amount];
     }
 }
 ```

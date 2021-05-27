@@ -71,15 +71,15 @@ import java.util.*;
  * Topics     : DP
  */
 class Solution {
-    boolean[][] memo;
+    boolean[][] dp;
 
     public List<List<String>> partition(String s) {
         if (s == null || s.length() == 0) {
             return new ArrayList<>();
         }
 
-        memo = new boolean[s.length()][s.length()];
-        checkPalindrome(s, memo);
+        dp = new boolean[s.length()][s.length()];
+        checkPalindrome(s, dp);
 
         List<List<String>> res = new ArrayList<>();
         List<String> list = new ArrayList<>();
@@ -97,7 +97,7 @@ class Solution {
         }
 
         for (int endIndex = beginIndex + 1; endIndex <= s.length(); endIndex++) { // O(n)
-            if (memo[beginIndex][endIndex - 1]) { // O(1)
+            if (dp[beginIndex][endIndex - 1]) { // O(1)
                 list.add(s.substring(beginIndex, endIndex));
                 partitionUtil(s, endIndex, list, res);
                 list.remove(list.size() - 1);
@@ -105,7 +105,7 @@ class Solution {
         }
     }
 
-    public void checkPalindrome(String s, boolean[][] memo) {
+    public void checkPalindrome(String s, boolean[][] dp) {
         if (s == null || s.length() == 0) {
             return;
         }
@@ -117,14 +117,14 @@ class Solution {
                 int j = i + len - 1;
 
                 if (len == 1) {
-                    memo[i][j] = true;
+                    dp[i][j] = true;
                 } else if (len == 2) {
                     if (s.charAt(i) == s.charAt(j)) {
-                        memo[i][j] = true;
+                        dp[i][j] = true;
                     }
                 } else { // len >= 3
-                    if (s.charAt(i) == s.charAt(j) && memo[i + 1][j - 1]) {
-                        memo[i][j] = true;
+                    if (s.charAt(i) == s.charAt(j) && dp[i + 1][j - 1]) {
+                        dp[i][j] = true;
                     }
                 }
             }

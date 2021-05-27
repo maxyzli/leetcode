@@ -80,31 +80,31 @@ class Solution {
 
         int n = s.length();
 
-        int[][] memo = new int[n][n];
+        int[][] dp = new int[n][n];
 
         for (int len = 1; len <= n; len++) {
             for (int i = 0; i < n - len + 1; i++) {
                 int j = i + len - 1;
 
                 if (len == 1) {
-                    memo[i][j] = 1;
+                    dp[i][j] = 1;
                 } else if (len == 2) {
                     if (s.charAt(i) == s.charAt(j)) {
-                        memo[i][j] = 2;
+                        dp[i][j] = 2;
                     } else {
-                        memo[i][j] = 1;
+                        dp[i][j] = 1;
                     }
                 } else {
                     if (s.charAt(i) == s.charAt(j)) {
-                       memo[i][j] = 2 + memo[i + 1][j - 1];
+                       dp[i][j] = 2 + dp[i + 1][j - 1];
                     } else {
-                        memo[i][j] = Math.max(memo[i + 1][j], memo[i][j - 1]);
+                        dp[i][j] = Math.max(dp[i + 1][j], dp[i][j - 1]);
                     }
                 }
             }
         }
 
-        return memo[0][n - 1];
+        return dp[0][n - 1];
     }
 }
 ```
@@ -127,11 +127,11 @@ public class Solution {
 
         int n = s.length();
 
-        int[][] memo = new int[n][n];
+        int[][] dp = new int[n][n];
 
         // Initialization.
         for (int i = 0; i < n; i++) {
-            memo[i][i] = 1;
+            dp[i][i] = 1;
         }
 
         // Check length >= 2.
@@ -139,14 +139,14 @@ public class Solution {
         for (int i = s.length() - 1; i >= 0; i--) {
             for (int j = i + 1; j < s.length(); j++) {
                 if (s.charAt(i) == s.charAt(j)) {
-                    memo[i][j] = 2 + memo[i + 1][j - 1];
+                    dp[i][j] = 2 + dp[i + 1][j - 1];
                 } else {
-                    memo[i][j] = Math.max(memo[i + 1][j], memo[i][j - 1]);
+                    dp[i][j] = Math.max(dp[i + 1][j], dp[i][j - 1]);
                 }
             }
         }
 
-        return memo[0][n - 1];
+        return dp[0][n - 1];
     }
 }
 ```

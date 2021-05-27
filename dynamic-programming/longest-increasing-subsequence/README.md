@@ -57,16 +57,16 @@ public class Solution {
             return 0;
         }
 
-        int[] memo = new int[nums.length];
-        Arrays.fill(memo, 1);
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp, 1);
 
         int longest = 1;
 
         for (int j = 1; j < nums.length; j++) {
             for (int i = 0; i < j; i++) {
                 if (nums[i] < nums[j]) {
-                    memo[j] = Math.max(memo[j], memo[i] + 1);
-                    longest = Math.max(longest, memo[j]);
+                    dp[j] = Math.max(dp[j], dp[i] + 1);
+                    longest = Math.max(longest, dp[j]);
                 }
             }
         }
@@ -94,8 +94,8 @@ class Solution {
 
         int n = nums.length;
 
-        int[] memo = new int[n];
-        Arrays.fill(memo, 1);
+        int[] dp = new int[n];
+        Arrays.fill(dp, 1);
 
         int longest = 1;
 
@@ -105,8 +105,8 @@ class Solution {
         for (int i = n - 2; i >= 0; i--) {
             for (int j = n - 1; j > i; j--) {
                 if (nums[i] < nums[j]) {
-                    memo[i] = Math.max(memo[i], 1 + memo[j]);
-                    longest = Math.max(longest, memo[i]);
+                    dp[i] = Math.max(dp[i], 1 + dp[j]);
+                    longest = Math.max(longest, dp[i]);
                 }
             }
         }

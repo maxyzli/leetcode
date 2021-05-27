@@ -48,8 +48,8 @@ class Solution {
     public int numRollsToTarget(int d, int f, int target) {
         int mod = (int)Math.pow(10, 9) + 7;
 
-        int[][] memo = new int[d + 1][target + 1];
-        memo[0][0] = 1;
+        int[][] dp = new int[d + 1][target + 1];
+        dp[0][0] = 1;
 
         // i is number of dice
         for (int i = 1; i <= d; i++) {
@@ -58,13 +58,13 @@ class Solution {
                 // val is the number we throw.
                 for (int val = 1; val <= f; val++) {
                     if (j >= val) {
-                        memo[i][j] = (memo[i][j] + memo[i - 1][j - val]) % mod;
+                        dp[i][j] = (dp[i][j] + dp[i - 1][j - val]) % mod;
                     }
                 }
             }
         }
 
-        return memo[d][target];
+        return dp[d][target];
     }
 }
 ```

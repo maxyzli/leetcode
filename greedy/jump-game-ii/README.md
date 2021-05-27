@@ -77,7 +77,7 @@ class Solution {
 
 ## Solution 3
 
-DFS + Memoization (Top-Down DP)
+DFS + dpization (Top-Down DP)
 
 ```java
 /**
@@ -91,16 +91,16 @@ class Solution {
             return 0;
         }
         
-        int[] memo = new int[nums.length];
-        Arrays.fill(memo, Integer.MAX_VALUE);
-        memo[nums.length - 1] = 0;
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp, Integer.MAX_VALUE);
+        dp[nums.length - 1] = 0;
         
-        dfs(nums, 0, memo);
+        dfs(nums, 0, dp);
         
-        return memo[0];
+        return dp[0];
     }
 
-    private int dfs(int[] nums, int beginIndex, int[] memo) {
+    private int dfs(int[] nums, int beginIndex, int[] dp) {
         if (beginIndex == nums.length - 1) {
             return 0;
         }
@@ -108,28 +108,28 @@ class Solution {
             return Integer.MAX_VALUE;
         }
 
-        if (memo[beginIndex] != Integer.MAX_VALUE) {
-            return memo[beginIndex];
+        if (dp[beginIndex] != Integer.MAX_VALUE) {
+            return dp[beginIndex];
         }
 
         int min = Integer.MAX_VALUE;
         for (int distance = 1; distance <= nums[beginIndex]; distance++) {
-            int numberOfJumps = dfs(nums, beginIndex + distance, memo);
+            int numberOfJumps = dfs(nums, beginIndex + distance, dp);
             if (numberOfJumps != Integer.MAX_VALUE) {
                 min = Math.min(min, 1 + numberOfJumps);
             }
         }
 
-        memo[beginIndex] = min;
+        dp[beginIndex] = min;
 
-        return memo[beginIndex];
+        return dp[beginIndex];
     }
 }
 ```
 
 ## Solution 4
 
-Iteration + Memoization (Bottom-Up DP)
+Iteration + dpization (Bottom-Up DP)
 
 ```java
 /**
@@ -143,20 +143,20 @@ class Solution {
             return 0;
         }
 
-        int[] memo = new int[nums.length];
-        Arrays.fill(memo, Integer.MAX_VALUE);
-        memo[0] = 0;
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp, Integer.MAX_VALUE);
+        dp[0] = 0;
 
         for (int i = 1; i < nums.length; i++) {
             for (int j = 0; j < i; j++) {
                 // Check if we can jump from j to i.
                 if (j + nums[j] >= i) {
-                    memo[i] = Math.min(memo[i], 1 + memo[j]);
+                    dp[i] = Math.min(dp[i], 1 + dp[j]);
                 }
             }
         }
 
-        return memo[nums.length - 1];
+        return dp[nums.length - 1];
     }
 }
 ```

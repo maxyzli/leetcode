@@ -79,12 +79,12 @@ Top-Down DP
  * Topics     : DP
  */
 class Solution {
-    int[] memo;
+    int[] dp;
 
     public int climbStairs(int n) {
-        memo = new int[n];
+        dp = new int[n];
         dfs(n, 0);
-        return memo[0];
+        return dp[0];
     }
 
     private int dfs(int n, int level) {
@@ -95,8 +95,8 @@ class Solution {
             return 1;
         }
 
-        if (memo[level] != 0) {
-            return memo[level];
+        if (dp[level] != 0) {
+            return dp[level];
         }
 
         int count = 0;
@@ -104,9 +104,9 @@ class Solution {
             count += dfs(n, level + step);
         }
 
-        memo[level] = count;
+        dp[level] = count;
 
-        return memo[level];
+        return dp[level];
     }
 }
 ```
@@ -123,15 +123,15 @@ Bottom-Up DP
  */
 class Solution {
     public int climbStairs(int n) {
-        int[] memo = new int[n + 1];
-        memo[0] = 1;
-        memo[1] = 1;
+        int[] dp = new int[n + 1];
+        dp[0] = 1;
+        dp[1] = 1;
 
         for (int floor = 2; floor <= n; floor++) {
-            memo[floor] = memo[floor - 1] + memo[floor - 2];
+            dp[floor] = dp[floor - 1] + dp[floor - 2];
         }
 
-        return memo[n];
+        return dp[n];
     }
 }
 ```

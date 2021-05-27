@@ -97,11 +97,11 @@ Top-Down DP
 class Solution {
     private int min = Integer.MAX_VALUE;
     private final int[][] dirs = new int[][]{{1, 0}, {0, 1}};
-    // Memorization.
-    int[][] memo;
+    // dprization.
+    int[][] dp;
 
     public int minPathSum(int[][] grid) {
-        memo = new int[grid.length][grid[0].length];
+        dp = new int[grid.length][grid[0].length];
         return dfs(grid, 0, 0);
     }
 
@@ -110,8 +110,8 @@ class Solution {
             return grid[row][col];
         }
 
-        if (memo[row][col] != 0) {
-            return memo[row][col];
+        if (dp[row][col] != 0) {
+            return dp[row][col];
         }
 
         // Think like a tree.
@@ -126,9 +126,9 @@ class Solution {
             }
         }
         
-        memo[row][col] = min;
+        dp[row][col] = min;
 
-        return memo[row][col];
+        return dp[row][col];
     }
 }
 ```
@@ -137,7 +137,7 @@ class Solution {
 
 Bottom-Up DP
 
-`memo[i][j]`: represent the minimum path sum to destination.
+`dp[i][j]`: represent the minimum path sum to destination.
 
 ```java
 /**
@@ -150,24 +150,24 @@ class Solution {
         int m = grid.length;
         int n = grid[0].length;
 
-        int[][] memo = new int[m][n];
-        memo[m - 1][n - 1] = grid[m - 1][n - 1];
+        int[][] dp = new int[m][n];
+        dp[m - 1][n - 1] = grid[m - 1][n - 1];
 
         // Initialization.
         for (int j = n - 2; j >= 0; j--) {
-            memo[m - 1][j] += grid[m - 1][j] + memo[m - 1][j + 1];
+            dp[m - 1][j] += grid[m - 1][j] + dp[m - 1][j + 1];
         }
         for (int i = m - 2; i >= 0; i--) {
-            memo[i][n - 1] += grid[i][n - 1] + memo[i + 1][n - 1];
+            dp[i][n - 1] += grid[i][n - 1] + dp[i + 1][n - 1];
         }
 
         for (int i = m - 2; i >= 0; i--) {
             for (int j = n - 2; j >= 0; j--) {
-                memo[i][j] = grid[i][j] + Math.min(memo[i + 1][j], memo[i][j + 1]);
+                dp[i][j] = grid[i][j] + Math.min(dp[i + 1][j], dp[i][j + 1]);
             }
         }
 
-        return memo[0][0];
+        return dp[0][0];
     }
 }
 ```
@@ -176,7 +176,7 @@ class Solution {
 
 Bottom-Up DP
 
-`memo[i][j]`: represent the minimum path sum to grid (i, j).
+`dp[i][j]`: represent the minimum path sum to grid (i, j).
 
 ```java
 /**
@@ -189,25 +189,25 @@ class Solution {
         int m = grid.length;
         int n = grid[0].length;
 
-        int[][] memo = new int[m][n];
-        memo[0][0] = grid[0][0];
+        int[][] dp = new int[m][n];
+        dp[0][0] = grid[0][0];
 
         // Calculate first column.
         for (int i = 1; i < m; i++) {
-            memo[i][0] = memo[i - 1][0] + grid[i][0];
+            dp[i][0] = dp[i - 1][0] + grid[i][0];
         }
         // Calculate first row.
         for (int j = 1; j < n; j++) {
-            memo[0][j] = memo[0][j - 1] + grid[0][j];
+            dp[0][j] = dp[0][j - 1] + grid[0][j];
         }
 
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
-                memo[i][j] = grid[i][j] + Math.min(memo[i - 1][j], memo[i][j - 1]);
+                dp[i][j] = grid[i][j] + Math.min(dp[i - 1][j], dp[i][j - 1]);
             }
         }
 
-        return memo[m - 1][n - 1];
+        return dp[m - 1][n - 1];
     }
 }
 ```
@@ -216,7 +216,7 @@ class Solution {
 
 Bottom-Up DP (State Compression)
 
-`memo[i][j]`: represent the minimum path sum to grid (i, j).
+`dp[i][j]`: represent the minimum path sum to grid (i, j).
 
 ```java
 /**
@@ -229,22 +229,22 @@ class Solution {
         int m = grid.length;
         int n = grid[0].length;
 
-        int[] memo = new int[n];
-        memo[0] = grid[0][0];
+        int[] dp = new int[n];
+        dp[0] = grid[0][0];
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (i == 0 && j != 0) {
-                    memo[j] = grid[i][j] + memo[j - 1];
+                    dp[j] = grid[i][j] + dp[j - 1];
                 } else if (i != 0 && j == 0) {
-                    memo[j] = grid[i][j] + memo[j];
+                    dp[j] = grid[i][j] + dp[j];
                 } else if (i != 0 && j != 0) {
-                    memo[j] = grid[i][j] + Math.min(memo[j], memo[j - 1]);
+                    dp[j] = grid[i][j] + Math.min(dp[j], dp[j - 1]);
                 }
             }
         }
 
-        return memo[n - 1];
+        return dp[n - 1];
     }
 }
 ```

@@ -82,16 +82,16 @@ Top-Down DP
  * Complexity : Time: O(n*amount) ; Space: O(amount)
  */
 class Solution {
-    int[] memo;
+    int[] dp;
 
     public int coinChange(int[] coins, int amount) {
         if (coins == null || coins.length == 0 || amount == 0) {
             return 0;
         }
-        memo = new int[amount + 1];
-        Arrays.fill(memo, Integer.MAX_VALUE);
+        dp = new int[amount + 1];
+        Arrays.fill(dp, Integer.MAX_VALUE);
         coinChangeUtil(coins, amount);
-        return memo[amount];
+        return dp[amount];
     }
 
     public int coinChangeUtil(int[] coins, int amount) {
@@ -99,8 +99,8 @@ class Solution {
             return 0;
         }
 
-        if (memo[amount] != Integer.MAX_VALUE) {
-            return memo[amount];
+        if (dp[amount] != Integer.MAX_VALUE) {
+            return dp[amount];
         }
 
         int min = Integer.MAX_VALUE;
@@ -114,9 +114,9 @@ class Solution {
             }
         }
 
-        memo[amount] = (min == Integer.MAX_VALUE ? -1 : min);
+        dp[amount] = (min == Integer.MAX_VALUE ? -1 : min);
 
-        return memo[amount];
+        return dp[amount];
     }
 }
 ```
@@ -139,24 +139,24 @@ class Solution {
             return 0;
         }
 
-        int[] memo = new int[amount + 1];
-        Arrays.fill(memo, Integer.MAX_VALUE);
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, Integer.MAX_VALUE);
 
-        memo[0] = 0;
+        dp[0] = 0;
 
         // For each iteration, use the same coin to make up different amounts.
         for (int i = 0; i < coins.length; i++) {
             for (int currAmount = 1; currAmount <= amount; currAmount++) {
                 if (currAmount >= coins[i]) {
-                    if (memo[currAmount - coins[i]] == Integer.MAX_VALUE) {
+                    if (dp[currAmount - coins[i]] == Integer.MAX_VALUE) {
                         continue;
                     }
-                    memo[currAmount] = Math.min(memo[currAmount], memo[currAmount - coins[i]] + 1);
+                    dp[currAmount] = Math.min(dp[currAmount], dp[currAmount - coins[i]] + 1);
                 }
             }
         }
 
-        return memo[amount] == Integer.MAX_VALUE ? -1 : memo[amount];
+        return dp[amount] == Integer.MAX_VALUE ? -1 : dp[amount];
     }
 }
 ```
@@ -177,19 +177,19 @@ class Solution {
             return 0;
         }
 
-        int[] memo = new int[amount + 1];
-        Arrays.fill(memo, Integer.MAX_VALUE);
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, Integer.MAX_VALUE);
 
-        memo[0] = 0;
+        dp[0] = 0;
 
         // For each iteration, we use the same amount and try to make up by different coins.
         for (int currAmount = 1; currAmount <= amount; currAmount++) {
             for (int i = 0; i < coins.length; i++) {
                 if (currAmount >= coins[i]) {
-                    if (memo[currAmount - coins[i]] == Integer.MAX_VALUE) {
+                    if (dp[currAmount - coins[i]] == Integer.MAX_VALUE) {
                         continue;
                     }
-                    memo[currAmount] = Math.min(memo[currAmount], memo[currAmount - coins[i]] + 1);
+                    dp[currAmount] = Math.min(dp[currAmount], dp[currAmount - coins[i]] + 1);
                 }
             }
         }
@@ -198,7 +198,7 @@ class Solution {
         // example: coins [1,2], amount 3
         // will generate: [1,2], [2,1] which are duplicates.
 
-        return memo[amount] == Integer.MAX_VALUE ? -1 : memo[amount];
+        return dp[amount] == Integer.MAX_VALUE ? -1 : dp[amount];
     }
 }
 ```

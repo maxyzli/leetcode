@@ -10,7 +10,7 @@
  */
 public class Solution {
     public int minDistance(String word1, String word2) {
-        int[][] memo = new int[word1.length() + 1][word2.length() + 1];
+        int[][] dp = new int[word1.length() + 1][word2.length() + 1];
 
         // Note: We try to transform word1 to word2.
 
@@ -24,26 +24,26 @@ public class Solution {
                 // Initialization: One of the word is empty.
                 if (i == 0 || j == 0) {
                     if (i == 0) {
-                        memo[i][j] = 1 + memo[i][j - 1]; // all insert.
+                        dp[i][j] = 1 + dp[i][j - 1]; // all insert.
                     }
                     if (j == 0) {
-                        memo[i][j] = 1 + memo[i - 1][j]; // all delete.
+                        dp[i][j] = 1 + dp[i - 1][j]; // all delete.
                     }
                     continue;
                 }
 
                 if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
-                    memo[i][j] = memo[i - 1][j - 1];
+                    dp[i][j] = dp[i - 1][j - 1];
                 } else {
-                    int insertChar = 1 + memo[i - 1][j];
-                    int deleteChar = 1 + memo[i][j - 1];
-                    int replaceChar = 1 + memo[i - 1][j - 1];
-                    memo[i][j] = Math.min(Math.min(insertChar, deleteChar), replaceChar);
+                    int insertChar = 1 + dp[i - 1][j];
+                    int deleteChar = 1 + dp[i][j - 1];
+                    int replaceChar = 1 + dp[i - 1][j - 1];
+                    dp[i][j] = Math.min(Math.min(insertChar, deleteChar), replaceChar);
                 }
             }
         }
 
-        return memo[word1.length()][word2.length()];
+        return dp[word1.length()][word2.length()];
     }
 
     // right: insert

@@ -20,19 +20,19 @@ class Solution {
 
         int n = nums.length;
 
-        int[] memo = new int[n];
+        int[] dp = new int[n];
 
         for (int i = 0; i < n; i++) {
-            memo[i] = 1;
+            dp[i] = 1;
         }
 
         int maxLen = 1;
         // Longest Increasing Subsequence
-        for (int j = 1; j < memo.length; j++) {
+        for (int j = 1; j < dp.length; j++) {
             for (int i = 0; i < j; i++) {
                 if (nums[j] % nums[i] == 0) {
-                    memo[j] = Math.max(memo[j], memo[i] + 1);
-                    maxLen = Math.max(maxLen, memo[j]);
+                    dp[j] = Math.max(dp[j], dp[i] + 1);
+                    maxLen = Math.max(maxLen, dp[j]);
                 }
             }
         }
@@ -42,7 +42,7 @@ class Solution {
         int len = maxLen;
         int prev = -1;
         for (int i = n - 1; i >= 0; i--) {
-            if (memo[i] == len && (prev == -1 || prev % nums[i] == 0)) {
+            if (dp[i] == len && (prev == -1 || prev % nums[i] == 0)) {
                 list.add(nums[i]);
                 prev = nums[i];
                 len--;

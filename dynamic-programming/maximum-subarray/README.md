@@ -87,7 +87,7 @@ Top-Down DP
  * Complexity : Time: O(n) ; Space: O(n)
  */
 public class Solution {
-    int[] memo;
+    int[] dp;
 
     public int maxSubArray(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -96,9 +96,9 @@ public class Solution {
 
         int n = nums.length;
 
-				// memo[i]: Max sub-array consider number at i index.
-        memo = new int[n];
-        Arrays.fill(memo, Integer.MIN_VALUE);
+				// dp[i]: Max sub-array consider number at i index.
+        dp = new int[n];
+        Arrays.fill(dp, Integer.MIN_VALUE);
 
         Integer max = Integer.MIN_VALUE;
         for (int i = 0; i < n; i++) {
@@ -113,8 +113,8 @@ public class Solution {
             return nums[i];
         }
 
-        if (memo[i] != Integer.MIN_VALUE) {
-            return memo[i];
+        if (dp[i] != Integer.MIN_VALUE) {
+            return dp[i];
         }
 
         int maxSum = nums[i];
@@ -123,9 +123,9 @@ public class Solution {
 
         maxSum = Math.max(maxSum, subMaxSum + maxSum);
 
-        memo[i] = maxSum;
+        dp[i] = maxSum;
 
-        return memo[i];
+        return dp[i];
     }
 }
 ```
@@ -146,16 +146,16 @@ public class Solution {
             return Integer.MIN_VALUE;
         }
 
-        int[] memo = new int[arr.length];
+        int[] dp = new int[arr.length];
 
-        memo[0] = arr[0];
+        dp[0] = arr[0];
 
-        int max = memo[0];
+        int max = dp[0];
 
         for (int i = 1; i < arr.length; i++) {
             // We either continue the sub-array or start a new one.
-            memo[i] = Math.max(memo[i - 1] + arr[i], arr[i]);
-            max = Math.max(max, memo[i]);
+            dp[i] = Math.max(dp[i - 1] + arr[i], arr[i]);
+            max = Math.max(max, dp[i]);
         }
 
         return max;
@@ -165,7 +165,7 @@ public class Solution {
 
 ## Solution 5
 
-Two Dimensional Array (Memory Limit Exceeded)
+Two Dimensional Array (dpry Limit Exceeded)
 
 ```java
 /**
@@ -181,7 +181,7 @@ public class Solution {
 
         int n = nums.length;
 
-        int[][] memo = new int[n][n];
+        int[][] dp = new int[n][n];
 
         int maxSum = Integer.MIN_VALUE;
 
@@ -190,14 +190,14 @@ public class Solution {
                 int j = i + len - 1;
 
                 if (i == j) { // len == 1
-                    memo[i][j] = nums[i];
+                    dp[i][j] = nums[i];
                 } else if (i == j + 1) { // len == 2
-                    memo[i][j] = nums[i] + nums[j];
+                    dp[i][j] = nums[i] + nums[j];
                 } else { // len >= 3
-                    memo[i][j] = nums[i] + nums[j] + memo[i + 1][j - 1];
+                    dp[i][j] = nums[i] + nums[j] + dp[i + 1][j - 1];
                 }
 
-                maxSum = Math.max(maxSum, memo[i][j]);
+                maxSum = Math.max(maxSum, dp[i][j]);
             }
         }
 

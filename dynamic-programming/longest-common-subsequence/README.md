@@ -74,29 +74,29 @@ Top-down DP
  */
 public class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
-        Integer[][] memorize = new Integer[text1.length() + 1][text2.length() + 1];
-        return longestCommonSubsequence(text1, 0, text2, 0, memorize);
+        Integer[][] dprize = new Integer[text1.length() + 1][text2.length() + 1];
+        return longestCommonSubsequence(text1, 0, text2, 0, dprize);
     }
 
-    private int longestCommonSubsequence(String text1, int i, String text2, int j, Integer[][] memorize) {
+    private int longestCommonSubsequence(String text1, int i, String text2, int j, Integer[][] dprize) {
         if (i >= text1.length() || j >= text2.length()) {
             return 0;
         }
 
-        if (memorize[i][j] != null) {
-            return memorize[i][j];
+        if (dprize[i][j] != null) {
+            return dprize[i][j];
         }
 
         if (text1.charAt(i) == text2.charAt(j)) {
-            memorize[i][j] = 1 + longestCommonSubsequence(text1, i + 1, text2, j + 1, memorize);
+            dprize[i][j] = 1 + longestCommonSubsequence(text1, i + 1, text2, j + 1, dprize);
         } else {
-            memorize[i][j] = Math.max(
-                    longestCommonSubsequence(text1, i + 1, text2, j, memorize),
-                    longestCommonSubsequence(text1, i, text2, j + 1, memorize)
+            dprize[i][j] = Math.max(
+                    longestCommonSubsequence(text1, i + 1, text2, j, dprize),
+                    longestCommonSubsequence(text1, i, text2, j + 1, dprize)
             );
         }
 
-        return memorize[i][j];
+        return dprize[i][j];
     }
 }
 ```
@@ -117,19 +117,19 @@ class Solution {
             return 0;
         }
 
-        int[][] memo = new int[text1.length() + 1][text2.length() + 1];
+        int[][] dp = new int[text1.length() + 1][text2.length() + 1];
 
         for (int i = 1; i <= text1.length(); i++) {
             for (int j = 1; j <= text2.length(); j++) {
                 if (text1.charAt(i - 1) == text2.charAt(j - 1)) {
-                    memo[i][j] = 1 + memo[i - 1][j - 1];
+                    dp[i][j] = 1 + dp[i - 1][j - 1];
                 } else {
-                    memo[i][j] = Math.max(memo[i - 1][j], memo[i][j - 1]);
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
                 }
             }
         }
 
-        return memo[text1.length()][text2.length()];
+        return dp[text1.length()][text2.length()];
     }
 }
 ```
