@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-207-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-208-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -355,6 +355,7 @@ LeetCode Solution in Java
 |486|[Predict the Winner (Classic)](https://leetcode.com/problems/predict-the-winner/)|[Java](dynamic-programming/predict-the-winner/README.md)|Medium|
 |516|[Longest Palindromic Subsequence (Classic)](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Java](dynamic-programming/longest-palindromic-subsequence/README.md)|Medium|
 |518|[Coin Change 2 (Classic)](https://leetcode.com/problems/coin-change-2/)|[Java](dynamic-programming/coin-change-2/README.md)|Medium|
+|646|[Maximum Length of Pair Chain](https://leetcode.com/problems/maximum-length-of-pair-chain/)|[Java](dynamic-programming/maximum-length-of-pair-chain/README.md)|Medium|
 |647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Java](dynamic-programming/palindromic-substrings/README.md)|Medium|
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Java](dynamic-programming/min-cost-climbing-stairs/README.md)|Medium|
 |1143|[Longest Common Subsequence (Classic)](https://leetcode.com/problems/longest-common-subsequence/)|[Java](dynamic-programming/longest-common-subsequence/README.md)|Medium|
