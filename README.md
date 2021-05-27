@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-208-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-209-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -343,6 +343,7 @@ LeetCode Solution in Java
 |64|[Minimum Path Sum (Classic)](https://leetcode.com/problems/minimum-path-sum/)|[Java](dynamic-programming/minimum-path-sum/README.md)|Medium|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[Java](dynamic-programming/climbing-stairs/README.md)|Easy|
 |72|[Edit Distance (Classic)](https://leetcode.com/problems/edit-distance/)|[Java](dynamic-programming/edit-distance/README.md)|Hard|
+|85|[Maximal Rectangle (Classic)](https://leetcode.com/problems/maximal-rectangle/)|[Java](dynamic-programming/maximal-rectangle/README.md)|Hard|
 |96|[Unique Binary Search Trees (Classic)](https://leetcode.com/problems/unique-binary-search-trees/)|[Java](tree/unique-binary-search-trees/README.md)|Medium|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](array-string/distinct-subsequences/README.md)|Hard|
 |131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Java](dynamic-programming/palindrome-partitioning/README.md)|Medium|
