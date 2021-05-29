@@ -8,7 +8,7 @@ Heap
 /**
  * Question   : 703. Kth Largest Element in a Stream
  * Complexity : Time: O(nlog(k)) ; Space: O(1)
- * Topics     : array
+ * Topics     : Heap
  */
 class KthLargest {
     PriorityQueue<Integer> pq;
@@ -23,14 +23,8 @@ class KthLargest {
     }
 
     public int add(int val) {
-        if (pq.size() < this.k) {
-            pq.add(val);
-        } else {
-            if (val > pq.peek()) {
-                pq.remove();
-                pq.add(val);
-            }
-        }
+        pq.add(val);
+        if (pq.)
         return pq.peek();
     }
 }
