@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-212-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-213-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -328,6 +328,7 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|4|[Median of Two Sorted Arrays (Classic)](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Java](divide-and-conquer/median-of-two-sorted-arrays/README.md)|Hard|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Java](divide-and-conquer/sqrtx/README.md)|Easy|
 |493|[Reverse Pairs (Classic)](https://leetcode.com/problems/reverse-pairs/)|[Java](divide-and-conquer/reverse-pairs/README.md)|Hard|
 |1539|[Kth Missing Positive Number (Classic)](https://leetcode.com/problems/kth-missing-positive-number/)|[Java](divide-and-conquer/kth-missing-positive-number/README.md)|Easy|
