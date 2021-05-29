@@ -8,7 +8,7 @@ Brute Force
 /**
  * Question   : 215. Kth Largest Element in an Array
  * Complexity : Time: O(nlog(n)) ; Space: O(n)
- * Topics     : array
+ * Topics     : Heap
  */
 class Solution {
 	public int findKthLargest(int[] nums, int k) {
@@ -25,8 +25,8 @@ Quick Select
 ```java
 /**
  * Question   : 215. Kth Largest Element in an Array
- * Complexity : Time: O(n^2) ; Space: O(1)
- * Topics     : array
+ * Complexity : Time: O(n) ; Space: O(1)
+ * Topics     : Heap
  */
 class Solution {
     public int findKthLargest(int[] nums, int k) {
@@ -37,8 +37,8 @@ class Solution {
     }
 
     private int quickSelect(int[] nums, int low, int high, int targetIndex) {
-        if (low == high) {
-            return nums[low];
+        if (low > high) {
+            return Integer.MIN_VALUE;
         }
 
         int pi = partition(nums, low, high);
@@ -58,12 +58,10 @@ class Solution {
         int i = low;
         int j = low;
 
-        while (j < high) {
+        for (; j < high; j++) {
             if (nums[j] < pivot) {
-                swap(nums, i, j);
-                i++;
+                swap(nums, i++, j);
             }
-            j++;
         }
         swap(nums, i, high);
 
@@ -86,7 +84,7 @@ Heap
 /**
  * Question   : 215. Kth Largest Element in an Array
  * Complexity : Time: O(nlog(k)) ; Space: O(1)
- * Topics     : array
+ * Topics     : Heap
  */
 class Solution {
     public int findKthLargest(int[] arr, int k) {
