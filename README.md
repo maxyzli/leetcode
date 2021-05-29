@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-211-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-212-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -273,6 +273,7 @@ LeetCode Solution in Java
 |295|[Find Median from Data Stream (Classic)](https://leetcode.com/problems/find-median-from-data-stream/)|[Java](heap/find-median-from-data-stream/README.md)|Hard|
 |347|[Top K Frequent Elements (Classic)](https://leetcode.com/problems/top-k-frequent-elements/)|[Java](heap/top-k-frequent-elements/README.md)|Medium|
 |703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/)|[Java](heap/kth-largest-element-in-a-stream/README.md)|Easy|
+|973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[Java](heap/k-closest-points-to-origin/README.md)|Medium|
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Java](heap/last-stone-weight/README.md)|Easy|
 
 <div>
