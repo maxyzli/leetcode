@@ -11,6 +11,7 @@ LeetCode Solution in Java
 - [Bit](#math)
 - [Array/String](#stringarray)
     - [Two Pointers](#two-pointers)
+    - [Sliding Window](#sliding-window)
     - [Matrix](#matrix)
 - [Linked List](#linked-list)
 - [Hash Table](#hash-table)
@@ -141,6 +142,16 @@ LeetCode Solution in Java
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](two-pointers/move-zeroes/README.md)|Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](two-pointers/reverse-string/README.md)|Easy|
 |1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Java](two-pointers/remove-vowels-from-a-string/README.md)|Easy|
+
+<div>
+  <b><a href="#topics">↥ Back To Top</a></b>
+</div>
+
+### Sliding Window
+
+| # | Title | Solution | Difficulty |
+|:-:|-|-|-|
+|643|[Maximum Average Subarray I]()|[Java]()|Easy|
 
 <div>
   <b><a href="#topics">↥ Back To Top</a></b>
