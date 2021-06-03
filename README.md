@@ -9,7 +9,7 @@ LeetCode Solution in Java
 
 - [Math](#math)
 - [Bit](#math)
-- [Array/String](#stringarray)
+- [Array/String](#arraystring)
     - [Two Pointers](#two-pointers)
     - [Sliding Window](#sliding-window)
     - [Matrix](#matrix)
