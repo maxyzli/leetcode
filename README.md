@@ -151,7 +151,7 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
-|643|[Maximum Average Subarray I]()|[Java]()|Easy|
+|643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[Java](sliding-window/maximum-average-subarray-i/README.md)|Easy|
 
 <div>
   <b><a href="#topics">↥ Back To Top</a></b>
