@@ -36,3 +36,36 @@ class Solution {
     }
 }
 ```
+
+## Solution 2
+
+Remember character index
+
+```java
+/**
+ * Question   : 3. Longest Substring Without Repeating Characters
+ * Complexity : Time: O(n) ; Space: O(1)
+ * Topics     : Sliding Window
+ */
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        Map<Character, Integer> window = new HashMap<>();
+
+        int left = 0;
+        int longest = 0;
+
+        for (int right = 0; right < s.length(); right++) {
+            Character c = s.charAt(right);
+
+            if (window.containsKey(c)) {
+                left = Math.max(left, window.get(c) + 1);
+            }
+
+            longest = Math.max(longest, right - left + 1);
+            window.put(c, right);
+        }
+
+        return longest;
+    }
+}
+```
