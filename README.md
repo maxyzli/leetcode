@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-218-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-219-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -105,6 +105,7 @@ LeetCode Solution in Java
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)|[Java](array-string/find-all-duplicates-in-an-array/README.md)|Medium|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Java](array-string/find-all-numbers-disappeared-in-an-array/README.md)|Easy|
 |459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Java](array-string/repeated-substring-pattern/README.md)|Easy|
+|485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Java](array-string/max-consecutive-ones/README.md)|Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)|[Java](array-string/fibonacci-number/README.md)|Easy|
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii/)|[Java](array-string/reverse-string-ii/README.md)|Easy|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Java](array-string/reverse-words-in-a-string-iii/README.md)|Easy|
