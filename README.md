@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-221-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-222-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -89,7 +89,7 @@ LeetCode Solution in Java
 |153|[Find Minimum in Rotated Sorted Array (Classic)](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Java](array-string/find-minimum-in-rotated-sorted-array/README.md)|Medium|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Java](array-string/find-minimum-in-rotated-sorted-array-ii/README.md)|Hard|
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Java](array-string/find-peak-element/README.md)|Medium|
-|163|[Missing Ranges](https://leetcode-cn.com/problems/missing-ranges/)|[Java](array-string/missing-ranges/README.md)|Easy|
+|163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/)|[Java](array-string/missing-ranges/README.md)|Easy|
 |164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/)|[Java](array-string/maximum-gap/README.md)|Hard|
 |165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Java](array-string/compare-version-numbers/README.md)|Medium|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Java](array-string/two-sum-ii-input-array-is-sorted/README.md)|Easy|
@@ -158,6 +158,7 @@ LeetCode Solution in Java
 |487|[Max Consecutive Ones II](https://leetcode.com/problems/max-consecutive-ones-ii/)|[Java](sliding-window/max-consecutive-ones-ii/README.md)|Medium|
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/)|[Java](sliding-window/maximum-average-subarray-i/README.md)|Easy|
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Java](sliding-window/max-consecutive-ones-iii/README.md)|Medium|
+|1151|[Minimum Swaps to Group All 1's Together (Classic)](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/)|[Java](sliding-window/minimum-swaps-to-group-all-1s-together/README.md)|Medium|
 
 <div>
   <b><a href="#topics">↥ Back To Top</a></b>
