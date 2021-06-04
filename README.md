@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-224-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-225-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -142,6 +142,7 @@ LeetCode Solution in Java
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Java](two-pointers/valid-palindrome/README.md)|Easy|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Java](two-pointers/move-zeroes/README.md)|Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Java](two-pointers/reverse-string/README.md)|Easy|
+|845|[Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/)|[Java]()|Medium|
 |1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Java](two-pointers/remove-vowels-from-a-string/README.md)|Easy|
 
 <div>
@@ -315,7 +316,7 @@ LeetCode Solution in Java
 |:-:|-|-|-|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](greedy/jump-game-ii/README.md)|Medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](greedy/jump-game/README.md)|Medium|
-|763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Java](sliding-window/partition-labels/README.md)||Medium|
+|763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Java](greedy/partition-labels/README.md)||Medium|
 
 <div>
   <b><a href="#topics">↥ Back To Top</a></b>
