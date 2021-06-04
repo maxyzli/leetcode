@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-223-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-224-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -315,6 +315,7 @@ LeetCode Solution in Java
 |:-:|-|-|-|
 |45|[Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Java](greedy/jump-game-ii/README.md)|Medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/)|[Java](greedy/jump-game/README.md)|Medium|
+|763|[Partition Labels](https://leetcode.com/problems/partition-labels/)|[Java](sliding-window/partition-labels/README.md)||Medium|
 
 <div>
   <b><a href="#topics">↥ Back To Top</a></b>
