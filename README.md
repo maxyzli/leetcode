@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-227-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-228-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -380,6 +380,7 @@ LeetCode Solution in Java
 |322|[Coin Change (Classic)](https://leetcode.com/problems/coin-change/)|[Java](dynamic-programming/coin-change/README.md)|Medium|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/)|[Java](dynamic-programming/integer-break/README.md)|Medium|
 |368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/)|[Java](dynamic-programming/largest-divisible-subset/README.md)|Medium|
+|377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)|[Java](dynamic-programming/combination-sum-iv/README.md)|Medium|
 |416|[Partition Equal Subset Sum (Classic)](https://leetcode.com/problems/partition-equal-subset-sum/)|[Java](dynamic-programming/partition-equal-subset-sum/README.md)|Medium|
 |486|[Predict the Winner (Classic)](https://leetcode.com/problems/predict-the-winner/)|[Java](dynamic-programming/predict-the-winner/README.md)|Medium|
 |516|[Longest Palindromic Subsequence (Classic)](https://leetcode.com/problems/longest-palindromic-subsequence/)|[Java](dynamic-programming/longest-palindromic-subsequence/README.md)|Medium|
