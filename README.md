@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-229-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-230-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -176,6 +176,7 @@ LeetCode Solution in Java
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)|[Java](matrix/spiral-matrix-ii/README.md)|Medium|
 |73|[Set Matrix Zeroes (Classic)](https://leetcode.com/problems/set-matrix-zeroes/)|[Java](matrix/set-matrix-zeroes/README.md)|Medium|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Java](matrix/search-a-2d-matrix/README.md)|Medium|
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Java](matrix/number-of-islands/README.md)|Medium|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](matrix/search-a-2d-matrix-ii/README.md)|Medium|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Java](matrix/diagonal-traverse/README.md)|Medium|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Java](matrix/transpose-matrix/README.md)|Easy|
