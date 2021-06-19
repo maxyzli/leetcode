@@ -1,6 +1,6 @@
 # Binary Tree Preorder Traversal
 
-# Solution 1
+## Solution 1
 
 Iteration
 
@@ -36,7 +36,7 @@ public class Solution {
 }
 ```
 
-# Solution 2
+## Solution 2
 
 Recustion
 

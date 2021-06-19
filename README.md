@@ -262,6 +262,7 @@ LeetCode Solution in Java
 
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
+|94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Java](tree/binary-tree-inorder-traversal/README.md)|Easy|
 |98|[Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)|[Java](tree/invert-binary-tree/README.md)|Medium|
 |100|[Same Tree](https://leetcode.com/problems/same-tree/)|[Java](tree/same-tree/README.md)|Easy|
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Java](tree/symmetric-tree/README.md)|Easy|
