@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-231-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-233-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java

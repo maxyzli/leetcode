@@ -7,6 +7,8 @@ Sliding Window
 Note: Do not compare two Integer types with `==`
 
 ```java
+import java.util.*;
+
 /**
  * Question   : 76. Minimum Window Substring
  * Complexity : Time: O(n) ; Space: O(n)
@@ -30,11 +32,9 @@ class Solution {
         while (right < s.length()) {
             char curr = s.charAt(right++);
 
-            if (need.containsKey(curr)) {
-                window.put(curr, window.getOrDefault(curr, 0) + 1);
-                if (window.get(curr).equals(need.get(curr))) {
-                    require--;
-                }
+            window.put(curr, window.getOrDefault(curr, 0) + 1);
+            if (window.get(curr).equals(need.get(curr))) {
+                require--;
             }
 
             while (require == 0) {
@@ -44,12 +44,10 @@ class Solution {
 
                 char charToRemove = s.charAt(left++);
 
-                if (need.containsKey(charToRemove)) {
-                    if (window.get(charToRemove).equals(need.get(charToRemove))) {
-                        require++;
-                    }
-                    window.put(charToRemove, window.get(charToRemove) - 1);
+                if (window.get(charToRemove).equals(need.get(charToRemove))) {
+                    require++;
                 }
+                window.put(charToRemove, window.get(charToRemove) - 1);
             }
         }
 
