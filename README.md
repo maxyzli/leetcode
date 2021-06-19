@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-236-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-237-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -284,6 +284,7 @@ LeetCode Solution in Java
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Java](tree/lowest-common-ancestor-of-a-binary-tree/README.md)|Medium|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Java](tree/binary-tree-paths/README.md)|Easy|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Java](tree/serialize-and-deserialize-binary-tree/README.md)|Hard|
+|404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](tree/sum-of-left-leaves/README.md)|Easy|
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](tree/diameter-of-binary-tree/README.md)|Easy|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](tree/two-sum-iv-input-is-a-bst/README.md)|Easy|
 
