@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-235-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-236-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -269,6 +269,7 @@ LeetCode Solution in Java
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Java](tree/binary-tree-level-order-traversal/README.md)|Medium|
 |104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Java](tree/maximum-depth-of-binary-tree/README.md)|Easy|
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Java](tree/binary-tree-level-order-traversal-ii/README.md)||Medium|
+|110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](tree/balanced-binary-tree/README.md)|Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](tree/minimum-depth-of-binary-tree/README.md)|Easy|
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](tree/path-sum/README.md)|Easy|
 |114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Java](tree/flatten-binary-tree-to-linked-list/README.md)|Medium|
