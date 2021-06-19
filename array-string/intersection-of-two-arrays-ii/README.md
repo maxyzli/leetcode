@@ -4,7 +4,7 @@
 
 Map
 
-```jsx
+```java
 /**
  * Question   : 350. Intersection of Two Arrays II
  * Complexity : Time: O(n) ; Space: O(n)
@@ -43,7 +43,7 @@ class Solution {
 
 Two Pointers
 
-```jsx
+```java
 /**
  * Question   : 350. Intersection of Two Arrays II
  * Complexity : Time: O(n) ; Space: O(n)

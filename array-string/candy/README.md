@@ -4,7 +4,7 @@
 
 Brute Force (Time Limit Exceeded)
 
-```jsx
+```java
 /**
  * Question   : Temple Offerings
  * Complexity : Time: O(n^2) ; Space: O(1)

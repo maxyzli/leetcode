@@ -2,7 +2,7 @@
 
 ## Solution 1
 
-```jsx
+```java
 /**
  * Question   : 19. Remove Nth Node From End of List
  * Complexity : Time: O(n) ; Space: O(1)

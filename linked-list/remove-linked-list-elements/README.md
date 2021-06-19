@@ -2,7 +2,7 @@
 
 ## Solution 1
 
-```jsx
+```java
 /**
  * Question   : 203. Remove Linked List Elements
  * Complexity : Time: O(n) ; Space: O(1)

@@ -4,7 +4,7 @@
 
 Iteration
 
-```jsx
+```java
 /**
  * Question   : 94. Binary Tree Inorder Traversal
  * Complexity : Time: O(n) ; Space: O(n)

@@ -66,7 +66,7 @@ class Solution {
 
 DP use length forward.
 
-```jsx
+```java
 /**
  * Question   : 516. Longest Palindromic Subsequence
  * Complexity : Time: O(n^2) ; Space: O(n^2)

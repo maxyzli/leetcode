@@ -2,7 +2,7 @@
 
 ## Solution 1
 
-```jsx
+```java
 /**
  * Question   : 113. Path Sum II
  * Complexity : Time: O(n) ; Space: O(n)

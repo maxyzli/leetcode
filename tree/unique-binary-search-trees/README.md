@@ -4,7 +4,7 @@
 
 Recursion (Time Limit Exceeded)
 
-```jsx
+```java
 /**
  * Question   : 96. Unique Binary Search Trees
  * Complexity : Time: O(exp) ; Space: O(n)
@@ -33,7 +33,7 @@ public class Solution {
 
 Top Down DP
 
-```jsx
+```java
 /**
  * Question   : 96. Unique Binary Search Trees
  * Topics     : Tree
@@ -71,7 +71,7 @@ class Solution {
 
 Bottom Up DP
 
-```jsx
+```java
 /**
  * Question   : 96. Unique Binary Search Trees
  * Topics     : Tree

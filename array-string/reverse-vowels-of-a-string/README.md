@@ -4,7 +4,7 @@
 
 Two Pointers
 
-```jsx
+```java
 /**
  * Question   : 345. Reverse Vowels of a String
  * Topics     : String

@@ -4,7 +4,7 @@
 
 Map
 
-```jsx
+```java
 /**
  * Question   : 82. Remove Duplicates from Sorted List II
  * Complexity : Time: O(n) ; Space: O(1)
@@ -47,7 +47,7 @@ class Solution {
 
 Two Pointers
 
-```jsx
+```java
 /**
  * Question   : 83. Remove Duplicates from Sorted List
  * Complexity : Time: O(n) ; Space: O(1)

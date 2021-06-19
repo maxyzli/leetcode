@@ -61,7 +61,7 @@ class Solution {
 
 Stack
 
-```jsx
+```java
 /**
  * Question   : 2. Add Two Numbers
  * Complexity : Time: O(n) ; Space: O(n)
