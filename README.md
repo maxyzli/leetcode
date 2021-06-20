@@ -273,7 +273,7 @@ LeetCode Solution in Java
 |110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Java](tree/balanced-binary-tree/README.md)|Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)|[Java](tree/minimum-depth-of-binary-tree/README.md)|Easy|
 |112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Java](tree/path-sum/README.md)|Easy|
-|114|[Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Java](tree/flatten-binary-tree-to-linked-list/README.md)|Medium|
+|114|[Flatten Binary Tree to Linked List (Classic)](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)|[Java](tree/flatten-binary-tree-to-linked-list/README.md)|Medium|
 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Java](tree/populating-next-right-pointers-in-each-node/README.md)|Medium|
 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Java](tree/sum-root-to-leaf-numbers/README.md)|Medium|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Java](tree/binary-tree-preorder-traversal/README.md)|Easy|

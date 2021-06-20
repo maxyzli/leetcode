@@ -2,9 +2,9 @@
 
 ## Solution 1
 
-List
+Preorder
 
-```java
+```jsx
 /**
  * Question   : 114. Flatten Binary Tree to Linked List
  * Complexity : Time: O(n) ; Space: O(n)
@@ -20,12 +20,11 @@ class Solution {
         list = new LinkedList<>();
         preorder(root);
 
-        TreeNode prev = list.get(0);
-        list.remove(0);
-        while (!list.isEmpty()) {
-            prev.right = list.get(0);
-            prev = prev.right;
-            list.remove(0);
+        TreeNode curr = list.get(0); 
+        for (int i = 1; i < list.size(); i++) {
+            TreeNode next = list.get(i);
+            curr.right = next;
+            curr = next;
         }
     }
 
@@ -44,12 +43,12 @@ class Solution {
 
 ## Solution 2
 
-Pure Recursion
+Recursion
 
 ```java
 /**
  Question   : 114. Flatten Binary Tree to Linked List
- Complexity : Time: O(n) ; Space: O(n)
+ Complexity : Time: O(n) ; Space: O(log(h))
  Topics     : Tree
  */
 class Solution {
@@ -69,12 +68,11 @@ class Solution {
         root.right = root.left;
         root.left = null;
 
-        TreeNode temp = root;
-        while (temp.right != null) {
-            temp = temp.right;
+        TreeNode curr = root;
+        while (curr.right != null) {
+            curr = curr.right;
         }
-
-        temp.right = originRight;
+        curr.right = originRight;
     }
 }
 ```
