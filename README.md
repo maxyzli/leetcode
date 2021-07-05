@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-241-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-242-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -422,6 +422,7 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |||||
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Java](design/lru-cache/README.md)|Medium|
 |380|[Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Java](design/insert-delete-getrandom-o1/README.md)|Medium|
 |1244|[Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/)|[Java](design/design-a-leaderboard/README.md)|Medium|
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/)|[Java](design/design-underground-system/README.md)|Medium|
