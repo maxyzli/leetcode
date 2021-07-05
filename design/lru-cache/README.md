@@ -5,18 +5,6 @@
 Hash Map + Double Linked List
 
 ```java
-import java.util.*;
-
-public class Solution {
-    public static void main(String[] args) {
-        LRUCache lru = new LRUCache(2);
-        lru.put(1,1);
-        lru.put(2,2);
-        lru.get(1);
-        System.out.println();
-    }
-}
-
 class LRUCache {
     int capacity;
     Map<Integer, Node> key2Node;
@@ -46,17 +34,18 @@ class LRUCache {
         if (key2Node.containsKey(key)) {
             Node node = key2Node.get(key);
             ll.remove(node);
+            key2Node.remove(key);
+        }
+
+        if (key2Node.size() == capacity) {
+            Node tail = ll.tail;
+            key2Node.remove(tail.key);
+            ll.remove(tail);
         }
 
         Node node = new Node(key, value);
         key2Node.put(key, node);
         ll.addToHead(node);
-
-        if (key2Node.size() > capacity) {
-            Node tail = ll.tail;
-            key2Node.remove(tail.key);
-            ll.remove(tail);
-        }
     }
 }
 
