@@ -45,23 +45,16 @@ Leverage Binary Search Tree
  */
 class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null) {
-            return null;
-        }
-        if (root == p || root == q) {
-            return root;
-        }
-        // Make sure p is always smaller than q.
-        if (p.val > q.val) {
-            return lowestCommonAncestor(root, q, p);
-        }
-
-        if (root.val > p.val && root.val < q.val) {
-            return root;
+        if (root.val > p.val && root.val > q.val) {
+            return lowestCommonAncestor(root.left, p, q);
         } else if (root.val < p.val && root.val < q.val) {
             return lowestCommonAncestor(root.right, p, q);
         } else {
-            return lowestCommonAncestor(root.left, p, q);
+            // other cases
+            // 1. root == p || root == q
+            // 2. root > p.val && root < q.val
+            // 3. root < p.val && root > q.val
+            return root;
         }
     }
 }
