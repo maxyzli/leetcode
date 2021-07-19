@@ -2,7 +2,7 @@
 
 ## Solution 1
 
-Native Solution O(n)
+Native Solution
 
 ```java
 /**
@@ -35,59 +35,7 @@ class Solution {
 
 ## Solution 2
 
-Stack
-
-```java
-/**
- * Question   : 235. Lowest Common Ancestor of a Binary Search Tree
- * Topics     : Tree
- * Complexity : Time: O(log(n)) ; Space: O(log(n))
- */
-class Solution {
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        Stack<TreeNode> s1 = new Stack<>();
-        Stack<TreeNode> s2 = new Stack<>();
-
-        findNode(root, p, s1);
-        findNode(root, q, s2);
-
-        while (s1.size() > s2.size()) {
-            s1.pop();
-        }
-        while (s2.size() > s1.size()) {
-            s2.pop();
-        }
-
-        while (!s1.isEmpty()) {
-            if (s1.peek() == s2.peek()) {
-                return s1.peek();
-            }
-            s1.pop();
-            s2.pop();
-        }
-
-        return null;
-    }
-
-    private void findNode(TreeNode root, TreeNode target, Stack<TreeNode> s) {
-        if (root == null) {
-            return;
-        }
-        s.add(root);
-        if (root == target) {
-            return;
-        } else if (root.val > target.val) {
-            findNode(root.left, target, s);
-        } else {
-            findNode(root.right, target, s);
-        }
-    }
-}
-```
-
-## Solution 3
-
-Top-Down Recursion
+Leverage Binary Search Tree
 
 ```java
 /**
