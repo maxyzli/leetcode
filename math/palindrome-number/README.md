@@ -2,97 +2,32 @@
 
 ## Solution 1
 
-Native Approach
-
 ```java
-/**
- * Question   : 9. Palindrome Number
- * Complexity : Time: O(n) ; Space: O(n)
- * Topics     : Math
- */
 class Solution {
-    public boolean isPalindrome(int x) {
-        if (x == 0) {
-            return true;
-        }
-        if (x < 0) {
-            return false;
-        }
-
-        String str = x + "";
-        
-        int low = 0;
-        int high = str.length() - 1;
-        
-        while (low < high) {
-            if (str.charAt(low) != str.charAt(high)) {
-                return false;
-            }
-            low++;
-            high--;
-        }
-        
-        return true;
+  public boolean isPalindrome(int x) {
+    if (x == 0) {
+      return true;
     }
-}
-```
-
-## Solution 2
-
-```java
-/**
- * Question   : 9. Palindrome Number
- * Complexity : Time: O(1) ; Space: O(1)
- * Topics     : Math
- */
-class Solution {
-    public boolean isPalindrome(int x) {
-        if (x == 0) {
-            return true;
-        }
-        if (x < 0) {
-            return false;
-        }
-
-        int temp = x;
-        int y = 0;
-
-        while (temp != 0) {
-            y = (y * 10) + (temp % 10);
-            temp /= 10;
-        }
-
-        return x == y;
+    if (x < 0) {
+      return false;
     }
-}
-```
 
-## Solution 3
+    int numDigit = (int) Math.log10(x) + 1;
+    int mask = (int) Math.pow(10, numDigit - 1);
 
-Reverse Half It
+    for (int i = 0; i < numDigit / 2; i++) {
+      if ((x / mask) != x % 10) {
+        return false;
+      }
 
-```java
-/**
- * Question   : 9. Palindrome Number
- * Complexity : Time: O(n) ; Space: O(1)
- * Topics     : Math
- */
-class Solution {
-    public boolean isPalindrome(int x) {
-        if (x == 0) {
-            return true;
-        }
-        if (x < 0 || x % 10 == 0) {
-            return false;
-        }
+      x %= mask;
+      x /= 10;
 
-        int y = 0;
-        while (y < x) {
-            y = y * 10 + x % 10;
-            x /= 10;
-        }
-
-        return x == y || x == y / 10;
+      // Remove 2 0's from the mask since we just lost 2 digits
+      mask /= 100;
     }
+
+    return true;
+  }
 }
 ```
