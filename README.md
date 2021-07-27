@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-242-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-243-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -8,7 +8,7 @@ LeetCode Solution in Java
 ## Topics
 
 - [Math](#math)
-- [Bit](#math)
+- [Bit](#bit)
 - [Array/String](#arraystring)
     - [Two Pointers](#two-pointers)
     - [Sliding Window](#sliding-window)
@@ -50,6 +50,7 @@ LeetCode Solution in Java
 | # | Title | Solution | Difficulty |
 |:-:|-|-|-|
 |136|[Single Number](https://leetcode.com/problems/single-number/)|[Java](bit/single-number/README.md)|Easy|
+|190|[Reverse Bit](https://leetcode.com/problems/reverse-bits/)|[Java](bit/reverse-bits/README.md)|Easy|
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Java](bit/number-of-1-bits/README.md)|Easy|
 |231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Java](bit/power-of-two/README.md)|Easy|
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Java](bit/sum-of-two-integers/README.md)|Medium|
