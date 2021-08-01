@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-243-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-244-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -285,6 +285,7 @@ LeetCode Solution in Java
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Java](tree/lowest-common-ancestor-of-a-binary-search-tree/README.md)|Easy|
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Java](tree/lowest-common-ancestor-of-a-binary-tree/README.md)|Medium|
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Java](tree/binary-tree-paths/README.md)|Easy|
+|285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|[Java](tree/inorder-successor-in-bst/README.md)|Medium|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Java](tree/serialize-and-deserialize-binary-tree/README.md)|Hard|
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](tree/sum-of-left-leaves/README.md)|Easy|
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Java](tree/find-largest-value-in-each-tree-row/README.md)|Medium|
