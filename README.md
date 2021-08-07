@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-246-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-247-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -356,6 +356,7 @@ LeetCode Solution in Java
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](backtracking/combination-sum-iii/README.md)|Medium|
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Java](backtracking/binary-watch/README.md)|Easy|
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](backtracking/path-sum-iii/README.md)|Medium|
+|842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[Java](backtracking/split-array-into-fibonacci-sequence/README.md)|Medium|
 
 <div>
   <b><a href="#topics">↥ Back To Top</a></b>
@@ -387,7 +388,7 @@ LeetCode Solution in Java
 |85|[Maximal Rectangle (Classic)](https://leetcode.com/problems/maximal-rectangle/)|[Java](dynamic-programming/maximal-rectangle/README.md)|Hard|
 |96|[Unique Binary Search Trees (Classic)](https://leetcode.com/problems/unique-binary-search-trees/)|[Java](tree/unique-binary-search-trees/README.md)|Medium|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](array-string/distinct-subsequences/README.md)|Hard|
-|131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)|[Java](dynamic-programming/palindrome-partitioning/README.md)|Medium|
+|131|[Palindrome Partitioning (Classic](https://leetcode.com/problems/palindrome-partitioning/)|[Java](dynamic-programming/palindrome-partitioning/README.md)|Medium|
 |139|[Word Break (Classic)](https://leetcode.com/problems/word-break/)|[Java](dynamic-programming/word-break/README.md)|Medium|
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|[Java](dynamic-programming/house-robber/README.md)|Medium|
 |221|[Maximal Square (Classic)](https://leetcode.com/problems/maximal-square/submissions/)|[Java](dynamic-programming/submissions/README.md)|Medium|

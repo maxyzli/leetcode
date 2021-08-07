@@ -8,7 +8,7 @@ DFS
 /**
  * Question   : 131. Palindrome Partitioning
  * Complexity : Time: O(n^3) ; Space: O(n)
- * Topics     : DP
+ * Topics     : DFS
  */
 class Solution {
     public List<List<String>> partition(String s) {
