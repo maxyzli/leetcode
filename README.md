@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-247-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-248-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -350,6 +350,7 @@ LeetCode Solution in Java
 |51|[N-Queens (Classic)](https://leetcode.com/problems/n-queens/)|[Java](backtracking/n-queens/README.md)|Hard|
 |77|[Combinations](https://leetcode.com/problems/combinations/)|[Java](backtracking/combinations/README.md)|Medium|
 |78|[Subsets](https://leetcode.com/problems/subsets/)|[Java](backtracking/subsets/README.md)|Medium|
+|79|[Word Search](https://leetcode.com/problems/word-search/)|[Java](backtracking/word-search/README.md)|Medium|
 |90|[Subsets II (Classic)](https://leetcode.com/problems/subsets-ii/)|[Java](backtracking/subsets-ii/README.md)|Medium|
 |93|[Restore IP Addresses (Classic)](https://leetcode.com/problems/restore-ip-addresses/)|[Java](backtracking/restore-ip-addresses/README.md)|Medium|
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](backtracking/path-sum-ii/README.md)|Medium|
