@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-251-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-252-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -289,6 +289,7 @@ LeetCode Solution in Java
 |285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/)|[Java](tree/inorder-successor-in-bst/README.md)|Medium|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)|[Java](tree/serialize-and-deserialize-binary-tree/README.md)|Hard|
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/)|[Java](tree/sum-of-left-leaves/README.md)|Easy|
+|429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[Java](tree/n-ary-tree-level-order-traversal/README.md)|Medium|
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Java](tree/find-largest-value-in-each-tree-row/README.md)|Medium|
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Java](tree/diameter-of-binary-tree/README.md)|Easy|
 |589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Java](tree/n-ary-tree-preorder-traversal/README.md)|Easy|
