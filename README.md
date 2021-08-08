@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-248-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-249-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -355,6 +355,7 @@ LeetCode Solution in Java
 |93|[Restore IP Addresses (Classic)](https://leetcode.com/problems/restore-ip-addresses/)|[Java](backtracking/restore-ip-addresses/README.md)|Medium|
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Java](backtracking/path-sum-ii/README.md)|Medium|
 |216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/)|[Java](backtracking/combination-sum-iii/README.md)|Medium|
+|301|[Remove Invalid Parentheses (Classic)](https://leetcode.com/problems/remove-invalid-parentheses/)|[Java](backtracking/remove-invalid-parentheses/README.md)|Hard|
 |401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Java](backtracking/binary-watch/README.md)|Easy|
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/)|[Java](backtracking/path-sum-iii/README.md)|Medium|
 |842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[Java](backtracking/split-array-into-fibonacci-sequence/README.md)|Medium|
