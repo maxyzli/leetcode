@@ -5,8 +5,6 @@
 DFS
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 516. Longest Palindromic Subsequence
  * Complexity : Time: O(2^n) ; Space: O(n)

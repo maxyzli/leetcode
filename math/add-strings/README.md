@@ -3,8 +3,6 @@
 ## Solution 1
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 415. Add Strings
  * Complexity : Time: O(m+n) ; Space: O(m+n)

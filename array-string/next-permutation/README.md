@@ -3,8 +3,6 @@
 ## Solution 1
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 31. Next Permutation
  * Complexity : Time: O(n) ; Space: O(1)

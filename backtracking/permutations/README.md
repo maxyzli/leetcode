@@ -46,8 +46,6 @@ class Solution {
 Swap each element with each element after it.
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 46. Permutations
  * Complexity : Time: O(n!) ; Space: O(n)

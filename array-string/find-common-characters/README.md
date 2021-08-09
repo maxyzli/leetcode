@@ -3,8 +3,6 @@
 ## Solution 1
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 1002. Find Common Characters
  * Complexity : Time: O(m*n) ; Space: O(1)

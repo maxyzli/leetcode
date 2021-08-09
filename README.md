@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-255-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-256-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -182,6 +182,7 @@ LeetCode Solution in Java
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Java](matrix/search-a-2d-matrix-ii/README.md)|Medium|
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Java](matrix/island-perimeter/README.md)|Easy|
 |498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Java](matrix/diagonal-traverse/README.md)|Medium|
+|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Java](matrix/max-area-of-island/README.md)|Medium|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Java](matrix/flood-fill/README.md)|Easy|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Java](matrix/transpose-matrix/README.md)|Easy|
 

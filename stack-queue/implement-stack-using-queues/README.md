@@ -5,8 +5,6 @@
 Two Queue
 
 ```java
-import java.util.*;
-
 class MyStack {
     Queue<Integer> queue1;
     Queue<Integer> queue2;
@@ -47,8 +45,6 @@ class MyStack {
 One Queue
 
 ```java
-import java.util.*;
-
 class MyStack {
     Queue<Integer> queue;
 

@@ -3,8 +3,6 @@
 ## Solution 1
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 37. Sudoku Solver
  * Complexity : Time: O(9^n^2) ; Space: O(n^2)

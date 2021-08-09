@@ -3,8 +3,6 @@
 ## Solution 1
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 240. Search a 2D Matrix II
  * Complexity : Time: O(m+n) ; Space: O(1)

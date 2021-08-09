@@ -63,8 +63,6 @@ class Solution {
 DFS + DP
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 131. Palindrome Partitioning
  * Complexity : Time: O(n^2) ; Space: O(n^2)

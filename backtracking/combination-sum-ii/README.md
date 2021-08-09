@@ -56,8 +56,6 @@ class Solution {
 Without `used[]` array
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 39. Combination Sum
  * Complexity : Time: O(n!) ; Space: O(n)

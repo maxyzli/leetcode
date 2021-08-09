@@ -33,8 +33,6 @@ class Solution {
 Radix Sort
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 164. Maximum Gap
  * Complexity : Time: O(n) ; Space: O(1)

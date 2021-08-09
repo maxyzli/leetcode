@@ -7,8 +7,6 @@ Sliding Window
 Note: Do not compare two Integer types with `==`
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 76. Minimum Window Substring
  * Complexity : Time: O(n) ; Space: O(n)

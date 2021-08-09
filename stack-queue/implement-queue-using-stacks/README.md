@@ -5,8 +5,6 @@
 Two Stack
 
 ```java
-import java.util.*;
-
 class MyQueue {
     Stack<Integer> stack1;
     Stack<Integer> stack2;
@@ -49,8 +47,6 @@ class MyQueue {
 One Stack
 
 ```java
-import java.util.*;
-
 class MyQueue {
     Stack<Integer> stack;
 

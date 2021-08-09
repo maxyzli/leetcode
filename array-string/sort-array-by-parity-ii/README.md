@@ -41,8 +41,6 @@ class Solution {
 Two Pointers
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 922. Sort Array By Parity II
  * Complexity : Time: O(n) ; Space: O(1)

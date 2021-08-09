@@ -5,8 +5,6 @@
 Recursion
 
 ```java
-import java.util.*;
-
 /**
  * Question   : 4Sum
  * Complexity : Time: O(n^3) ; Space: O(1)
