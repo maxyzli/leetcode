@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-252-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-253-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -296,6 +296,7 @@ LeetCode Solution in Java
 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[Java](tree/n-ary-tree-postorder-traversal/README.md)|Easy|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](tree/two-sum-iv-input-is-a-bst/README.md)|Easy|
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[Java](tree/maximum-width-of-binary-tree/README.md)|Medium|
+|690|[Employee Importance](https://leetcode.com/problems/employee-importance/)|[Java](tree/employee-importance/README.md)|Easy|
 
 <div>
   <b><a href="#topics">↥ Back To Top</a></b>
