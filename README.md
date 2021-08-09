@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-257-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-258-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -186,6 +186,7 @@ LeetCode Solution in Java
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Java](matrix/max-area-of-island/README.md)|Medium|
 |733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Java](matrix/flood-fill/README.md)|Easy|
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Java](matrix/transpose-matrix/README.md)|Easy|
+|1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Java](matrix/coloring-a-border/README.md)|Medium|
 
 <div>
   <b><a href="#topics">↥ Back To Top</a></b>
