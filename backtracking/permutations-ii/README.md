@@ -2,6 +2,8 @@
 
 ## Solution 1
 
+With used[] array and make sure we access the same values in order.
+
 ```java
 /**
  * Question   : 47. Permutations II
@@ -13,50 +15,33 @@ class Solution {
         if (nums == null || nums.length == 0) {
             return new LinkedList<>();
         }
-
-        Arrays.sort(nums);
-
-        List<List<Integer>> res = new LinkedList<>();
+        
         List<Integer> list = new LinkedList<>();
-        // Store used numbers.
+        List<List<Integer>> res = new LinkedList<>();
         boolean[] used = new boolean[nums.length];
-
-        getPermutation(nums, list, res, used);
-
+        
+        dfs(nums, used, list, res);
+        
         return res;
     }
-
-    private void getPermutation(int[] nums, List<Integer> list, List<List<Integer>> res, boolean[] used) {
+       
+    private void dfs(int[] nums, boolean[] used, List<Integer> list, List<List<Integer>> res) {
         if (list.size() == nums.length) {
-            res.add(new LinkedList<>(list));
-            return;
+           res.add(new LinkedList(list));
+           return;
         }
-
+        
         for (int i = 0; i < nums.length; i++) {
-            // Remove duplicated.
-            if (used[i]) {
-                continue;
-            }
-
-            //                      (0)
-            //                       |
-            //       [1(a)          1(b)            2]
-            //         |             |              |
-            //   [1(a) 1(b) 2] [1(a) 1(b) 2] [1(a) 1(b) 2]
-            //   ...
-
-            // nums[i] == nums[i - 1] && !used[i - 1]:
-            // This means current value is the same as previous number and we traverse previous number before.
-            if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1]) {
+						// make sure we access the same values in order.
+            if (used[i] || (i != 0 && nums[i - 1] == nums[i] && used[i - 1] == false)) {
                 continue;
             }
 
             list.add(nums[i]);
             used[i] = true;
-
-            getPermutation(nums, list, res, used);
-
-            // Backtracking
+            
+            dfs(nums, used, list, res);
+            
             list.remove(list.size() - 1);
             used[i] = false;
         }
