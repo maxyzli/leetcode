@@ -353,7 +353,7 @@ LeetCode Solution in Java
 |:-:|-|-|-|
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Java](backtracking/letter-combinations-of-a-phone-number/README.md)|Medium|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Java](backtracking/generate-parentheses/README.md)|Medium|
-|39|[Sudoku Solver (Classic)](https://leetcode.com/problems/sudoku-solver/)|[Java](backtracking/sudoku-solver/README.md)|Hard|
+|37|[Sudoku Solver (Classic)](https://leetcode.com/problems/sudoku-solver/)|[Java](backtracking/sudoku-solver/README.md)|Hard|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Java](backtracking/combination-sum/README.md)|Medium|
 |40|[Combination Sum II (Classic)](https://leetcode.com/problems/combination-sum-ii/)|[Java](backtracking/combination-sum-ii/README.md)|Medium|
 |46|[Permutations](https://leetcode.com/problems/permutations/)|[Java](backtracking/permutations/README.md)|Medium|
