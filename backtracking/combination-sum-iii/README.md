@@ -28,17 +28,16 @@ class Solution {
     }
 
     private void combinationSum3Util(int k, int n, int beginNum, List<Integer> list, List<List<Integer>> res) {
-        if (n < 0 || k < 0) {
-            return;
-        }
         if (n == 0 && k == 0) {
             res.add(new ArrayList<>(list));
             return;
         }
         for (int num = beginNum; num <= MAX_NUM; num++) {
-            list.add(num);
-            combinationSum3Util(k - 1, n - num, num + 1, list, res);
-            list.remove(list.size() - 1);
+            if (n >= num && k >= 1) {
+	            list.add(num);
+	            combinationSum3Util(k - 1, n - num, num + 1, list, res);
+	            list.remove(list.size() - 1);
+            }
         }
     }
 }
