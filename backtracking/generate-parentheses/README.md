@@ -10,85 +10,38 @@
  */
 class Solution {
     public List<String> generateParenthesis(int n) {
-        if (n <= 0) {
-            return new ArrayList<>();
+        if (n == 0) {
+            return new LinkedList<>();
         }
-
-        int leftCount = 0;
-        int rightCount = 0;
+        
+        List<String> res = new LinkedList<>();
         StringBuilder sb = new StringBuilder();
-        List<String> res = new ArrayList<>();
-
-        generateParenthesisUtil(n, leftCount, rightCount, sb, res);
-
+        int left = 0;
+        int right = 0;
+        
+        dfs(sb, left, right, n, res);
+        
         return res;
     }
-
-    private void generateParenthesisUtil(int n, int leftCount, int rightCount, StringBuilder sb, List<String> res) {
-        if (rightCount > leftCount) {
-            return;
-        }
-
-        if (leftCount == n && rightCount == n) {
+    
+    
+    private void dfs(StringBuilder sb, int left, int right, int n, List<String> res) {
+        if (left + right == n * 2) {
             res.add(sb.toString());
             return;
         }
-
-        if (leftCount < n) {
-            sb.append("(");
-            generateParenthesisUtil(n, leftCount + 1, rightCount, sb, res);
+        
+        if (left < n) {
+            sb.append('(');
+            dfs(sb, left + 1, right, n, res);
+            sb.deleteCharAt(sb.length() - 1);
+        }    
+        
+        if (left > right) {
+            sb.append(')');
+            dfs(sb, left, right + 1, n, res);
             sb.deleteCharAt(sb.length() - 1);
         }
-
-        if (rightCount < n) {
-            sb.append(")");
-            generateParenthesisUtil(n, leftCount, rightCount + 1, sb, res);
-            sb.deleteCharAt(sb.length() - 1);
-        }
-    }
-}
-```
-
-## Solution 2
-
-```java
-/**
- * Question   : 22. Generate Parentheses
- * Complexity : Time: O(2^n) ; Space: O(n)
- * Topics     : Backtracking
- */
-class Solution {
-    public List<String> generateParenthesis(int n) {
-        if (n <= 0) {
-            return new ArrayList<>();
-        }
-
-        int open = 0;
-        int close = 0;
-        StringBuilder sb = new StringBuilder();
-        List<String> res = new ArrayList<>();
-
-        generateParenthesisUtil(n, open, close, sb, res);
-
-        return res;
-    }
-
-    private void generateParenthesisUtil(int n, int open, int close, StringBuilder sb, List<String> res) {
-        if (open > n || close > open) {
-            return;
-        }
-        if (open == n && close == n) {
-            res.add(sb.toString());
-            return;
-        }
-
-        sb.append("(");
-        generateParenthesisUtil(n, open + 1, close, sb, res);
-        sb.deleteCharAt(sb.length() - 1);
-
-        sb.append(")");
-        generateParenthesisUtil(n, open, close + 1, sb, res);
-        sb.deleteCharAt(sb.length() - 1);
     }
 }
 ```
