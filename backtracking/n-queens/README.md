@@ -8,91 +8,81 @@
  * Complexity : Time: O(n!) ; Space: O(n^2)
  * Topics     : Backtracking
  */
-public class Solution {
+class Solution {
     public List<List<String>> solveNQueens(int n) {
-        if (n <= 0) {
-            return new ArrayList<>();
+        if (n == 0) {
+            return new LinkedList<>();
         }
-
-        char[][] board = new char[n][n];
-        for (int i = 0; i < n; i++) {
-            Arrays.fill(board[i], '.');
-        }
-
+        
+        List<List<String>> res = new LinkedList<>();
+        char[][] table = new char[n][n];
         int col = 0;
-        List<List<String>> res = new ArrayList<>();
-
-        solveNQueensUtil(board, col, res);
-
+        
+        for (int i = 0; i < table.length; i++) {
+            Arrays.fill(table[i], '.');
+        }
+        
+        dfs(table, col, res);
+        
         return res;
     }
-
-    private void solveNQueensUtil(char[][] board, int col, List<List<String>> res) {
-        // Column goes to the end, add to solution.
-        if (col == board[0].length) {
-            res.add(boardToList(board));
+    
+    private void dfs(char[][] table, int col, List<List<String>> res) {
+        if (col == table.length) {
+            res.add(toStringList(table));
             return;
         }
-
-        for (int row = 0; row < board.length; row++) {
-            if (isValid(board, row, col)) {
-                board[row][col] = 'Q';
-                solveNQueensUtil(board, col + 1, res);
-                board[row][col] = '.';
+        
+        for (int i = 0; i < table.length; i++) {
+            if (isValid(table, i, col)) {
+                table[i][col] = 'Q';
+                dfs(table, col + 1, res);
+                table[i][col] = '.';
             }
         }
     }
-
-    private List<String> boardToList(char[][] board) {
-        List<String> list = new ArrayList<>();
-        for (int i = 0; i < board.length; i++) {
-            list.add(String.valueOf(board[i]));
-        }
-        return list;
-    }
-
-    private boolean isValid(char[][] board, int row, int col) {
-        // Check the same row.
-        for (int j = 0; j < board[0].length; j++) {
-            if (board[row][j] != '.') {
+    
+    private boolean isValid(char[][] table, int row, int col) {
+        // check columns.
+        for (int j = 0; j < col; j++) {
+            if (table[row][j] == 'Q') {
                 return false;
             }
         }
-
-        // Check the same column.
-        for (int i = 0; i < board.length; i++) {
-            if (board[i][col] != '.') {
-                return false;
-            }
-        }
-
-        int i = row;
-        int j = col;
+        
         // Up left
+        int i = row - 1;
+        int j = col - 1;
         while (i >= 0 && j >= 0) {
-            if (board[i][j] != '.') {
+            if (table[i][j] == 'Q') {
                 return false;
             }
             i--;
             j--;
         }
-
-        i = row;
-        j = col;
-        // Down left.
-        while (i < board.length && j >= 0) {
-            if (board[i][j] != '.') {
+        
+        // Down left
+        i = row + 1;
+        j = col - 1;
+        while (i < table.length && j >= 0) {
+            if (table[i][j] == 'Q') {
                 return false;
             }
             i++;
             j--;
         }
-
-        // Note:
-        // We don't need to check the right part, because start from the left.
-        // Right part is always empty.
-
+        
         return true;
+    }
+    
+    private List<String> toStringList(char[][] table) {
+        List<String> list = new LinkedList<>();
+        
+        for (int i = 0; i < table.length; i++) {
+            list.add(String.valueOf(table[i]));
+        }
+        
+        return list;
     }
 }
 ```
