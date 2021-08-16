@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-260-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-261-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -304,6 +304,7 @@ LeetCode Solution in Java
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Java](tree/two-sum-iv-input-is-a-bst/README.md)|Easy|
 |662|[Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/)|[Java](tree/maximum-width-of-binary-tree/README.md)|Medium|
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance/)|[Java](tree/employee-importance/README.md)|Easy|
+|1120|[Maximum Average Subtree](https://leetcode.com/problems/maximum-average-subtree/)|[Java](tree/maximum-average-subtree/README.md)|Medium|
 
 <div>
   <b><a href="#topics">↥ Back To Top</a></b>
