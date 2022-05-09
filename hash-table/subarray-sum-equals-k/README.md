@@ -124,7 +124,7 @@ class Solution {
 
         int prefixSum = 0;
         int count = 0;
-        
+
         for (int i = 0; i < nums.length; i++) {
             // prefixSum[i] - prefixSum[j] == k
             // => prefixSum[j] = prefixSum[i] - k

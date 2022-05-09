@@ -14,7 +14,7 @@ public class Solution {
 
         for (int i = 0; i < 32; i++) {
           output <<= 1;
-      
+
           if ((input & 1) != 0) {
             output |= 1;
           }

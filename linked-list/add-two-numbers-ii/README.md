@@ -100,7 +100,7 @@ class Solution {
             }
             head = newNode;
         }
-        
+
         if (carry > 0) {
             ListNode newNode = new ListNode(carry);
             newNode.next = head;

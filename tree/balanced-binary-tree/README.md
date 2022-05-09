@@ -19,7 +19,7 @@ class Solution {
 
         int leftHeight =  getHeight(root.left);
         int rightHeight = getHeight(root.right);
-        
+
         if (leftHeight == -1 || rightHeight == -1) {
             return -1;
         }

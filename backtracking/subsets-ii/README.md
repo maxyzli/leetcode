@@ -13,20 +13,20 @@ class Solution {
         if (nums == null || nums.length == 0) {
             return new LinkedList<>();
         }
-        
+
         Arrays.sort(nums);
         List<List<Integer>> res = new LinkedList<>();
         List<Integer> list = new LinkedList<>();
         int startIdx = 0;
-        
+
         dfs(nums, startIdx, list, res);
-        
+
         return res;
     }
-    
+
     private void dfs(int[] nums, int startIdx, List<Integer> list, List<List<Integer>> res) {
         res.add(new LinkedList<>(list));
-        
+
         for (int i = startIdx; i < nums.length; i++) {
             if (i != startIdx && nums[i - 1] == nums[i]) {
                 continue;

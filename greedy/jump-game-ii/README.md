@@ -30,7 +30,7 @@ class Solution {
         if (beginIndex >= nums.length) {
             return;
         }
-        
+
         for (int distance = 1; distance <= nums[beginIndex]; distance++) {
             dfs(nums, beginIndex + distance, numberOfJump + 1);
         }
@@ -69,7 +69,7 @@ class Solution {
                 min = Math.min(min, 1 + numberOfJumps);
             }
         }
-        
+
         return min;
     }
 }
@@ -90,13 +90,13 @@ class Solution {
         if (nums == null || nums.length == 1) {
             return 0;
         }
-        
+
         int[] dp = new int[nums.length];
         Arrays.fill(dp, Integer.MAX_VALUE);
         dp[nums.length - 1] = 0;
-        
+
         dfs(nums, 0, dp);
-        
+
         return dp[0];
     }
 

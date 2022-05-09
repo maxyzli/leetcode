@@ -22,20 +22,20 @@ class Solution {
         List<String> res = new LinkedList<>();
         List<String> list = new LinkedList<>();
         int startIdx = 0;
-        
+
         dfs(s, startIdx, list, res);
-        
+
         return res;
     }
-    
+
     private void dfs(String s, int startIdx, List<String> list, List<String> res) {
         if (list.size() == 4) {
             if (startIdx == s.length()) {
                 res.add(String.join(".", list));
-            }   
+            }
             return;
         }
-        
+
         for (int endIdx = startIdx; endIdx < startIdx + 3; endIdx++) {
             if (endIdx >= s.length()) {
                 break;
@@ -47,22 +47,22 @@ class Solution {
             }
         }
     }
-    
+
     private boolean isValid(String s, int startIdx, int endIdx) {
         // check leading zero.
         if (startIdx != endIdx && s.charAt(startIdx) == '0') {
             return false;
         }
-        
+
         int num = 0;
         for (int i = startIdx; i <= endIdx; i++) {
             num = num * 10 + (s.charAt(i) - '0');
         }
-        
+
         if (num > 255) {
             return false;
         }
-        
+
         return true;
     }
 }

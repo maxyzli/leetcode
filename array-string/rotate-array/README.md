@@ -26,7 +26,7 @@ class Solution {
             int index = (i + k) % n;
             temp[index] = nums[i];
         }
-        
+
         for (int i = 0; i < nums.length; i++) {
             nums[i] = temp[i];
         }

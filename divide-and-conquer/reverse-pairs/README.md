@@ -1,4 +1,4 @@
-# Count Inversions in an array 
+# Count Inversions in an array
 
 ## Solution 1
 

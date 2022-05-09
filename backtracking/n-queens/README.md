@@ -13,26 +13,26 @@ class Solution {
         if (n == 0) {
             return new LinkedList<>();
         }
-        
+
         List<List<String>> res = new LinkedList<>();
         char[][] table = new char[n][n];
         int col = 0;
-        
+
         for (int i = 0; i < table.length; i++) {
             Arrays.fill(table[i], '.');
         }
-        
+
         dfs(table, col, res);
-        
+
         return res;
     }
-    
+
     private void dfs(char[][] table, int col, List<List<String>> res) {
         if (col == table.length) {
             res.add(toStringList(table));
             return;
         }
-        
+
         for (int i = 0; i < table.length; i++) {
             if (isValid(table, i, col)) {
                 table[i][col] = 'Q';
@@ -41,7 +41,7 @@ class Solution {
             }
         }
     }
-    
+
     private boolean isValid(char[][] table, int row, int col) {
         // check columns.
         for (int j = 0; j < col; j++) {
@@ -49,7 +49,7 @@ class Solution {
                 return false;
             }
         }
-        
+
         // Up left
         int i = row - 1;
         int j = col - 1;
@@ -60,7 +60,7 @@ class Solution {
             i--;
             j--;
         }
-        
+
         // Down left
         i = row + 1;
         j = col - 1;
@@ -71,17 +71,17 @@ class Solution {
             i++;
             j--;
         }
-        
+
         return true;
     }
-    
+
     private List<String> toStringList(char[][] table) {
         List<String> list = new LinkedList<>();
-        
+
         for (int i = 0; i < table.length; i++) {
             list.add(String.valueOf(table[i]));
         }
-        
+
         return list;
     }
 }

@@ -16,11 +16,11 @@ class Solution {
         for (int num : nums) {
             totalSum += num;
         }
-        
+
         if (totalSum % 2 != 0) {
             return false;
         }
-        
+
         return canPartitionUtil(nums, totalSum / 2, nums.length);
     }
 
@@ -35,7 +35,7 @@ class Solution {
         if (nums[n - 1] > sum) {
             return canPartitionUtil(nums, sum, n - 1);
         }
-        return canPartitionUtil(nums, sum - nums[n - 1], n - 1) || canPartitionUtil(nums, sum, n - 1); 
+        return canPartitionUtil(nums, sum - nums[n - 1], n - 1) || canPartitionUtil(nums, sum, n - 1);
     }
 }
 ```

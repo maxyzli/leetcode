@@ -14,14 +14,14 @@ class Solution {
         dfs(root, res);
         return res;
     }
-    
+
     private void dfs (Node root, List<Integer> res) {
         if (root == null) {
             return;
         }
-        
+
         res.add(root.val);
-        
+
         for (Node node : root.children) {
             dfs(node, res);
         }

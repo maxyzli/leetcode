@@ -12,14 +12,14 @@ BFS
  */
 class Solution {
     private int[][] dirs = new int[][]{{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
-    
+
     public int orangesRotting(int[][] grid) {
         if (grid == null || grid.length == 0) {
             return 0;
         }
 
         Queue<int[]> q = new ArrayDeque();
-        
+
         int freshCount = 0;
         for (int i = 0; i < grid.length; i++) {
             for (int j = 0; j < grid[0].length; j++) {
@@ -30,9 +30,9 @@ class Solution {
                 }
             }
         }
-        
+
         int minutes = 0;
-        
+
         while (!q.isEmpty()) {
             boolean found = false;
             int size = q.size();
@@ -48,21 +48,21 @@ class Solution {
                         q.offer(new int[]{nextRow, nextCol});
                         found = true;
                     }
-                } 
+                }
             }
-            
+
             if (found) {
                 minutes++;
             }
         }
-        
+
         if (freshCount != 0) {
             return -1;
         } else {
             return minutes;
         }
     }
-    
+
     private boolean inArea(int[][] grid, int row, int col) {
         return row >= 0 && col >= 0 && row < grid.length && col < grid[0].length;
     }

@@ -31,7 +31,7 @@ class Solution {
             }
 
             colEnd--;
-            
+
             if (rowStart > rowEnd || colStart > colEnd) {
                 return matrix;
             }

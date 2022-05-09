@@ -20,7 +20,7 @@ class Solution {
         list = new LinkedList<>();
         preorder(root);
 
-        TreeNode curr = list.get(0); 
+        TreeNode curr = list.get(0);
         for (int i = 1; i < list.size(); i++) {
             TreeNode next = list.get(i);
             curr.right = next;

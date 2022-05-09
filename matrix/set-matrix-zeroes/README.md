@@ -24,7 +24,7 @@ class Solution {
                 }
             }
         }
-        
+
         for (int i = 0; i < m; i++) {
             if (rowZero[i]) {
                 for (int j = 0; j < n; j++) {
@@ -32,7 +32,7 @@ class Solution {
                 }
             }
         }
-        
+
         for (int j = 0; j < n; j++) {
             if (colZero[j]) {
                 for (int i = 0; i < m; i++) {

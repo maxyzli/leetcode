@@ -39,11 +39,11 @@ public class Solution {
             if (carry > 0) {
                 temp.append(carry);
             }
-            
+
             // Add Two Number String.
             ans = addStrings(ans, temp.reverse().toString());
-            
-            // Reset. 
+
+            // Reset.
             temp.setLength(0);
         }
 

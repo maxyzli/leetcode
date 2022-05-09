@@ -13,22 +13,22 @@ class Solution {
         if (candidates == null || candidates.length == 0) {
             return new LinkedList<>();
         }
-        
+
         List<Integer> list = new LinkedList<>();
         List<List<Integer>> res = new LinkedList<>();
         int startIdx = 0;
-        
+
         dfs(candidates, startIdx, target, list, res);
-        
+
         return res;
     }
-    
+
     public void dfs(int[] candidates, int startIdx, int target, List<Integer> list, List<List<Integer>> res) {
         if (target == 0) {
             res.add(new LinkedList<>(list));
             return;
         }
-        
+
         for (int i = startIdx; i < candidates.length; i++) {
             if (target >= candidates[i]) {
                 list.add(candidates[i]);

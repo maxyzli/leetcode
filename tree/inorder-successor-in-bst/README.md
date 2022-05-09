@@ -11,12 +11,12 @@
  */
 class Solution {
     TreeNode candidate = null;
-    
+
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         if (root == null) {
             return root;
         }
-        
+
         if (root.val > p.val) { // go left
             candidate = root;
             return inorderSuccessor(root.left, p);
@@ -30,7 +30,7 @@ class Solution {
             }
         }
     }
-    
+
     private TreeNode findSmallest(TreeNode root) {
         TreeNode curr = root;;
         while (curr.left != null) {

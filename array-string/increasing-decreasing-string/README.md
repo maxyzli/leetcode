@@ -1,4 +1,4 @@
-# Increasing Decreasing String 
+# Increasing Decreasing String
 
 ## Solution 1
 

@@ -14,7 +14,7 @@ class Solution {
         String[] romans = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
         StringBuilder sb = new StringBuilder();
-        
+
         int i = 0;
         while (i < nums.length) {
             if (num >= nums[i]) {
@@ -24,7 +24,7 @@ class Solution {
                 i++;
             }
         }
-        
+
         return sb.toString();
     }
 }

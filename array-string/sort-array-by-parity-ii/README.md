@@ -16,8 +16,8 @@ class Solution {
             return nums;
         }
 
-        int[] temp = new int[nums.length]; 
-        
+        int[] temp = new int[nums.length];
+
         int evenIdx = 0;
         int oddIdx = 1;
 
@@ -30,7 +30,7 @@ class Solution {
                 oddIdx += 2;
             }
         }
-        
+
         return temp;
     }
 }

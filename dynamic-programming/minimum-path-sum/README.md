@@ -125,7 +125,7 @@ class Solution {
                 min = Math.min(min, grid[row][col] + subMinPathSum);
             }
         }
-        
+
         dp[row][col] = min;
 
         return dp[row][col];

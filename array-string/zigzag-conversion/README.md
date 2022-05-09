@@ -13,7 +13,7 @@ Matrix
 public class Solution {
     public String convert(String s, int numRows) {
         int[][] matrix = new int[numRows][s.length()];
-        
+
         if (numRows == 1) {
             return s;
         }

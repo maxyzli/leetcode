@@ -18,8 +18,8 @@ class Solution {
 
         temp = t.toCharArray();
         Arrays.sort(temp);
-        String sortedT = Arrays.toString(temp);       
-        
+        String sortedT = Arrays.toString(temp);
+
         return sortedS.equals(sortedT);
     }
 }
@@ -71,7 +71,7 @@ class Solution {
         if (s.length() != t.length()) {
             return false;
         }
-        
+
         Map<Character, Integer> charCount = new HashMap<>();
 
         for (int i = 0; i < s.length(); i++) {

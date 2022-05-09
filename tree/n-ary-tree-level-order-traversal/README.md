@@ -15,16 +15,16 @@ class Solution {
         if (root == null) {
             return new LinkedList<>();
         }
-        
+
         List<List<Integer>> list = new LinkedList<>();
-        
+
         Queue<Node> queue = new LinkedList<>();
         queue.offer(root);
-        
+
         while (queue.size() != 0) {
             List<Integer> temp = new LinkedList<>();
             int size = queue.size();
-            
+
             for (int i = 0; i < size; i++) {
                 Node node = queue.poll();
                 temp.add(node.val);
@@ -33,10 +33,10 @@ class Solution {
                     queue.add(child);
                 }
             }
-            
+
             list.add(temp);
         }
-        
+
         return list;
     }
 }

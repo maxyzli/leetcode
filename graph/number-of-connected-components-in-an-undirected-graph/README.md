@@ -8,16 +8,16 @@
 class Solution {
     public int countComponents(int n, int[][] edges) {
         List<Integer>[] graph = new List[n];
-        
+
         for (int i = 0; i < n; i++) {
             graph[i] = new ArrayList<>();
         }
-        
+
         for (int[] e : edges) {
             graph[e[0]].add(e[1]);
             graph[e[1]].add(e[0]);
         }
-        
+
         int count = 0;
         boolean[] visited = new boolean[n];
         for (int v = 0; v < n; v++) {
@@ -27,10 +27,10 @@ class Solution {
             count++;
             dfs(graph, v, visited);
         }
-        
+
         return count;
     }
-    
+
     private void dfs(List<Integer>[] graph, int u, boolean[] visited) {
         if (visited[u]) {
             return;

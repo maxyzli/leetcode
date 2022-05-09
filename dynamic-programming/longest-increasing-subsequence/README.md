@@ -23,13 +23,13 @@ class Solution {
         int beginIndex = 0;
 
         lengthOfLISUtil(nums, beginIndex, list);
-        
+
         return longest;
     }
 
     private void lengthOfLISUtil(int[] nums, int beginIndex, List<Integer> list) {
         longest = Math.max(longest, list.size());
-        
+
         for (int i = beginIndex; i < nums.length; i++) {
             if (list.isEmpty() || nums[i] > list.get(list.size() - 1)) {
                 list.add(nums[i]);

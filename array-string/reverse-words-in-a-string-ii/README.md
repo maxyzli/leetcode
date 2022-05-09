@@ -13,10 +13,10 @@ class Solution {
         if (s == null || s.length == 0) {
             return;
         }
-        
+
         int slow = 0;
         int fast = 0;
-        
+
         while (fast < s.length) {
             while (fast < s.length && s[fast] != ' ') {
                 fast++;
@@ -31,7 +31,7 @@ class Solution {
         // reverse the entire array
         reverse(s, 0, s.length - 1);
     }
-    
+
     public void reverse(char[] s, int start, int end) {
         while (start < end) {
             char temp = s[start];

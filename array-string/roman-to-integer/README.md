@@ -27,7 +27,7 @@ class Solution {
             }
             pre = curr;
         }
-        
+
         sum += getValue(s.charAt(n - 1));
 
         return sum;

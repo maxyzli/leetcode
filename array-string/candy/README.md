@@ -137,9 +137,9 @@ class Solution {
 
         int sum = 0;
         for (int i = 0; i < n; i++) {
-           sum += Math.max(left[i], right[i]); 
+           sum += Math.max(left[i], right[i]);
         }
-        
+
         return sum;
     }
 }

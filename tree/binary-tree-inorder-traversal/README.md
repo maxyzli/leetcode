@@ -26,8 +26,8 @@ class Solution {
                 stack.add(curr);
                 curr = curr.left;
                 continue;
-            } 
-            
+            }
+
             TreeNode temp = stack.pop();
             list.add(temp.val);
             curr = temp.right;

@@ -66,7 +66,7 @@ class Solution {
                 }
             }
         }
-        
+
         return dp[target];
     }
 }

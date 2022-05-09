@@ -14,7 +14,7 @@ class Solution {
     public int firstMissingPositive(int[] nums) {
         for (int positiveNum = 1; positiveNum <= nums.length; positiveNum++) {
             boolean isExist = false;
-            
+
             for (int i = 0; i < nums.length; i++) {
                 if (nums[i] == positiveNum) {
                     isExist = true;

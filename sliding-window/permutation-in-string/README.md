@@ -15,7 +15,7 @@ class Solution {
         int[] need = new int[26];
 
         int require = 0;
-        
+
         for (Character c : s1.toCharArray()) {
             if (need[c - 'a'] == 0) {
                 require++;

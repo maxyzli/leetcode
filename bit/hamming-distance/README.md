@@ -35,12 +35,12 @@ class Solution {
     public int hammingDistance(int x, int y) {
         int res = 0;
         int diff = x ^ y;
-        
+
         while (diff != 0) {
             res++;
             diff = diff & (diff - 1);
         }
-        
+
         return res;
     }
 }

@@ -34,7 +34,7 @@ public class Solution {
             carry = sum / 10;
             sb.append(sum % 10);
         }
-        
+
         if (carry > 0) {
             sb.append(carry);
         }

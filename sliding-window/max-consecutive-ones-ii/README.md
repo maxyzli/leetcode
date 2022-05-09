@@ -13,19 +13,19 @@ class Solution {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-        
+
         int windowZeroCount = 0;
         int left = 0;
         int right = 0;
         int max = 0;
-        
+
         while (right < nums.length) {
             int number = nums[right++];
-            
+
             if (number == 0) {
                 windowZeroCount++;
             }
-            
+
             while (windowZeroCount > 1) {
                 int numberToRemove = nums[left++];
                 if (numberToRemove == 0) {
@@ -35,7 +35,7 @@ class Solution {
 
             max = Math.max(max, right - left);
         }
-        
+
         return max;
     }
 }

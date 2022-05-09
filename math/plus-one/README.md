@@ -23,12 +23,12 @@ class Solution {
         if (carry > 0) {
             list.add(0, carry);
         }
-        
+
         int[] res = new int[list.size()];
         for (int i = 0; i < list.size(); i++) {
             res[i] = list.get(i);
         }
-        
+
         return res;
     }
 }

@@ -15,7 +15,7 @@ class Solution {
         if (nums.length == 0) {
             return 0;
         }
-        
+
         Arrays.sort(nums);
 
         int ans = 1;
