@@ -1,15 +1,10 @@
 # Copy List with Random Pointer
 
-## Solution 1
-
-Brute Force
+## Solution 1: Brute Force
 
 ```java
-/**
- * Question   : 138. Copy List with Random Pointer
- * Complexity : Time: O(n) ; Space: O(n)
- * Topics     : Linked List
- */
+// TC: O(n)
+// SC: O(n)
 class Solution {
     public Node copyRandomList(Node head) {
         Map<Node, Node> map = new HashMap<>();
@@ -41,54 +36,57 @@ class Solution {
 }
 ```
 
-## Solution 2
-
-Optimized
+## Solution 2: Optimized
 
 ```java
-/**
- * Question   : 138. Copy List with Random Pointer
- * Complexity : Time: O(n) ; Space: O(1)
- * Topics     : Linked List
- */
+// TC: O(n)
+// SC: O(1)
 class Solution {
     public Node copyRandomList(Node head) {
         if (head == null) {
             return null;
         }
 
-        // make copy of each node, and link them together side-by-side in a single list.
-        Node iter = head;
-        while (iter != null) {
-            Node next = iter.next;
-            Node copy = new Node(iter.val);
-            iter.next = copy;
+        // 1. Copy nodes.
+        Node curr = head;
+        while (curr != null) {
+            Node next = curr.next;
+            Node copy = new Node(curr.val);
+
+            curr.next = copy;
             copy.next = next;
-            iter = next;
+
+            curr = next;
         }
 
-        // assign random pointers for the copy nodes.
-        iter = head;
-        while (iter != null) {
-            if (iter.next != null && iter.random != null) {
-                iter.next.random = iter.random.next;
+        // 2. Handle random pointers.
+        curr = head;
+        while (curr != null) {
+            Node copy = curr.next;
+            Node random = curr.random;
+
+            if (random != null) {
+                copy.random = random.next;
             }
-            iter = iter.next.next;
+
+            curr = copy.next;
         }
 
-        // restore the original list, and extract the copy list.
-        Node p = new Node(0);
-        Node temp = p;
-        iter = head;
-        while (iter != null) {
-            temp.next = iter.next;
-            temp = temp.next;
-            // restore the original list.
-            iter.next = iter.next.next;
-            iter = iter.next;
+        // 3. Seperate copied nodes.
+        Node dummy = new Node(0);
+        Node p1 = dummy;
+
+        curr = head;
+        while (curr != null) {
+            Node copy = curr.next;
+            curr.next = copy.next;
+            p1.next = copy;
+
+            p1 = p1.next;
+            curr = curr.next;
         }
 
-        return p.next;
+        return dummy.next;
     }
 }
 ```
