@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-263-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-264-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -406,6 +406,7 @@ LeetCode Solution in Java
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)|[Java](array-string/distinct-subsequences/README.md)|Hard|
 |131|[Palindrome Partitioning (Classic](https://leetcode.com/problems/palindrome-partitioning/)|[Java](dynamic-programming/palindrome-partitioning/README.md)|Medium|
 |139|[Word Break (Classic)](https://leetcode.com/problems/word-break/)|[Java](dynamic-programming/word-break/README.md)|Medium|
+|152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Java](dynamic-programming/maximum-product-subarray/README.md)|Medium|
 |198|[House Robber](https://leetcode.com/problems/house-robber/)|[Java](dynamic-programming/house-robber/README.md)|Medium|
 |221|[Maximal Square (Classic)](https://leetcode.com/problems/maximal-square/submissions/)|[Java](dynamic-programming/submissions/README.md)|Medium|
 |300|[Longest Increasing Subsequence (Classic)](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](dynamic-programming/longest-increasing-subsequence/README.md)|Medium|
