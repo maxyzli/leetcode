@@ -1,6 +1,6 @@
 # Maximum Subarray
 
-## Solution 1: DP
+## Solution 1: DP with space compression
 
 ```java
 // TC: O(n)
