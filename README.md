@@ -1,6 +1,6 @@
 # LeetCode
 
-![](https://img.shields.io/badge/solved-264-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
+![](https://img.shields.io/badge/solved-261-337ab7?style=for-the-badge&logo=appveyor.svg)&nbsp;
 ![](https://img.shields.io/badge/language-Java-yellow?style=for-the-badge&logo=appveyor.svg)
 
 LeetCode Solution in Java
@@ -99,6 +99,7 @@ LeetCode Solution in Java
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Java](array-string/rotate-array/README.md)|Medium|
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Java](array-string/summary-ranges/README.md)|Easy|
 |238|[Product of Array Except Self (Classic)](https://leetcode.com/problems/product-of-array-except-self/)|[Java](array-string/product-of-array-except-self/README.md)|Medium|
+|271|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|[Java](array-string/encode-and-decode-strings/README.md)|Medium|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/)|[Java](array-string/first-bad-version/README.md)|Easy|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[Java](array-string/reverse-vowels-of-a-string/README.md)|Easy|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Java](array-string/intersection-of-two-arrays/README.md)|Easy|

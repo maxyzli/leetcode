@@ -1,6 +1,6 @@
 # Top K Frequent Elements
 
-# Solution 1: Heap
+## Solution 1: Heap
 
 ```java
 // TC: O(nlog(k))
@@ -35,7 +35,7 @@ class Solution {
 }
 ```
 
-# Solution 2: Bucket Sort
+## Solution 2: Bucket Sort
 
 ```java
 // TC: O(n)
