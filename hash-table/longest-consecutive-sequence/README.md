@@ -1,36 +1,48 @@
 # Longest Consecutive Sequence
 
-## Solution 1
-
-Sorting
+## Solution 1: Set
 
 ```java
-/**
- * Question   : 128. Longest Consecutive Sequence
- * Complexity : Time: O(nlog(n)) ; Space: O(1)
- * Topics     : Hash Table
- */
+// TC: O(n)
+// SC: (n)
 class Solution {
     public int longestConsecutive(int[] nums) {
-        if (nums.length == 0) {
+        if (nums == null || nums.length == 0) {
             return 0;
         }
 
-        Arrays.sort(nums);
+        Set<Integer> set = new HashSet<>();
 
-        int ans = 1;
-        int count = 1;
-
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] - nums[i - 1] == 1) {
-                count++;
-            } else if (nums[i] - nums[i - 1] > 1) {
-                count = 1;
-            }
-            ans = Math.max(ans, count);
+        for (int num : nums) {
+            set.add(num);
         }
 
-        return ans;
+        int maxCount = 1;
+        for (int num : nums) {
+            if (!set.contains(num)) {
+                continue;
+            }
+
+            int left = num - 1;
+            int right = num + 1;
+
+            int count = 1;
+            while (set.contains(left)) {
+                set.remove(left);
+                count++;
+                left--;
+            }
+            while (set.contains(right)) {
+                set.remove(right);
+                count++;
+                right++;
+            }
+
+            maxCount = Math.max(maxCount, count);
+        }
+
+
+        return maxCount;
     }
 }
 ```
