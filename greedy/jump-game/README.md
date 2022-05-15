@@ -33,7 +33,7 @@ class Solution {
 
 ```java
 // TC: O(n)
-// SC: O(n)
+// SC: O(1)
 class Solution {
     public boolean canJump(int[] nums) {
         int n = nums.length;
