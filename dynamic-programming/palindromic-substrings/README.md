@@ -1,59 +1,10 @@
 # Palindromic Substrings
 
-## Solution 1
-
-Brute Force
+## Solution 1: DP
 
 ```java
-/**
- * Question   : 647. Palindromic Substrings
- * Complexity : Time: O(n^3) ; Space: O(1)
- * Topics     : DP
- */
-public class Solution {
-    public int countSubstrings(String s) {
-        if (s == null || s.length() == 0) {
-            return 0;
-        }
-
-        int n = s.length();
-
-        int count = 0;
-
-        for (int i = 0; i < n; i++) {
-           for (int j = i; j < n; j++) {
-               if (isPalindrom(s, i, j)) {
-                   count++;
-               }
-           }
-        }
-
-        return count;
-    }
-
-    private boolean isPalindrom(String s, int i, int j) {
-        while (i < j) {
-            if (s.charAt(i) != s.charAt(j)) {
-                return false;
-            }
-            i++;
-            j--;
-        }
-        return true;
-    }
-}
-```
-
-## Solution 2
-
-DP
-
-```java
-/**
- * Question   : 647. Palindromic Substrings
- * Complexity : Time: O(n^2) ; Space: O(n^2)
- * Topics     : DP
- */
+// TC: O(n^2)
+// SC: O(n^2)
 public class Solution {
     public int countSubstrings(String s) {
         if (s == null || s.length() == 0) {
@@ -83,6 +34,42 @@ public class Solution {
                         count++;
                     }
                 }
+            }
+        }
+
+        return count;
+    }
+}
+```
+
+## Solution 2: Expending
+
+```java
+// TC: O(n)
+// SC: O(1)
+class Solution {
+    public int countSubstrings(String s) {
+         if (s == null || s.length() == 0) {
+            return 0;
+        }
+
+        int count = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            int lo = i;
+            int hi = i;
+            while (lo >= 0 && hi < s.length() && s.charAt(lo) == s.charAt(hi)) {
+                count++;
+                lo--;
+                hi++;
+            }
+
+            lo = i;
+            hi = i + 1;
+            while (lo >= 0 && hi < s.length() && s.charAt(lo) == s.charAt(hi)) {
+                count++;
+                lo--;
+                hi++;
             }
         }
 
