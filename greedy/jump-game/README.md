@@ -1,65 +1,59 @@
 # Jump Game
 
-## Solution 1
-
-Greedy
+## Solution 1: DP
 
 ```java
-/**
- * Question   : 55. Jump Game
- * Complexity : Time: O(n) ; Space: O(1)
- * Topics     : Greedy, DP
- */
+// TC: O(n^2)
+// SC: O(n)
 class Solution {
     public boolean canJump(int[] nums) {
         int n = nums.length;
-        int farthest = 0;
-        int index = 0;
 
-        while (index < n && farthest >= index) {
-            farthest = Math.max(farthest, index + nums[index]);
-            index++;
+        boolean[] dp = new boolean[n];
+        dp[0] = true;
+
+        for (int i = 0; i < n; i++) {
+            if (!dp[i]) {
+                continue;
+            }
+            for (int step = 1; step <= nums[i]; step++) {
+                if (i + step >= n) {
+                    return true;
+                }
+                dp[i + step] = true;
+            }
         }
 
-        return index == n;
+        return dp[n - 1];
     }
 }
 ```
 
-## Solution 2
-
-DP
+## Solution 2: Greedy
 
 ```java
-/**
- * Question   : 55. Jump Game
- * Complexity : Time: O(n^2) ; Space: O(n)
- * Topics     : Greedy, DP
- */
+// TC: O(n)
+// SC: O(n)
 class Solution {
     public boolean canJump(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return false;
-        }
+        int n = nums.length;
 
-        boolean[] reachable = new boolean[nums.length];
-        reachable[0] = true;
+        int farthest = 0;
 
-        for (int i = 1; i < nums.length; i++) {
-            for (int j = 0; j < i; j++) {
-                if (!reachable[j]) {
-                    continue;
-                }
-                if (j + nums[j] >= i) {
-                    reachable[i] = true;
-                }
-            }
-            if (reachable[i] != true) {
+        for (int i = 0; i < n; i++) {
+            // Unreachable.
+            if (farthest < i) {
                 return false;
             }
+
+            farthest = Math.max(farthest, i + nums[i]);
+
+            if (farthest >= n - 1) {
+                return true;
+            }
         }
 
-        return true;
+        return false;
     }
 }
 ```
