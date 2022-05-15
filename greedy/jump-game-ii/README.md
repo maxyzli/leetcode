@@ -35,14 +35,21 @@ class Solution {
 // SC: O(1)
 class Solution {
     public int jump(int[] nums) {
+        if (nums.length <= 1) {
+            return 0;
+        }
+
         int step = 0;
         int currFarthest = 0;
         int nextFarthest = 0;
 
-        for (int i = 0; i < nums.length - 1; i++) {
+        for (int i = 0; i < nums.length; i++) {
             nextFarthest = Math.max(nextFarthest, i + nums[i]);
             if (i == currFarthest) {
                 step++;
+                if (nextFarthest >= nums.length - 1) {
+                    return step;
+                }
                 currFarthest = nextFarthest;
             }
         }
