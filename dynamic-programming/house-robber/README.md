@@ -32,17 +32,21 @@ class Solution {
 // SC: O(n)
 class Solution {
     public int rob(int[] nums) {
-        int n = nums.length;
-
-        int[] dp = new int[n + 1];
-        dp[0] = 0;
-        dp[1] = nums[0];
-
-        for (int i = 2; i <= n; i++) {
-            dp[i] = Math.max(dp[i - 2] + nums[i - 1], dp[i - 1]);
+        if (nums.length == 1) {
+            return nums[0];
         }
 
-        return dp[n];
+        int n = nums.length;
+
+        int[] dp = new int[n];
+        dp[0] = nums[0];
+        dp[1] = Math.max(nums[0], nums[1]);
+
+        for (int i = 2; i < n; i++) {
+            dp[i] = Math.max(dp[i - 2] + nums[i], dp[i - 1]);
+        }
+
+        return dp[n - 1];
     }
 }
 ```
@@ -54,19 +58,13 @@ class Solution {
 // SC: O(1)
 class Solution {
     public int rob(int[] nums) {
-        int n = nums.length;
-
-        int pre2Day = 0;
-        int pre1Day = nums[0];
-        int curr = Math.max(pre2Day, pre1Day);
-
-        for (int i = 2; i <= n; i++) {
-            curr = Math.max(pre2Day + nums[i - 1], pre1Day);
-            pre2Day = pre1Day;
-            pre1Day = curr;
+       int pre = 0, cur = 0;
+        for (int i = 0; i < nums.length; i++) {
+            int temp = Math.max(pre + nums[i], cur);
+            pre = cur;
+            cur = temp;
         }
-
-        return curr;
+        return cur;
     }
 }
 ```
