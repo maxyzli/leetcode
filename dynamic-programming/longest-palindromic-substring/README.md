@@ -1,15 +1,10 @@
 # Longest Palindromic Substring
 
-## Solution 1
-
-Brute Force (Time Limit Exceeded)
+## Solution 1: Brute Force (Time Limit Exceeded)
 
 ```java
-/**
- * Question   : 5. Longest Palindromic Substring
- * Complexity : Time: O(n^3) ; Space: O(1)
- * Topics     : DP
- */
+// TC: O(n^3)
+// SC: O(1)
 class Solution {
     public String longestPalindrome(String s) {
         if (s == null || s.length() == 0) {
@@ -47,16 +42,11 @@ class Solution {
 }
 ```
 
-## Solution 2
-
-DP
+## Solution 2: DP
 
 ```java
-/**
- * Question   : 5. Longest Palindromic Substring
- * Complexity : Time: O(n^2) ; Space: O(n^2)
- * Topics     : DP
- */
+// TC: O(n^2)
+// SC: O(n^2)
 class Solution {
     public String longestPalindrome(String s) {
         if (s == null || s.length() == 0) {
@@ -96,48 +86,48 @@ class Solution {
 }
 ```
 
-## Solution 3
-
-Expand From the Center
+## Solution 3: Expand From the Center
 
 ```java
-/**
- * Question   : 5. Longest Palindromic Substring
- * Complexity : Time: O(n^2) ; Space: O(1)
- * Topics     : DP
- */
-public class Solution {
-    public int findLongest(String str) {
-        if (str == null || str == "") {
-            return 0;
-        }
-        if (str.length() == 1) {
-            return 1;
+// TC: O(n)
+// SC: O(1)
+class Solution {
+    public String longestPalindrome(String s) {
+        if (s == null || s.length() == 0) {
+            return "";
         }
 
-        int maxLength = 1;
+        int maxLen = 0;
+        int resLo = 0;
+        int resHi = 0;
 
-        for (int i = 0; i < str.length(); i++) {
-            Math.max(
-                    maxLength,
-                    Math.max(checkPalindrome(str, i, i), checkPalindrome(str, i, i + 1))
-            );
-        }
-
-        return maxLength;
-    }
-
-    private int checkPalindrome(String str, int left, int right) {
-        int length = 0;
-        while (left >= 0 && right < str.length()) {
-            if (str.charAt(left) != str.charAt(right)) {
-                break;
+        for (int i = 0; i < s.length(); i++) {
+            int lo = i;
+            int hi = i;
+            while (lo >= 0 && hi < s.length() && s.charAt(lo) == s.charAt(hi)) {
+                if (hi - lo + 1 > maxLen) {
+                    maxLen = hi - lo + 1;
+                    resLo = lo;
+                    resHi = hi;
+                }
+                lo--;
+                hi++;
             }
-            length = right - left + 1;
-            left--;
-            right++;
+
+            lo = i;
+            hi = i + 1;
+            while (lo >= 0 && hi < s.length() && s.charAt(lo) == s.charAt(hi)) {
+                if (hi - lo + 1 > maxLen) {
+                    maxLen = hi - lo + 1;
+                    resLo = lo;
+                    resHi = hi;
+                }
+                lo--;
+                hi++;
+            }
         }
-        return length;
+
+        return s.substring(resLo, resHi + 1);
     }
 }
 ```
